@@ -75,3 +75,7 @@ Previews (unsaved until picked): A NMLBsBL6CwUEH48uUAMe, B icz5LjuAg1cXQ5uJK4Ku,
 - Two-shot still (Nano Banana, 3 refs): 03cee0fb-586e-4654-af00-8e8291a85082
 - Dialogue clip (Kling 3.0, 10 s, placeholder voices): a0bbc2f3-9692-49a2-9f80-e1e9e3c4374f
 - Script: #6 "You're up early." / #1 "You're up late." / #6 "Same thing, darling. What are we wearing?" / #1 "Smoke. Leather. Regret."
+
+## Decision 2 Oct 2026: female duo, Theo dropped
+- Vesper = casting #1 (day archivist). Margaux (working name) = casting #6 (night archivist, suit B).
+- Margaux voice design round (low, lazy, throaty, slightly transatlantic): previews gwpeVLKCpYR7aeElRcbI, PAQEcCk9RWn2gTg6SNaE, PcU9nFm7uC0jcePUjQ7P (view viewstate_01m3y5yqpwe13sych94w2e4vmz)

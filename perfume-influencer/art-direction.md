@@ -52,7 +52,7 @@ The common thread is not "dark." It is **old-world, collected, saturated, intell
 ## Character fit
 
 - **Vesper** lives in the oxblood library, the burgundy drawing room and the green perfume room.
-- **Theo** (to build) fits the navy eclectic sitting room and the black-paneled study, which keeps the house unified while giving each character a home base.
+- **Margaux** (casting #6, the night archivist) shares the house. Theo was dropped on 2 Oct 2026; the brand is now a female duo. Suggested home rooms: Vesper in oxblood and forest green, Margaux in terracotta rose and midnight navy, both in the tobacco two-level archive.
 
 ## Room changes
 
