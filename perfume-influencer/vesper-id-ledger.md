@@ -53,3 +53,10 @@ Previews (unsaved until picked): A NMLBsBL6CwUEH48uUAMe, B icz5LjuAg1cXQ5uJK4Ku,
 - **ElevenLabs voice:** "Vesper", voice_id CiUsusTY74M7TtdcjESL (posh London RP, smoky, raspy; preview L3). Discarded L1 SS7674iThC1sg6ka8rGX, L2 LPfVKC4YbmkNfCFwN1Fy.
 - Apothecary line take (eleven_v3, 11.7 s): ElevenLabs flow 96QWiN6lQlPvCBmeoavE, generation w9IdqUHMJlRVJF3KxWZb. Imported to Higgsfield as audio media c298a86a-4358-471e-8a87-4bef134f996a.
 - First face + voice test: #1 Apothecary still 8c7abdf0 + Vesper audio, Wan 2.7 audio-driven (12 s, 720p): job 8de9447d-3935-40fb-998b-84f01066eab8
+
+## Finalist voice test: all three in archive libraries, L3 voice, same line (Wan 2.7, 12 s)
+| Candidate | Room | Still job | Video job |
+|---|---|---|---|
+| 1 | Oxblood archive | 3f5a75e9-954d-473f-b74f-0737e75b7632 | 140c137f-edc1-4a1e-8801-f72f813047bc |
+| 5 (lip A) | Forest green archive | 4e6701ba-affe-4bff-b4a1-50f9a1251904 | 52ddd132-1e08-4a2a-ad6c-529030344bde |
+| 6 | Terracotta rose archive | 69785bed-b4f3-4fa5-b08f-9dba3b42e777 | cb6a4756-4472-46f7-af3d-3f99607b9439 |
