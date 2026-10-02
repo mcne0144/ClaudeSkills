@@ -1,5 +1,19 @@
 # House art direction: Romantic Heritage
 
+## HOUSE RULES (2 Oct 2026, override anything below that conflicts)
+
+1. **Every room is an archivist's dark library.** Books floor to ceiling plus archive objects: card catalogs, filing and map drawers, bundled letters in twine or ribbon, archive boxes labeled by year, ledgers, journals, fountain pens, wax seals, pressed specimens, magnifying glasses. Vesper keeps the archive of scent.
+2. **Full color drenching.** Walls, paneling, trim, crown molding, built-ins, doors and ceiling are all one color. Soft lacquer sheen where it suits.
+3. **Tiffany-style stained-glass lamps are the light source.** Leaded glass shades in amber, honey, rose, green and cobalt cast jewel-colored pools of light. Candles as accents. No overhead lighting, no chandeliers as the main source, no daylight rooms.
+4. **One jewel tone per room** so the house keeps range: oxblood, forest green, midnight navy, dusty terracotta rose, tobacco brown (plus burgundy, aubergine and grey-green in reserve).
+5. Moody, not gothic, still holds.
+
+### Prompt block (use this one)
+
+> An archivist's dark library fully color-drenched in [COLOR]: walls, paneling, crown molding, built-in bookcases and ceiling all the same [COLOR]. Floor-to-ceiling aged books, card catalog drawers with brass label holders, bundled letters tied with twine, archive boxes labeled by year, an antique desk with an open ledger and fountain pen. Lit only by Tiffany-style stained-glass lamps with leaded glass shades casting warm jewel-colored pools of light, plus candles. Dark, warm, intimate, romantic dark academia, not gothic. Photorealistic 35mm film photograph.
+
+**Superseded by these rules:** daylight registers (manor tea corner, grey-green salon), chandeliers as the main light, and non-library rooms (dining room, drawing room). Keep them only as mood references.
+
 Working names: **Romantic Heritage** or **Moody English Eclectic**. Romantic Dark Academia + English Manor + Moody Traditional / Heritage Maximalism.
 
 The common thread is not "dark." It is **old-world, collected, saturated, intellectual and warm.** Rooms look like they evolved over generations, not like they were decorated all at once.
@@ -107,3 +121,12 @@ A character walks or looks over one room and names the fragrance it smells like,
 | Moody blush study, peony mural | c76edf3d-1a1b-4354-a435-ac17597f4fc3 |
 | Double-height mezzanine library, blue hour | 97421289-ec7e-4d9f-89f6-6cfe24a6e5f2 |
 | Navy library nook, mustard Chesterfield | 1f308fe4-8bd2-4b2e-9d12-515449cbdade |
+
+## Archive room set (house rules applied)
+| Room | Job ID |
+|---|---|
+| Oxblood archive library | bf91f5a3-acf0-4d64-85a9-5f4871603b1a |
+| Forest green archive library (perfume cabinets, specimens) | 7c488f9e-1d68-48e8-9495-c587992d449e |
+| Midnight navy archive library (maps, mustard Chesterfield) | 6bbd53b0-351b-4e6c-91fd-3ef1cdbe6efc |
+| Dusty terracotta rose archive library (letters, peony painting) | e5652d95-26c3-4ef3-9bcc-03af696eef18 |
+| Tobacco brown archive library (two-level, scrolls, photographs) | ef4a3fd9-c221-4b22-a646-6c0690f01cdd |
