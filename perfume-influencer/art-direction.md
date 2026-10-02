@@ -81,3 +81,29 @@ The common thread is not "dark." It is **old-world, collected, saturated, intell
 | Green Chesterfield library sitting room | e25ff0e8-76e9-493d-a71d-2aca9c9476a0 |
 | Manor tea corner, daylight | 7a53f441-ebfe-4516-8a4b-7c60e3abba6d |
 | Archivist's study, rainy evening | bb8eb601-82a4-4f07-9201-9910b752c41c |
+
+## Inspiration board, batch 2
+| File | What to take from it |
+|---|---|
+| 06-double-height-mezzanine-library | Two-story walnut library, mezzanine gallery with iron railing, rolling ladder, arched window at blue hour, olive velvet sofa, cognac leather. Format: AI before/after room makeover with creator voiceover. |
+| 07-moody-blush-office | Color-drenched dusty terracotta rose paneling, giant dark peony mural, blush velvet tub chair, amber glass globe pendant, pampas. The romantic register. |
+| 08-navy-built-ins-mustard-chesterfield | Navy built-ins, mustard tufted velvet Chesterfield, suzani and ikat cushions, blue-and-white china, globe, rust and navy Persian rug. |
+| 09-burgundy-lacquer-arched-bookcase | Real room: high-gloss burgundy color drench on walls, trim and ceiling, arched bookcase niche, metamorphic library chair, velvet curtains. |
+
+### Additions from batch 2
+- **Color drenching:** walls, trim, built-ins and ceiling in one color, ideally high-gloss lacquer.
+- **Dusty terracotta rose / blush** as a full room color, plus giant dark floral murals.
+- Arched bookcase niches, rolling ladders, mezzanine galleries.
+- Blue-and-white china, suzani and ikat textiles, globes, antique maps, metamorphic chairs.
+- A cool blue-hour window is allowed as contrast against warm interiors.
+
+### Content format: "If this room were a perfume"
+A character walks or looks over one room and names the fragrance it smells like, with notes pulled from the room (lacquer, old paper, velvet, fire, roses). Ties the aesthetic directly to the niche and is endlessly repeatable.
+
+## Room set round 3 (modeled on batch 2)
+| Room | Job ID |
+|---|---|
+| Burgundy lacquer color-drenched library, arched niche | 3ec9b541-55ea-433d-b712-a616ef7aaaef |
+| Moody blush study, peony mural | c76edf3d-1a1b-4354-a435-ac17597f4fc3 |
+| Double-height mezzanine library, blue hour | 97421289-ec7e-4d9f-89f6-6cfe24a6e5f2 |
+| Navy library nook, mustard Chesterfield | 1f308fe4-8bd2-4b2e-9d12-515449cbdade |
