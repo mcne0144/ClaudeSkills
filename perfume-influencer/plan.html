@@ -1,0 +1,568 @@
+<title>Smoke &amp; Skin Playbook</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bodoni+Moda:ital,opsz,wght@0,6..96,400;0,6..96,600;1,6..96,400&family=Instrument+Sans:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap">
+<style>
+/* Layout: a long-read field guide. Sticky contents rail on wide screens, single column on phones. Dark "smoke room" first, cool bone paper in light. */
+:root{
+  --bg:#f3f1ee; --surface:#e9e5e0; --ink:#1d1a1f; --muted:#5d5660; --line:#d3ccc6;
+  --accent:#6b2a3a; --accent-soft:#ead9dc; --gold:#8a6a2c;
+  --display:"Bodoni Moda", "Didot", "Bodoni 72", Georgia, serif;
+  --body:"Instrument Sans", "Helvetica Neue", Arial, sans-serif;
+  --mono:"JetBrains Mono", ui-monospace, Menlo, monospace;
+  color-scheme:light;
+}
+@media (prefers-color-scheme: dark){:root:not([data-theme="light"]){
+  --bg:#141215; --surface:#1d1a1f; --ink:#ece6df; --muted:#a49ba3; --line:#332d34;
+  --accent:#d9909f; --accent-soft:#3a2129; --gold:#d2b071; color-scheme:dark;}}
+:root[data-theme="dark"]{
+  --bg:#141215; --surface:#1d1a1f; --ink:#ece6df; --muted:#a49ba3; --line:#332d34;
+  --accent:#d9909f; --accent-soft:#3a2129; --gold:#d2b071; color-scheme:dark;}
+*{box-sizing:border-box}
+body{background:var(--bg);color:var(--ink);font-family:var(--body);font-size:16px;line-height:1.62;margin:0}
+.wrap{max-width:1180px;margin:0 auto;padding-inline:20px;padding-block:40px 80px;display:grid;grid-template-columns:220px minmax(0,1fr);gap:48px}
+nav.toc{position:sticky;top:calc(env(safe-area-inset-top,0px) + 24px);align-self:start;font-size:13px;max-height:calc(100vh - 48px);overflow:auto}
+nav.toc p{font-family:var(--mono);font-size:11px;letter-spacing:.12em;text-transform:uppercase;color:var(--muted);margin:0 0 10px}
+nav.toc ol{list-style:none;margin:0;padding:0;display:grid;gap:6px}
+nav.toc a{color:var(--muted);text-decoration:none}
+nav.toc a:hover,nav.toc a:focus-visible{color:var(--accent)}
+main{min-width:0}
+header.hero{padding-block:8px 28px;border-bottom:1px solid var(--line);margin-bottom:12px}
+.eyebrow{font-family:var(--mono);font-size:11px;letter-spacing:.14em;text-transform:uppercase;color:var(--gold)}
+h1{font-family:var(--display);font-weight:400;font-size:clamp(40px,6vw,68px);line-height:1.02;margin:10px 0 16px;text-wrap:balance;letter-spacing:-.01em}
+h1 em{font-style:italic;color:var(--accent)}
+.lede{font-size:19px;max-width:62ch;color:var(--ink)}
+.meta{font-family:var(--mono);font-size:12px;color:var(--muted);margin-top:14px}
+section{padding-block:36px 8px;border-bottom:1px solid var(--line)}
+section:last-of-type{border-bottom:0}
+h2{font-family:var(--display);font-weight:400;font-size:clamp(28px,3.4vw,38px);line-height:1.12;margin:0 0 14px;text-wrap:balance}
+h3{font-family:var(--body);font-weight:600;font-size:17px;margin:28px 0 8px}
+p,li{max-width:70ch}
+ul,ol{padding-left:1.2em}
+li{margin-block:4px}
+a{color:var(--accent)}
+strong{font-weight:600}
+.verdict{background:var(--accent-soft);padding:20px 22px;border-left:3px solid var(--accent);margin:18px 0}
+.verdict p{margin:0 0 8px}.verdict p:last-child{margin:0}
+.duo{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:24px;margin-top:12px}
+.persona{background:var(--surface);padding:22px;min-width:0}
+.persona h3{font-family:var(--display);font-weight:400;font-size:28px;margin:4px 0 4px}
+.persona .tag{font-family:var(--mono);font-size:11px;letter-spacing:.1em;text-transform:uppercase;color:var(--gold)}
+.persona dl{display:grid;grid-template-columns:110px minmax(0,1fr);gap:8px 14px;margin:14px 0 0;font-size:14.5px}
+.persona dt{font-family:var(--mono);font-size:11px;letter-spacing:.08em;text-transform:uppercase;color:var(--muted);padding-top:3px}
+.persona dd{margin:0}
+.tbl{overflow-x:auto;margin:14px 0}
+table{border-collapse:collapse;width:100%;font-size:14px;min-width:560px}
+th,td{text-align:left;vertical-align:top;padding:9px 10px;border-bottom:1px solid var(--line)}
+th{font-family:var(--mono);font-size:11px;letter-spacing:.08em;text-transform:uppercase;color:var(--muted);font-weight:500}
+td.num{font-variant-numeric:tabular-nums;white-space:nowrap}
+.tier{font-family:var(--mono);font-size:10.5px;letter-spacing:.06em;padding:1px 6px;border:1px solid var(--line);color:var(--muted);white-space:nowrap}
+.src{font-size:13px;color:var(--muted)}
+.cols{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:18px 28px}
+.cols > div{min-width:0}
+.steps{counter-reset:s;list-style:none;padding:0}
+.steps > li{counter-increment:s;position:relative;padding-left:42px;margin-block:12px}
+.steps > li::before{content:counter(s,decimal-leading-zero);position:absolute;left:0;top:1px;font-family:var(--mono);font-size:12px;color:var(--gold)}
+.pipeline{font-family:var(--mono);font-size:12.5px;background:var(--surface);padding:16px;overflow-x:auto;white-space:pre;line-height:1.7}
+.phase{display:grid;grid-template-columns:120px minmax(0,1fr);gap:16px;padding-block:14px;border-top:1px solid var(--line)}
+.phase .when{font-family:var(--mono);font-size:12px;color:var(--gold);padding-top:3px}
+.phase h3{margin:0 0 6px}
+.facts{columns:2 300px;column-gap:32px;padding-left:1.2em}
+.facts li{break-inside:avoid}
+.gloss{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:10px 28px;margin:0}
+.gloss div{min-width:0}
+.gloss dt{font-weight:600}
+.gloss dd{margin:0 0 6px;color:var(--muted);font-size:14.5px}
+.flag{color:var(--muted);font-size:13px;font-style:italic}
+@media (max-width:900px){.wrap{grid-template-columns:minmax(0,1fr);gap:8px}nav.toc{position:static;max-height:none;border-bottom:1px solid var(--line);padding-bottom:16px}nav.toc ol{grid-template-columns:repeat(2,minmax(0,1fr))}.duo{grid-template-columns:minmax(0,1fr)}}
+@media (max-width:480px){.persona dl{grid-template-columns:minmax(0,1fr)}.phase{grid-template-columns:minmax(0,1fr);gap:4px}.lede{font-size:17px}}
+@media (prefers-reduced-motion:reduce){*{scroll-behavior:auto}}
+html{scroll-behavior:smooth}
+</style>
+
+<div class="wrap">
+<nav class="toc" aria-label="Contents">
+  <p>Contents</p>
+  <ol>
+    <li><a href="#verdict">The verdict</a></li>
+    <li><a href="#characters">The two characters</a></li>
+    <li><a href="#audiences">Audiences and ad angles</a></li>
+    <li><a href="#landscape">Market and saturation</a></li>
+    <li><a href="#where">Where people talk</a></li>
+    <li><a href="#global">Outside the US</a></li>
+    <li><a href="#brands">Brands in UGC</a></li>
+    <li><a href="#convey">Conveying smell</a></li>
+    <li><a href="#wardrobes">Scent wardrobes</a></li>
+    <li><a href="#lore">Lore bank</a></li>
+    <li><a href="#stack">Build stack</a></li>
+    <li><a href="#clone">Analyzing personalities</a></li>
+    <li><a href="#systems">Systems to build</a></li>
+    <li><a href="#money">Deals and money</a></li>
+    <li><a href="#local">Minneapolis</a></li>
+    <li><a href="#llc">LLC and setup</a></li>
+    <li><a href="#science">Scent, GLP-1, dopamine</a></li>
+    <li><a href="#unthought">What you have not thought of</a></li>
+    <li><a href="#roadmap">First 90 days</a></li>
+  </ol>
+</nav>
+
+<main>
+<header class="hero">
+  <div class="eyebrow">Strategy and build plan · October 2026</div>
+  <h1>Two characters, <em>one house</em>, and a nose behind the curtain.</h1>
+  <p class="lede">A plan for launching an AI-fronted fragrance media brand: a mysterious woman who wears the cologne section, and a warm, sexy man every kind of guy wants to smell like. It covers the market, the characters, the build stack, the money, and the first 90 days.</p>
+  <p class="meta">Research run 2 Oct 2026. Every figure names its source inline. Source tiers: <span class="tier">P</span> primary or official, <span class="tier">T</span> trade press or journal, <span class="tier">A</span> aggregator or vendor, <span class="tier">F</span> forum or community.</p>
+</header>
+
+<section id="verdict">
+<h2>The verdict</h2>
+<div class="verdict">
+<!--VERDICT-->
+</div>
+<p><strong>The core idea to build around:</strong> you are the nose; they are the faces. AI characters cannot smell, and both the FTC and TikTok Shop rules treat a fictional endorser's "I wore this" as a claim it cannot make (FTC 16 CFR 465.2 and Part 255 <span class="tier">P</span>). So turn that into the concept. The two characters live inside a fictional perfume house you create, and you are its unseen Keeper who does the actual smelling. Every review is "the Keeper's notes, in her voice." It is honest, it is mysterious, and it gives you a world that can later become a real product line.</p>
+</section>
+
+<section id="characters">
+<h2>The two characters</h2>
+<p>Names below are placeholders to react to. Run handle and trademark searches before you fall in love with one.</p>
+<div class="duo">
+  <article class="persona">
+    <div class="tag">Archetype: Magician × Lover</div>
+    <h3>Vesper</h3>
+    <p>Alt names: Odile, Morwen, Isolde Vane.</p>
+    <dl>
+      <dt>One line</dt><dd>She smells like the room after the candles go out, and she will tell you exactly why.</dd>
+      <dt>Look</dt><dd>Dark hair with a deliberate texture, strong brows, low-key makeup with one dark lip on special days. Silver rings, an old signet, tailored black and oxblood, men's shirts worn loose. Shot in candlelight, rain light, and dim museum light. One fixed visual signature (for example a ring she always touches before she sprays).</dd>
+      <dt>Attitude</dt><dd>Unhurried, dry humor, never begs for the follow. Speaks in short, certain sentences. Treats perfume as ritual and history, not shopping. Never says "girly," never apologizes for liking cologne.</dd>
+      <dt>Voice</dt><dd>Low, slightly husky, slow pace (about 130 words a minute). Designed in ElevenLabs Voice Design from a written description, then reused everywhere.</dd>
+      <dt>Scent lane</dt><dd>Smoke, incense, leather, vetiver, oud, tobacco, resins, dark woods. Wears the men's shelf on purpose.</dd>
+      <dt>Signature formats</dt><dd>"Reading the notes like tarot" blind buys. "What this smelled like in 1889." Mood wardrobing ("for the funeral of an ex"). "The cologne he can't pull off."</dd>
+      <dt>Never</dt><dd>Gushes, screams, does hauls of 30 bottles, or explains a joke.</dd>
+    </dl>
+  </article>
+  <article class="persona">
+    <div class="tag">Archetype: Lover × Everyman (with a Jester streak)</div>
+    <h3>Theo</h3>
+    <p>Alt names: Rafe, Elio, Jules Marlowe.</p>
+    <dl>
+      <dt>One line</dt><dd>The guy who smells incredible and will tell you exactly what to buy, without making you feel dumb.</dd>
+      <dt>Look</dt><dd>Strong but soft-edged: a real smile, stubble, warm eyes, built but not bodybuilder. Knit polos, open collars, a worn leather jacket, white tee and grey sweats at home. Shot in golden hour, kitchens, barbershops, hotel bars.</dd>
+      <dt>Attitude</dt><dd>Confident without dominance. Teasing, generous, a little flirty with the camera, never "alpha." He talks about smelling good for yourself, for her, for him, and lets the viewer fill in the blank.</dd>
+      <dt>Voice</dt><dd>Warm baritone, relaxed pace, a laugh he actually uses.</dd>
+      <dt>Scent lane</dt><dd>Iris, lavender and vanilla, soft leather, honeyed tobacco, clean skin musks. Comfortable wearing a rose.</dd>
+      <dt>Signature formats</dt><dd>"$400 vs $30" dupe duels. "What she leans in for / what he leans in for." Barbershop history. "Smell expensive for under $50."</dd>
+      <dt>Never</dt><dd>Says "women love this" as a rule, punches down at anyone, or sounds like a supplement ad.</dd>
+    </dl>
+  </article>
+</div>
+<h3>Why two characters beat one</h3>
+<p>The TikTok you sent is the proof. It is @perfumesiren (530.7K followers, 18.1M likes, agency-represented per her bio), and the video is a 5.5 minute "most worn in July out of 1000+ bottles" review with her boyfriend. It pulled 669.6K plays, 52.4K likes, 22.9K saves and 927 comments as of 2 Oct 2026 (TikTok data via Apify scraper <span class="tier">P</span>). A save rate of about 3.4% of plays is very high; people bookmark these as shopping lists. Read the top comments and half of them are about the couple ("Cal knows ball," "OUR kitchen?") and the other half ask for names, where to buy, seasonal picks, and dupes. Chemistry drives comments; utility drives saves. Two characters give you both: crossovers ("she wears his Jazz Club, he wears her Portrait of a Lady"), disagreements, and duets.</p>
+</section>
+
+<section id="audiences">
+<h2>Audiences and ad angles</h2>
+<div class="tbl"><table>
+<thead><tr><th>Audience</th><th>What they want</th><th>Lead character</th><th>Angle that sells</th></tr></thead>
+<tbody>
+<tr><td>Dark-feminine and witchy alt women (WitchTok, goth glam, dark academia)</td><td>To smell like themselves, not like a cupcake</td><td>Vesper</td><td>"Wear the cologne section." "Smell like a secret." Ritual and spell framing.</td></tr>
+<tr><td>Women who already steal his cologne</td><td>Permission and a shortlist</td><td>Vesper</td><td>"Men's fragrances that smell better on women."</td></tr>
+<tr><td>Gay men and fragrance-literate queer audiences</td><td>Taste, wit, beautiful bottles, no gender rules</td><td>Theo</td><td>Le Male lore, "he wears a rose," iconic bottle history</td></tr>
+<tr><td>Straight men new to fragrance, Gen Z guys</td><td>Compliments, confidence, value</td><td>Theo</td><td>"What she leans in for," "smell expensive under $50," starter wardrobes</td></tr>
+<tr><td>Dupe hunters and "smell rich on a budget"</td><td>The $30 version of the $400 bottle</td><td>Both</td><td>Head-to-head duels, always framed as community comparison</td></tr>
+<tr><td>Frag heads and collectors</td><td>Depth, perfumers, raw materials, reformulation drama</td><td>Vesper</td><td>Lore drops, perfumer credits, vintage vs current</td></tr>
+<tr><td>Gift buyers (Q4 peak)</td><td>A safe, impressive gift</td><td>Both</td><td>"Gift guide by personality," "what to buy the person who has everything"</td></tr>
+<tr><td>New sensory hobbyists: GLP-1 users, neurodivergent special-interest people</td><td>A new source of joy and a community</td><td>Both</td><td>"Your new obsession, explained." Skin scents, samples first, sensitivity-aware tips</td></tr>
+<tr><td>Functional and wellbeing fragrance shoppers</td><td>Mood, calm, focus</td><td>Vesper</td><td>Mood wardrobing; report brand "neuroscent" claims as claims</td></tr>
+</tbody></table></div>
+<p>Ad-angle bank for brand pitches and paid boosts: <strong>ritual</strong> (scent as a spell you cast in the morning), <strong>lore</strong> (the story behind the bottle), <strong>attraction</strong> (who leans in), <strong>value</strong> (expensive versus affordable), <strong>identity</strong> (wear what you like, no gender rules), <strong>memory</strong> (the smell of a place or a person), <strong>quiet luxury</strong> (opulent but chill: one great bottle, no hauls).</p>
+</section>
+
+<section id="landscape">
+<h2>Market and saturation</h2>
+<!--MARKET-->
+</section>
+
+<section id="where">
+<h2>Where the perfume conversation happens</h2>
+<!--WHERE-->
+</section>
+
+<section id="global">
+<h2>Outside the US</h2>
+<!--GLOBAL-->
+</section>
+
+<section id="brands">
+<h2>Brands that dominate UGC</h2>
+<!--BRANDS-->
+</section>
+
+<section id="convey">
+<h2>How to convey smell through a screen</h2>
+<p>You cannot smell through a phone, so the best creators write "miniature personal essays designed to evoke emotions and memories." Creator Emelia O'Toole: "I have to communicate with your other senses to try and paint a picture." One viral line about Phlur Missing Person ("when you're cuddling with someone you really love... nuzzled up in their chest") helped sell it out with a 200,000-person waitlist (Business Insider, 2024 <span class="tier">T</span>). Glossy (2022 <span class="tier">T</span>) found viewers pick a creator whose taste matches theirs and then trust that person, which is exactly what a consistent character gives you.</p>
+<div class="cols">
+<div>
+<h3>The toolkit</h3>
+<ul>
+<li><strong>Place and memory scenes.</strong> Vesper on Avignon: "a stone chapel after a funeral mass." Theo: "your boyfriend's hoodie after a bonfire."</li>
+<li><strong>"Smells like..." in the first two seconds,</strong> using familiar smells: pencil shavings, a new leather car seat, cola, honey on toast.</li>
+<li><strong>Color and texture.</strong> "Rien is grey cashmere and black pepper." Put a fabric swatch or color chip on screen.</li>
+<li><strong>Ingredient props.</strong> Resin on charcoal, a vetiver root, tobacco leaf, a cognac glass, an iris rhizome. Real smoke for Vesper.</li>
+<li><strong>A signature spritz sound.</strong> Close-mic the atomizer and cap click; use the same sound every time.</li>
+<li><strong>Dry-down cards.</strong> 0 min / 1 hr / 6 hrs.</li>
+</ul>
+</div>
+<div>
+<h3>Repeatable formats</h3>
+<ul>
+<li><strong>A fixed scent radar</strong> with five axes (smoke, sweet, fresh, skin, animal), so every review looks the same and becomes collectible.</li>
+<li><strong>Dupe duels:</strong> Tobacco Vanille vs Tobacco Touch, Sauvage Elixir vs Asad, Angels' Share vs Khamrah. Always "community comparison," never "same formula."</li>
+<li><strong>Mood boards</strong> ("rainy bookstore," "first date at a wine bar"). Gen Z wardrobes scents by mood rather than one signature (BoF, 2023 <span class="tier">T</span>).</li>
+<li><strong>Projection tests</strong> with a "clocked at 4 feet" overlay.</li>
+<li><strong>Compliment framing</strong> written for everyone. Theo: "men ask what it is, women lean in." Vesper: "nobody compliments it. They just remember it."</li>
+<li><strong>Lore drops:</strong> one fact per video, as the hook or the payoff.</li>
+<li><strong>Answer the comments.</strong> The perfumesiren comments are a ready-made content calendar: names, where to buy, seasonal lists, cheaper versions.</li>
+</ul>
+</div>
+</div>
+<h3>Esoteric without pretension: the house rules</h3>
+<ol>
+<li>Lead with the feeling, then the fact. "It smells like a cathedral. Here's why: there's real frankincense in it."</li>
+<li>Translate every term the first time you say it ("sillage, the trail you leave behind").</li>
+<li>Never correct the viewer; let the character be delighted that they asked.</li>
+<li>Affordable picks in every episode. Luxury is the mood, not the price gate.</li>
+<li>Name the perfumer. It is the most "insider" move you can make, and it costs nothing.</li>
+</ol>
+<h3>Plain-language glossary for scripts</h3>
+<dl class="gloss">
+<div><dt>Top / heart / base</dt><dd>The first 15 minutes, the main personality, and what is left hours later.</dd></div>
+<div><dt>Dry-down</dt><dd>How it smells once it settles. Judge here, not at the first spray.</dd></div>
+<div><dt>Accord</dt><dd>A few materials blended into one new impression, like "leather" with no leather.</dd></div>
+<div><dt>Sillage</dt><dd>The trail you leave behind you.</dd></div>
+<div><dt>Projection</dt><dd>How far it radiates while you stand still.</dd></div>
+<div><dt>Skin scent</dt><dd>Only noticed on a hug.</dd></div>
+<div><dt>Beast mode</dt><dd>Slang for loud enough to fill an elevator.</dd></div>
+<div><dt>Chypre</dt><dd>Citrus over a mossy, resinous base. The trench coat family.</dd></div>
+<div><dt>Fougère</dt><dd>Lavender, hay and moss. The classic barbershop.</dd></div>
+<div><dt>Gourmand</dt><dd>Smells edible: vanilla, caramel, coffee.</dd></div>
+<div><dt>Aldehydes</dt><dd>Fizz and champagne sparkle, as in Chanel No. 5.</dd></div>
+<div><dt>Animalic</dt><dd>Dirty-sexy notes like civet and musk, mostly synthetic now.</dd></div>
+<div><dt>Oud</dt><dd>Resin from infected agarwood, smoky and leathery.</dd></div>
+<div><dt>EDT / EDP / Extrait</dt><dd>Rising concentration, usually stronger and longer, though formulas can differ too.</dd></div>
+<div><dt>Flanker</dt><dd>A spin-off of a famous scent (Intense, Elixir, Parfum).</dd></div>
+<div><dt>Reformulation</dt><dd>The recipe changed. Usually why "it used to be better."</dd></div>
+<div><dt>Batch code</dt><dd>The stamped code that tells collectors when it was made.</dd></div>
+<div><dt>Blind buy</dt><dd>Buying without smelling first. PerfumeTok runs on these.</dd></div>
+</dl>
+</section>
+
+<section id="wardrobes">
+<h2>Starting scent wardrobes</h2>
+<p>All notes and perfumers checked against each scent's Fragrantica page <span class="tier">A</span>. Price tiers are approximate US retail: $ under $60, $$ $60 to $180, $$$ $180 to $350, $$$$ over $350. Buy samples and decants first (see <a href="#money">money</a>).</p>
+<div class="cols">
+<div>
+<h3>Vesper's shelf</h3>
+<div class="tbl"><table style="min-width:0">
+<thead><tr><th>Fragrance</th><th>Perfumer</th><th>Tier</th></tr></thead>
+<tbody>
+<tr><td>CdG Series 3 Avignon (incense, myrrh, cool stone)</td><td>Bertrand Duchaufour</td><td>$$</td></tr>
+<tr><td>Serge Lutens Chergui (honeyed tobacco, hay)</td><td>Christopher Sheldrake</td><td>$$$</td></tr>
+<tr><td>Tom Ford Tobacco Vanille</td><td>Olivier Gillotin</td><td>$$$$</td></tr>
+<tr><td>Maison Alhambra Tobacco Touch (the $30 twin)</td><td>not listed</td><td>$</td></tr>
+<tr><td>Margiela Replica Jazz Club (filed "for men")</td><td>Aliénor Massenet</td><td>$$</td></tr>
+<tr><td>Le Labo Patchouli 24 (birch tar, campfire leather)</td><td>Annick Menardo</td><td>$$$</td></tr>
+<tr><td>Etat Libre d'Orange Rien (leather, incense)</td><td>Antoine Lie</td><td>$$</td></tr>
+<tr><td>Papillon Anubis (suede, myrrh, saffron)</td><td>Liz Moores</td><td>$$$</td></tr>
+<tr><td>Slumberhouse Norne (black fir forest)</td><td>Josh Lobb</td><td>$$$</td></tr>
+<tr><td>Imaginary Authors Memoirs of a Trespasser</td><td>Josh Meyer</td><td>$$</td></tr>
+<tr><td>Lalique Encre Noire ("black ink" vetiver)</td><td>Nathalie Lorson</td><td>$</td></tr>
+<tr><td>Chanel Sycomore EDP (smoky vetiver)</td><td>not listed</td><td>$$$$</td></tr>
+<tr><td>Tom Ford Oud Wood</td><td>Richard Herpin</td><td>$$$$</td></tr>
+<tr><td>Rogue Perfumery Chypre-Siam (vintage oakmoss style)</td><td>Manuel Cross</td><td>$$</td></tr>
+<tr><td>Lattafa Khamrah (dates, cinnamon, myrrh)</td><td>not listed</td><td>$</td></tr>
+<tr><td>Zoologist Bat (damp earth, fig, cave)</td><td>Ellen Covey</td><td>$$$</td></tr>
+<tr><td>Black Phoenix Alchemy Lab oils (witchy indie house)</td><td>house</td><td>$</td></tr>
+</tbody></table></div>
+</div>
+<div>
+<h3>Theo's shelf</h3>
+<div class="tbl"><table style="min-width:0">
+<thead><tr><th>Fragrance</th><th>Perfumer</th><th>Tier</th></tr></thead>
+<tbody>
+<tr><td>Dior Homme Intense 2011 (iris, lavender, pear)</td><td>François Demachy</td><td>$$</td></tr>
+<tr><td>Terre d'Hermès (orange, vetiver, mineral)</td><td>Jean-Claude Ellena</td><td>$$</td></tr>
+<tr><td>JPG Le Male Elixir (lavender, honey, tobacco)</td><td>Quentin Bisch</td><td>$$</td></tr>
+<tr><td>Tom Ford Ombre Leather</td><td>Sonia Constant</td><td>$$$</td></tr>
+<tr><td>Parfums de Marly Layton</td><td>Hamid Merati-Kashani</td><td>$$$</td></tr>
+<tr><td>Xerjoff Naxos (honey, tobacco, lavender)</td><td>not listed</td><td>$$$</td></tr>
+<tr><td>Kilian Angels' Share (cognac, cinnamon)</td><td>Benoist Lapouza</td><td>$$$$</td></tr>
+<tr><td>Maison Crivelli Oud Maracuja</td><td>Jordi Fernandez</td><td>$$$</td></tr>
+<tr><td>Frederic Malle Portrait of a Lady (he wears a rose)</td><td>Dominique Ropion</td><td>$$$$</td></tr>
+<tr><td>Bleu de Chanel EDP</td><td>Jacques Polge</td><td>$$</td></tr>
+<tr><td>Prada L'Homme (clean shirt, iris)</td><td>Daniela Andrier</td><td>$$</td></tr>
+<tr><td>Le Labo Another 13 ("expensive skin")</td><td>Nathalie Lorson</td><td>$$$</td></tr>
+<tr><td>Dior Sauvage Elixir</td><td>François Demachy</td><td>$$$</td></tr>
+<tr><td>Valentino Born in Roma Uomo Intense</td><td>Maisondieu and Flavigny</td><td>$$</td></tr>
+<tr><td>Guerlain L'Homme Idéal EDP (cherry-almond leather)</td><td>Wasser and Jelk</td><td>$$</td></tr>
+<tr><td>Armaf Club de Nuit Intense Man</td><td>not listed</td><td>$</td></tr>
+<tr><td>Lattafa Asad</td><td>not listed</td><td>$</td></tr>
+<tr><td>D.S. &amp; Durga Burning Barbershop</td><td>David Seth Moltz</td><td>$$$</td></tr>
+</tbody></table></div>
+</div>
+</div>
+<p class="flag">Le Male Elixir is the cleanest "both audiences" bridge: the sailor-torso bottle is a long-running gay icon and it is rated 4.50 by 25K+ Fragrantica voters. Portrait of a Lady is filed "for women" on Fragrantica; Theo wearing it without comment is the point.</p>
+</section>
+
+<section id="lore">
+<h2>Lore bank: 30 hooks</h2>
+<p>Each one is sourced to Wikipedia or a primary source <span class="tier">A</span>, so double-check before it goes in a script. Use one per video.</p>
+<ol class="facts">
+<li>The first chemist known by name was a woman: Tapputi, a palace perfumer in Assyria around 1200 BC.</li>
+<li>Kyphi, Egypt's temple incense, has recipes carved into the walls at Edfu and Philae. The word is related to Greek "kapnos," smoke.</li>
+<li>Cleopatra's "perfumed sails" is Shakespeare's line. Plutarch only says the scent drifted from her barge to the shore.</li>
+<li>Labdanum, the leathery amber resin, was once combed out of the beards of goats that grazed on rockrose.</li>
+<li>"Frankincense" is from Old French "franc encens," true incense.</li>
+<li>Hungary Water, mostly rosemary in alcohol, was one of Europe's first alcohol perfumes. Legend says it was made for a queen's headaches.</li>
+<li>The original Eau de Cologne was made by Johann Maria Farina in Cologne in 1709.</li>
+<li>Vetiver is from Tamil for "root that is dug up." The smell is in the roots.</li>
+<li>"Fougère" means fern, and ferns barely smell. Houbigant's Fougère Royale (1882) named the whole barbershop family.</li>
+<li>Guerlain's Jicky (1889) is the oldest perfume in continuous production and one of the first built with synthetics.</li>
+<li>Legend says Shalimar began when Jacques Guerlain poured ethylvanillin into a bottle of Jicky.</li>
+<li>Chanel No. 5 was sample number 5. Legend says its aldehyde overdose came from a lab assistant's dilution mistake.</li>
+<li>Coco Chanel grew up near hillsides of cistus, the plant labdanum comes from.</li>
+<li>"Chypre" is French for Cyprus. The villain in The Maltese Falcon wears it.</li>
+<li>Ambergris forms in sperm whales. Fresh, it smells fecal. Aged at sea, it turns sweet. People use dogs to find it.</li>
+<li>Giant squid beaks have been found inside lumps of ambergris.</li>
+<li>Ambroxan replaces ambergris today, and it is approved as a food flavoring.</li>
+<li>"Musk" traces back to the Sanskrit word for testicle.</li>
+<li>The first synthetic musk (1888) was found by accident while its inventor was trying to make a better explosive.</li>
+<li>Castoreum, from beavers, was used to make perfume smell like leather.</li>
+<li>Iso E Super (IFF, 1973) is called the most successful synthetic ever. Molecule 01 is just that one molecule in a bottle.</li>
+<li>Calone, the "watermelon ketone," was found by Pfizer in 1966 and caused the entire 1990s ocean-scent era.</li>
+<li>Headspace technology captures the air around a living flower. A living flower smells different from a picked one.</li>
+<li>In rose oil, one molecule (beta-damascenone) is under 1% of the oil but about 90% of the smell.</li>
+<li>Oud only exists because a tree got infected. Healthy agarwood barely smells.</li>
+<li>Orris butter from iris root takes about five years of drying and is among the most expensive materials in perfumery.</li>
+<li>Oakmoss is a lichen, not a moss. EU rules restricting its allergens (2017/1410) are a big reason vintage chypres "don't smell like they used to."</li>
+<li>The Osmothèque in Versailles keeps reconstructions of lost perfumes, including scents worn by Napoleon.</li>
+<li>A 2014 study in Science estimated humans can tell apart at least a trillion smells. The old figure was 10,000.</li>
+<li>Eau Sauvage got its name when Dior's butler announced his friend Percy Savage as "Monsieur Sauvage."</li>
+</ol>
+</section>
+
+<section id="stack">
+<h2>The build stack</h2>
+<p>You already have the heavy tools. Your connected accounts show <strong>Higgsfield on the Ultra plan</strong> and <strong>HeyGen on Pro</strong> (1,000 premium credits, resetting 1 Nov 2026), checked read-only on 2 Oct 2026.</p>
+<div class="tbl"><table>
+<thead><tr><th>Job</th><th>Tool</th><th>How to use it</th></tr></thead>
+<tbody>
+<tr><td>Lock each face</td><td>Higgsfield Soul ID</td><td>Train on 20 to 80 images of one person (about 3 to 5 minutes). Generate about 40 candidate portraits of each invented character, keep 20 to 30 of the best for training. Higgsfield's docs disagree on whether invented characters should use Soul ID or "AI Influencer Studio," so test both (higgsfield.ai help center and blog <span class="tier">P</span>).</td></tr>
+<tr><td>Lock bottles, sets and props</td><td>Higgsfield Elements</td><td>Single-image references for a character, an environment or a prop, combinable in one shot. Make every bottle a prop Element and every recurring room an environment Element.</td></tr>
+<tr><td>Storyboards that stay consistent</td><td>Higgsfield Popcorn</td><td>Up to 8 frames that keep identity, lighting and wardrobe.</td></tr>
+<tr><td>Talking-to-camera</td><td>HeyGen photo or prompt avatars (Avatar IV), Higgsfield Speak 2.0</td><td>HeyGen Avatar V needs a real video of a real person, so fully synthetic characters run on photo or prompt avatars (HeyGen developer docs <span class="tier">P</span>). Pass the base look ID when adding new looks so the face stays the same.</td></tr>
+<tr><td>Voices</td><td>ElevenLabs Voice Design</td><td>Describe the voice in words, get three previews, keep one per character, reuse in HeyGen and Higgsfield. A flat voice gives a flat avatar, so direct the read.</td></tr>
+<tr><td>B-roll and motion</td><td>Kling 3.0, Seedance 2.x, Veo 3.1 (inside Higgsfield)</td><td>Kling is cheapest for image-to-video (about 7 credits per 5 seconds at 720p). Veo for hero shots with sound (about 40 credits per 4 seconds). Higgsfield pricing page <span class="tier">P</span>.</td></tr>
+<tr><td>Product ads at scale</td><td>Higgsfield Marketing Studio, Ads Studio, Ad Multiplier</td><td>Import a product from a URL, pick the character, recreate the structure of a winning ad, spin variations.</td></tr>
+<tr><td>Real bottle in AI shots</td><td>Genjutsu replace-object, Nano Banana Pro edits</td><td>Generate the character holding a stand-in, then swap in your photographed bottle. Check the label, cap and liquid color on every frame.</td></tr>
+<tr><td>Edit and publish</td><td>CapCut, Captions, Higgsfield TikTok publish</td><td>Higgsfield can post straight to TikTok or save to drafts, with the AI-generated flag and commercial disclosure built into the form.</td></tr>
+<tr><td>Score before posting</td><td>Higgsfield Virality Predictor, vidIQ</td><td>Hook strength and retention risk before you spend the post.</td></tr>
+<tr><td>Translate</td><td>HeyGen video translation (175+ languages)</td><td>Same character, Arabic, Portuguese, Spanish versions for international accounts.</td></tr>
+</tbody></table></div>
+<h3>Production bible for each character</h3>
+<ol class="steps">
+<li><strong>Character bible.</strong> Name, age, city, backstory, family, a pet, routines, fears, and a taste profile (note families loved and hated). The agency behind AI influencer Aitana Lopez calls the backstory "the most important thing" (Fast Company, 2026 <span class="tier">T</span>).</li>
+<li><strong>Reference sheet.</strong> Front, three-quarter, profile, full body, five expressions, two lighting setups.</li>
+<li><strong>ID ledger.</strong> One document holding the Soul ID, Element IDs, HeyGen look IDs and voice IDs.</li>
+<li><strong>Wardrobe and set library.</strong> 8 to 12 named outfits and 5 or 6 recurring sets each (Vesper: the apothecary, the chapel, the rain window, the bath. Theo: the kitchen, the barbershop, the car, the hotel bar).</li>
+<li><strong>Real product kit.</strong> Photograph each real bottle at 8 to 12 angles plus a label macro and a 360 turntable clip. Your own hands and tabletop shots cut against the AI character make the content feel real and help on TikTok's originality rules.</li>
+</ol>
+<h3>Lessons from AI influencers that worked</h3>
+<ul>
+<li><strong>Lu do Magalu</strong> (Magazine Luiza, Brazil) is the biggest: about 7 to 8M Instagram and 7.3M TikTok followers. She works because she has a useful job: product reviews and unboxings since 2009 (Influencer Marketing Hub, 2025 <span class="tier">A</span>).</li>
+<li><strong>Aitana Lopez</strong> (Barcelona): about 391K on Instagram but only about 4.8K on TikTok (Wikipedia, May 2026 <span class="tier">A</span>). An Instagram win does not automatically carry to TikTok. Reported earnings around €3K a month, peaking at €10K (Fortune, 2023 <span class="tier">T</span>).</li>
+<li><strong>Imma</strong> (Tokyo): an iconic look that reads in one frame (the pink bob). Give each of yours one unmistakable visual signature.</li>
+<li><strong>Research to design around:</strong> a 2026 meta-analysis of 210 studies found virtual influencers score high on novelty but lower on credibility, and do best with concrete, rational messaging (Journal of the Academy of Marketing Science <span class="tier">T</span>). Another 2026 study found human influencers win for products bought on sensory cues (Cogent Business &amp; Management <span class="tier">T</span>). Translation: concrete details (hours of longevity, price per ml, notes), real hands and bottles, and a human nose behind the characters.</li>
+</ul>
+</section>
+
+<section id="clone">
+<h2>Analyzing personalities you want to echo</h2>
+<p>Blend three or more sources per character; never clone one creator. Copying one person risks TikTok's originality and impersonation rules and right-of-publicity claims.</p>
+<ol class="steps">
+<li><strong>Pick 5 to 10 reference people per character.</strong> Mix fragrance creators with non-fragrance figures who have the attitude you want (an actor's interview energy, a stylist's dryness, a chef's warmth). Find each creator's outlier posts with vidIQ's TikTok and Instagram outlier search (connected).</li>
+<li><strong>Pull transcripts and comments.</strong> The Apify TikTok scraper (connected, used for this report) pulls captions, stats and comments. Transcript actors run about $0.002 to $0.005 per video with native captions (Apify listings <span class="tier">A</span>). Get 50 to 100 videos per person.</li>
+<li><strong>Run a style analysis with Claude.</strong> Extract hook types, sentence length, slang, humor type, how often they hedge versus give a verdict, scent vocabulary, words per minute, call-to-action patterns and recurring segments. Then compare those features against views and saves.</li>
+<li><strong>Score the vibe.</strong> Estimated Big Five traits from transcripts (indicative only) plus a brand archetype. Write a target profile for each character, for example "Vesper: low extraversion, high openness, low agreeableness in delivery but warm in substance."</li>
+<li><strong>Write the persona bible as a system prompt.</strong> Voice rules, always/never lists, 20 example lines, a hook bank, recurring segments, disclosure lines.</li>
+<li><strong>Test in public.</strong> Two or three hook variants per idea in week one, Story polls, "which scent next?" comment prompts. Track 3-second hold, completion, saves and shares per 1,000 views, and follows per post. Revise the bible every two weeks.</li>
+</ol>
+</section>
+
+<section id="systems">
+<h2>Systems to build</h2>
+<p>The edge is not the avatars; lots of people will have avatars. The edge is a machine that turns community questions into great episodes faster than anyone else.</p>
+<div class="pipeline">LISTEN      Weekly scrape: r/fragrance + r/Colognes + TikTok comments on top fragrance videos (Apify)
+   ↓        Claude clusters questions, requests, dupes, complaints → "most asked" list
+KNOW        The Scent Graph: every fragrance with notes, perfumer, price, dupes, your own wear notes
+   ↓        (Notion or Airtable, filled from Fragrantica pages plus your nose)
+WRITE       Claude + persona bible → scripts in Vesper / Theo voice, one lore fact each
+   ↓        You approve every script (the Keeper signs off)
+MAKE        ElevenLabs voice → HeyGen / Higgsfield Speak → Kling / Seedance b-roll → real bottle inserts
+   ↓        CapCut edit → Virality Predictor score
+SHIP        Higgsfield TikTok drafts (AI label + disclosure set) · Instagram via Metricool or Later
+   ↓
+LEARN       Supermetrics Instagram insights + vidIQ + TikTok Studio → weekly report → back to LISTEN</div>
+<div class="cols">
+<div>
+<h3>Bigger systems for later</h3>
+<ul>
+<li><strong>"Ask Vesper" scent concierge.</strong> An ElevenLabs conversational agent with the Scent Graph as its knowledge base. Viewers describe a vibe, a memory or a budget and get three picks with affiliate links. It is a lead magnet, an affiliate engine and content all at once (record the funniest sessions).</li>
+<li><strong>Comment-reply copilot.</strong> Drafts replies in each character's voice for you to approve. Replying fast and in character is what made Aitana feel alive.</li>
+<li><strong>A weekly newsletter</strong> (Substack or Beehiiv): "The Keeper's Ledger." You own the list; platforms can change.</li>
+<li><strong>A Discord</strong> for the house: swap channels, blind-buy confessions, monthly "wear-along" challenges.</li>
+</ul>
+</div>
+<div>
+<h3>Where it can go</h3>
+<ul>
+<li><strong>Sample boxes.</strong> "The Coven Box" or "Theo's Starter Five" as curated decant kits, once labeling and sales tax are set up (see <a href="#llc">setup</a>).</li>
+<li><strong>Your own fragrance.</strong> The fictional house becomes real: a small-batch launch with an indie perfumer (Minneapolis has several, see <a href="#local">local</a>).</li>
+<li><strong>Brand-side services.</strong> Brands pay for UGC content without a creator; Collabstr's 2026 report says UGC campaigns grew 133% <span class="tier">A</span>. Your pipeline can sell character-led ad creative to indie houses.</li>
+<li><strong>Licensing the characters</strong> to a retailer as a recurring "house voice."</li>
+</ul>
+</div>
+</div>
+</section>
+
+<section id="money">
+<h2>Deals and money</h2>
+<h3>What brands are paying in 2026</h3>
+<div class="tbl"><table>
+<thead><tr><th>Item</th><th>Range</th><th>Source</th></tr></thead>
+<tbody>
+<tr><td>Beauty sponsored post, average</td><td class="num">$170 to $210</td><td>Collabstr 2026 report and calculator <span class="tier">A</span> (marketplace data, 21,000+ collaborations)</td></tr>
+<tr><td>TikTok micro (10K to 100K)</td><td class="num">$200 to $800</td><td>Influencer Marketing Hub, Aug 2026 <span class="tier">A</span></td></tr>
+<tr><td>TikTok macro (100K to 1M)</td><td class="num">$800 to $5,000</td><td>Influencer Marketing Hub, Aug 2026 <span class="tier">A</span></td></tr>
+<tr><td>Instagram micro feed post</td><td class="num">$100 to $500</td><td>Influencer Marketing Hub, Jul 2026 <span class="tier">A</span></td></tr>
+<tr><td>TikTok Shop fragrance affiliate commission</td><td class="num">15% to 25%</td><td>UGC Roster and Dashboardly <span class="tier">A</span>; sellers can set 1% to 80% (TikTok Seller Center <span class="tier">P</span>)</td></tr>
+<tr><td>Beauty affiliate via ShopMy</td><td class="num">15% to 30%</td><td>Beauty Independent, 2025 <span class="tier">T</span></td></tr>
+<tr><td>Sephora storefront (Motom)</td><td class="num">15%, 15-day window</td><td>Glossy, Oct 2025 <span class="tier">T</span>; 3,000-follower minimum</td></tr>
+<tr><td>ALT. Fragrances affiliate</td><td class="num">from 20%</td><td>Awin merchant profile <span class="tier">P</span></td></tr>
+<tr><td>Amazon offsite, Luxury Beauty</td><td class="num">10%</td><td>Amazon Associates <span class="tier">P</span></td></tr>
+<tr><td>Whitelisting / Spark Ads, 30 days</td><td class="num">+20% to 30% of fee</td><td>Influship, Apr 2026 <span class="tier">A</span></td></tr>
+<tr><td>Exclusivity, 30 days</td><td class="num">+20% to 30%</td><td>Collabios, Mar 2026 <span class="tier">A</span></td></tr>
+</tbody></table></div>
+<p class="src">Published rate cards disagree by 3 to 10 times. Collabstr's paid-price data is the most grounded anchor for a new beauty account.</p>
+<h3>Contract types you will see</h3>
+<ul>
+<li><strong>Gifting and seeding.</strong> Free product, no payment. Still counts as a material connection that must be disclosed (FTC 16 CFR 255.5 <span class="tier">P</span>). ShopMy "Lookbooks" ship product as $0 orders.</li>
+<li><strong>Flat fee per deliverable,</strong> usually 50% upfront and 50% net 15, with a rights matrix (duration, territory, channels, edits).</li>
+<li><strong>Affiliate and TikTok Shop commission,</strong> often with free samples and sometimes a GMV-matched ad budget (Dupes &amp; Co offers 15% plus a GMV Max ad match <span class="tier">A</span>).</li>
+<li><strong>Usage rights and whitelisting</strong> (Spark Ads on TikTok, Partnership Ads on Meta), charged as a monthly percentage.</li>
+<li><strong>Exclusivity</strong> by named competitors or category, 30 to 90 days.</li>
+<li><strong>Ambassadorships:</strong> retainers over months, the goal by month 9 to 12.</li>
+<li><strong>UGC-only deals:</strong> the brand buys the video to run on its own account. This is where character creators can win early, because the brand cares about the ad, not the follower count.</li>
+</ul>
+<h3>How AI characters get paid</h3>
+<p>Brands do sign virtual creators: Lil Miquela (Prada, Calvin Klein, Samsung), Imma (IKEA, Porsche), Aitana (Big, Olaplex) <span class="tier">T</span>. A direct fragrance-brand deal with an AI creator was not found, which makes you a potential first. Two practical notes: TikTok Shop affiliate requires a verified US adult with at least 1,000 followers, so the account will be verified to you (TikTok Shop Creator Eligibility <span class="tier">P</span>); and the TikTok Shop guidance allows disclosed AI and digital humans as long as nothing misrepresents the product (TikTok Seller University <span class="tier">P</span>).</p>
+<h3>Lower the cost of product</h3>
+<ul>
+<li><strong>Samples and decants first.</strong> Surrender to Chance, MicroPerfumes and Luckyscent sell small sizes. A month of content can come from $60 to $120 of decants instead of $1,500 of bottles.</li>
+<li><strong>Middle Eastern houses</strong> (Lattafa, Armaf, Maison Alhambra) are cheap and drive huge engagement. Lattafa's TikTok Shop sales passed $63M from Aug 2024 to Jul 2025, up 174% (WWD via Charm <span class="tier">T</span>).</li>
+<li><strong>Local testers.</strong> Shoot in boutiques that welcome it (see <a href="#local">Minneapolis</a>).</li>
+</ul>
+</section>
+
+<section id="local">
+<h2>Minneapolis and St. Paul</h2>
+<p>The Twin Cities have a real and growing scene. A Minnesota TikToker, Mia Ton (350K+ followers), sent Arabian perfume shops on Lake Street and in Roseville into a sales surge with a single video (Sahan Journal, Dec 2024 <span class="tier">T</span>). That is the strongest proof that local stores feel creator traffic. No dedicated Twin Cities fragrance reviewer with a large following turned up, so the local lane looks open.</p>
+<div class="tbl"><table>
+<thead><tr><th>Place</th><th>Where</th><th>Why it matters</th></tr></thead>
+<tbody>
+<tr><td><strong>Senti</strong></td><td>50th &amp; France, Edina</td><td>About 37 European and Japanese artisan lines, many US exclusives. Runs after-hours private scent sessions. Best collab target (shopsenti.com <span class="tier">P</span>, Mpls.St.Paul Mag <span class="tier">T</span>).</td></tr>
+<tr><td><strong>Highcroft</strong></td><td>Wayzata</td><td>12+ niche lines including Vilhelm, MEMO, Maison Crivelli, BDK, Santa Maria Novella (Mpls.St.Paul Mag <span class="tier">T</span>).</td></tr>
+<tr><td><strong>MartinPatrick 3</strong></td><td>North Loop</td><td>Creed, BDK, Clive Christian. A natural Theo set (martinpatrick3.com <span class="tier">P</span>).</td></tr>
+<tr><td><strong>Le Labo</strong></td><td>North Loop, opened Nov 2024</td><td>Own brand only (Mpls.St.Paul Mag <span class="tier">T</span>).</td></tr>
+<tr><td><strong>Al Hussein Perfumes</strong>, <strong>Bab Alyemen</strong></td><td>Lake St, Minneapolis; Roseville</td><td>Arabian perfume and oils, proven creator traffic (Sahan Journal <span class="tier">T</span>).</td></tr>
+<tr><td><strong>Byredo at Nordstrom</strong></td><td>Mall of America</td><td>Byredo store locator <span class="tier">P</span>.</td></tr>
+<tr><td><strong>Ana's Alchemy</strong></td><td>Gaviidae Common skyway</td><td>Perfume-making classes. Great "Keeper learns to compose" content (anasalchemy.com <span class="tier">P</span>).</td></tr>
+<tr><td><strong>Deep Midnight Perfumes</strong></td><td>Minneapolis, online</td><td>Indie oil perfumer, 300+ scents. Witchy-adjacent and a possible collab for a first Vesper scent (deepmidnightperfumes.com <span class="tier">P</span>).</td></tr>
+<tr><td><strong>PureomEO Natural Perfumery</strong></td><td>North Loop</td><td>Natural perfumery <span class="tier">A</span>.</td></tr>
+<tr><td><strong>Twin Cities Perfume Lovers</strong>, <strong>Saint Paul Scent Society</strong>, <strong>Fragrance Friends of MN</strong></td><td>Meetup groups</td><td>Swaps and events. Saint Paul Scent Society launched in 2026 with swaps at local libraries <span class="tier">F</span>.</td></tr>
+</tbody></table></div>
+<p>None of these stores publicly advertise creator programs, so pitch them directly: a "Vesper's picks at Senti" series, a co-hosted after-hours session, or a swap night sponsored by the house.</p>
+</section>
+
+<section id="llc">
+<h2>Do you open an LLC first?</h2>
+<div class="verdict">
+<p><strong>Yes, and it is cheap.</strong> A Minnesota LLC costs $155 to file online, and the annual renewal is free (just do not miss it by Dec 31 each year) (MN Secretary of State <span class="tier">P</span>; Minn. Stat. 322C.0208 <span class="tier">P</span>). Get a free EIN, open a separate bank account and card, and run every purchase through it from day one.</p>
+</div>
+<ul>
+<li><strong>You do not need an LLC to deduct product,</strong> but you need to be a business, not a hobby. The IRS looks at things like businesslike records, time spent, and changing methods to make a profit (IRS hobby vs business guidance <span class="tier">P</span>). Separate accounts, a content calendar and a pitch list are your evidence.</li>
+<li><strong>Bottles bought for review content</strong> are generally deductible production supplies once business intent is documented. <strong>Bottles bought to decant and resell</strong> are inventory, deducted as cost of goods sold when they sell (IRS Publication 535 <span class="tier">P</span>).</li>
+<li><strong>Gifted product is likely taxable income</strong> at fair market value when it comes with promotion (Journal of Accountancy, Sep 2024 <span class="tier">T</span>; IRS Pub 525 <span class="tier">P</span>). Log everything you receive.</li>
+<li><strong>Selling decants</strong> needs a Minnesota sales tax permit for direct sales (Minneapolis combined rate 9.025% in Q4 2026, MN Dept of Revenue <span class="tier">P</span>). Rebottling genuine perfume is legal when labels clearly say it was independently decanted (Prestonettes v. Coty, 1924 <span class="tier">P</span>). TikTok Shop now lists decants as a covered product with labeling rules (TikTok Shop Beauty requirements, Sept 2026 <span class="tier">P</span>).</li>
+<li>Confirm the gifted-product and hobby-rule details with a CPA before your first tax filing.</li>
+</ul>
+</section>
+
+<section id="science">
+<h2>Scent, GLP-1s and dopamine: what the evidence says</h2>
+<p>Your hunch has real support in places and none in others. Here is how strong each piece is.</p>
+<div class="tbl"><table>
+<thead><tr><th>Claim</th><th>Best evidence</th><th>Strength</th></tr></thead>
+<tbody>
+<tr><td>Pleasant smells light up reward and emotion areas</td><td>Brain-imaging meta-analysis: pleasant odors consistently activate the orbitofrontal cortex, amygdala and striatum (Zou et al., Neuropsychology 2016 <span class="tier">T</span>)</td><td>Supported</td></tr>
+<tr><td>Smell triggers unusually emotional memories</td><td>Herz &amp; Schooler 2002; Herz et al. 2004, where a personally meaningful perfume activated the amygdala more than visual cues <span class="tier">T</span></td><td>Supported (small lab studies)</td></tr>
+<tr><td>GLP-1 drugs reduce food, alcohol and nicotine reward</td><td>Semaglutide cut lab drinking and craving (Hendershot et al., JAMA Psychiatry 2025 RCT); heavy drinking days fell 13.7 points vs placebo (Klausen et al., Lancet 2026 RCT) <span class="tier">T</span></td><td>Supported</td></tr>
+<tr><td>GLP-1 users shift spending toward beauty and fragrance</td><td>BCG survey (Aug 2026, 1,500+ users): about a third of freed-up money is redirected, mainly to supplements, beauty, apparel; an "aesthetic transformer" segment (19% of users) spends on beauty, hair and fragrance <span class="tier">T</span>. Grocery spend falls 5.3% (Cornell/Numerator, J. Marketing Research 2025 <span class="tier">T</span>)</td><td>Directional</td></tr>
+<tr><td>GLP-1 users become perfume-obsessed</td><td>Reddit users describe going from 2 bottles to 24 (The Independent, May 2026 <span class="tier">T</span>); a Harvard obesity doctor calls it plausible but anecdotal (HuffPost, Aug 2026 <span class="tier">T</span>). Some users report the opposite, with gourmands turning nauseating (Allure, 2025 <span class="tier">T</span>). No study exists.</td><td>Anecdotal</td></tr>
+<tr><td>GLP-1s change smell</td><td>Taste drops clearly; smell identification only slightly and not significantly (Khan &amp; Doty, Physiology &amp; Behavior 2025 <span class="tier">T</span>)</td><td>Mixed</td></tr>
+<tr><td>Perfume is a common neurodivergent special interest</td><td>Visible in Fragrantica threads and essays ("Perfume is a Very ADHD Thing," Fragrantica 2025 <span class="tier">F</span>); special interests support wellbeing in autistic adults (Grove et al., Autism Research 2018 <span class="tier">T</span>)</td><td>Plausible, unmeasured</td></tr>
+<tr><td>Smell training restores smell</td><td>Small positive meta-analyses, but placebo-controlled trials were null (Rhinology 2025 <span class="tier">T</span>)</td><td>Weak</td></tr>
+</tbody></table></div>
+<p><strong>How to use it creatively:</strong> a recurring series built on community stories ("I started noticing scent when food went quiet") is honest and powerful. Let people tell their own stories; do not claim that GLP-1s redirect dopamine to perfume. For neurodivergent viewers, lean into skin scents, sample-first buying and texture-rich descriptions; many autistic adults report fragrance sensitivity (Steinemann, Air Quality, Atmosphere &amp; Health 2018 <span class="tier">T</span>), so "a scent only you can smell" is a genuinely useful angle for them.</p>
+<p>Market backdrop: Circana says US mass fragrance grew 15% in 2025 and calls fragrance "a key avenue for affordable luxury" in H1 2026, with prestige up 6% <span class="tier">T</span>. Google searches for "functional fragrance" hit an all-time high in March 2026 (Business of Fashion <span class="tier">T</span>).</p>
+</section>
+
+<section id="unthought">
+<h2>What you have not thought of yet</h2>
+<div class="cols">
+<div>
+<ul>
+<li><strong>It is October.</strong> Q4 gifting is the biggest fragrance season. A "gift guide by personality" series from both characters should be the first content you ship, even before the characters are perfect.</li>
+<li><strong>Sephora Squad 2027 applications close 6 Oct 2026</strong> (sephorasquad.com <span class="tier">P</span>). It requires a US resident 18+, so it would be you, not the characters. Worth a look as the Keeper, or plan for next year.</li>
+<li><strong>The nose is the moat.</strong> Train yours on purpose: a raw-materials kit, a perfume-making class at Ana's Alchemy, a smelling journal. Your real expertise is what keeps the characters credible.</li>
+<li><strong>Long video pays.</strong> TikTok's Creator Rewards needs videos of at least 1 minute, 10K followers and 100K views in 30 days (TikTok <span class="tier">P</span>). The perfumesiren video you sent runs 5.5 minutes.</li>
+<li><strong>Instagram and TikTok are different games.</strong> Aitana is huge on Instagram and tiny on TikTok. Plan native content for each.</li>
+</ul>
+</div>
+<div>
+<ul>
+<li><strong>Multilingual from day one.</strong> HeyGen translation lets Vesper speak Arabic or Portuguese. See <a href="#global">outside the US</a> for where the audiences are.</li>
+<li><strong>Handles and trademarks.</strong> Lock the same handle on TikTok, Instagram, YouTube, Threads, Pinterest and Substack before announcing.</li>
+<li><strong>A world, not two accounts.</strong> Give the house a name, a crest, a color, a sound. Viewers should be able to guess "that's a Vesper video" from one frame, muted.</li>
+<li><strong>Be openly AI, and make it charming.</strong> Platforms require the AI label anyway (TikTok and Meta <span class="tier">P</span>). The characters can joke about it: "I don't have a nose. I have her."</li>
+<li><strong>Your data is an asset.</strong> Every comment scrape, poll and concierge chat builds a map of what people want to smell like. That map is what a fragrance brand would pay for, and what your own launch will be built on.</li>
+</ul>
+</div>
+</div>
+</section>
+
+<section id="roadmap">
+<h2>The first 90 days</h2>
+<div class="phase"><div class="when">Week 1 to 2</div><div><h3>Found the house</h3><p>File the MN LLC ($155), get an EIN, open a business account. Name the house and both characters; lock handles. Write both persona bibles using the analysis pipeline above. Order a first decant haul from the two wardrobes.</p></div></div>
+<div class="phase"><div class="when">Week 2 to 4</div><div><h3>Build the faces</h3><p>Generate candidates, train Soul IDs, build HeyGen looks, design both voices in ElevenLabs. Photograph the first 10 bottles. Build the set and wardrobe Elements. Make 10 test videos per character and show them to five people in each target audience.</p></div></div>
+<div class="phase"><div class="when">Week 4 to 6</div><div><h3>Soft launch into Q4</h3><p>Post daily on TikTok, 4 times a week on Instagram. Lead with the gift-guide series, dupe duels and one lore drop a day. Start the weekly comment scrape and the Scent Graph. Join the TikTok Shop affiliate program once eligible.</p></div></div>
+<div class="phase"><div class="when">Week 6 to 9</div><div><h3>Find the winners</h3><p>Double down on the two formats with the best saves per 1,000 views. First crossover episodes between Vesper and Theo. Launch the newsletter. Pitch Senti and Highcroft for in-store episodes. Apply to ALT., ShopMy and Amazon Influencer.</p></div></div>
+<div class="phase"><div class="when">Week 9 to 13</div><div><h3>Monetize and expand</h3><p>Build a one-page media kit with real numbers. Pitch 20 indie and Middle Eastern houses for paid UGC. Prototype the "Ask Vesper" concierge. Test one translated account in the strongest international market. Host or sponsor a Twin Cities swap night.</p></div></div>
+</section>
+
+<section id="sources">
+<h2>Key sources</h2>
+<p class="src">Persona benchmark: @perfumesiren video 7670703294162930957, TikTok data via Apify clockworks/tiktok-scraper, pulled 2 Oct 2026. Tools: higgsfield.ai/pricing; developers.heygen.com; elevenlabs.io/docs. Money: collabstr.com/2026-influencer-marketing-report; influencermarketinghub.com rate guides; seller-us.tiktok.com (Creator Eligibility, Beauty requirements); ecfr.gov 16 CFR 255; ftc.gov Consumer Reviews and Testimonials Rule. Local: mspmag.com "perfume boom"; sahanjournal.com Arab perfumes; shopsenti.com. Setup: sos.mn.gov business fees; revenue.state.mn.us Q4 2026 metro rate guide; irs.gov hobby vs business. Science: JAMA Psychiatry 2025 (Hendershot); Lancet 2026 (Klausen); bcg.com GLP-1 consumer 2026; journals.sagepub.com 10.1177/00222437251412834; independent.co.uk GLP-1 perfume; allure.com semaglutide smell; Air Quality, Atmosphere &amp; Health 2018 (Steinemann). Craft: businessinsider.com Gen Z perfume 2024; glossy.co PerfumeTok 2022; businessoffashion.com Gen Z fragrance 2023; fragrantica.com pages for every wardrobe entry.</p>
+<!--SOURCES-->
+</section>
+</main>
+</div>
