@@ -50,3 +50,20 @@ Add one of these to the end of the master prompt. Keep everything else identical
 - Model: Higgsfield Soul 2.0 or Nano Banana Pro with the face reference.
 - Aspect ratio: 3:4 for the training set (more face detail), 9:16 for content.
 - One image per prompt. Discard any where the face drifts before training.
+
+## Voice: ElevenLabs Voice Design prompt
+
+**Voice description (paste into "Describe the voice"):**
+
+> A woman in her early 30s from Manhattan old money, raised on the Upper East Side and educated at a New England boarding school. Refined American accent: crisp consonants, relaxed rounded vowels, a faint mid-Atlantic polish, no regional twang and no vocal fry. Low, warm alto with a slight natural huskiness, rich in the chest. Speaks slowly and deliberately, with confident pauses, like someone who has never had to raise her voice to be listened to. Dry, intelligent, quietly amused, warm underneath. Intimate, close-mic, studio-quality recording.
+
+**Preview text (paste into the text box):**
+
+> People expect me to smell like roses. I smell like a cathedral after the candles go out. This one has real frankincense in it. Edie wore it to a gallery opening and came home with somebody's husband's cufflinks. I wear it to read.
+
+**Variations to try if the first round misses:**
+- *Deeper:* add "deep, smoky alto, lower than average for a woman."
+- *More old-Hollywood:* swap the accent line for "a 1940s mid-Atlantic accent like a classic film actress, softened for today."
+- *Less polished:* add "a little gravel from late nights, relaxed and unbothered."
+
+**Settings:** Voice Design v3. If previews drift from the description, raise "guidance" (prompt strength). Generate a few rounds and save the one that sounds like she owns the building.
