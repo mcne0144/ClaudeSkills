@@ -41,3 +41,10 @@ Discarded sofa clips (same script, all three): 60344e52-c1ec-4d1b-a31b-09cfb7f7a
 
 ## #1 voice audition (ElevenLabs Voice Design v3, lower and raspier)
 Previews (unsaved until picked): A NMLBsBL6CwUEH48uUAMe, B icz5LjuAg1cXQ5uJK4Ku, C OBA7kkVA1DTdxMFRfqzj
+
+## Accent auditions (ElevenLabs Voice Design v3, based on Voice B's description)
+| Accent | Preview 1 | Preview 2 | Preview 3 |
+|---|---|---|---|
+| Parisian French | 9MqHvIqy0RtU2JHMimJo | qw2uTzz7zmEFDGyKUZP0 | 9TroAtrlbyaRFIzu6MDk |
+| Soft Edinburgh Scottish | PzuFyn2LVl7QquCPNQCQ | 7GyWkK7zIHgDFpdkJLS3 | rp0kirZzORq5esWD8mqf |
+| Posh London, smoky | SS7674iThC1sg6ka8rGX | LPfVKC4YbmkNfCFwN1Fy | CiUsusTY74M7TtdcjESL |
