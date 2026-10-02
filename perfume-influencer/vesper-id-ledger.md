@@ -27,3 +27,10 @@
 | 6 | Rain Study | ecb05a17-87e3-41ff-81f2-53b82805b554 | 07ce5279-2071-49fc-8145-50e178211296 |
 
 Discarded sofa clips (same script, all three): 60344e52-c1ec-4d1b-a31b-09cfb7f7a118, 5ce9abf2-e457-44b3-a52a-f635dc89b421, 23f151c4-5f1c-4698-b73d-caff27e49c3d
+
+## #5 lip recolor, brick red-brown (Nano Banana edit of f45aedad)
+| Option | Shade | Job ID |
+|---|---|---|
+| A | Terracotta rust, satin, medium | b4808eab-ea6a-49dd-88f0-f35c5d5ef416 |
+| B | Aged brick red, brown undertone, velvet matte, medium-strong | b57503f7-4ac1-48b5-b151-ec156037d47f |
+| C | Cinnamon brick, more brown, soft lived-in stain | 1d69100d-7e97-4d58-9849-1738b1c5ba38 |
