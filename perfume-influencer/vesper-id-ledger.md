@@ -68,3 +68,10 @@ Previews (unsaved until picked): A NMLBsBL6CwUEH48uUAMe, B icz5LjuAg1cXQ5uJK4Ku,
 | A | One-shoulder sculpted-lapel blazer, nothing underneath, layered gold+silver chains, single onyx drop earring, pearl-and-chain choker | 3d70c31f-04a7-456e-a1c2-c6a0e5b8f262 |
 | B | Deconstructed wrap tuxedo (satin + wool lapels), sheer mesh under, silver cuff vs gold bangles, mismatched earrings | ee814244-f880-410b-9136-8e4ebc668e6b |
 | C | Asymmetric long-line coat-blazer, draped shoulder vs power shoulder, leather trousers, brutalist brooch, black pearl + gold ear climber | c60e2169-caeb-4bf3-8d82-21239079ba88 |
+
+**#6 locked suit: Option B** (deconstructed wrap tuxedo). Still: ee814244-f880-410b-9136-8e4ebc668e6b
+
+## Two-character test: #1 + #6 (suit B) in tobacco archive
+- Two-shot still (Nano Banana, 3 refs): 03cee0fb-586e-4654-af00-8e8291a85082
+- Dialogue clip (Kling 3.0, 10 s, placeholder voices): a0bbc2f3-9692-49a2-9f80-e1e9e3c4374f
+- Script: #6 "You're up early." / #1 "You're up late." / #6 "Same thing, darling. What are we wearing?" / #1 "Smoke. Leather. Regret."
