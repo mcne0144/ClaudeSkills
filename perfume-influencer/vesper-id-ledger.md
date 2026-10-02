@@ -34,3 +34,10 @@ Discarded sofa clips (same script, all three): 60344e52-c1ec-4d1b-a31b-09cfb7f7a
 | A | Terracotta rust, satin, medium | b4808eab-ea6a-49dd-88f0-f35c5d5ef416 |
 | B | Aged brick red, brown undertone, velvet matte, medium-strong | b57503f7-4ac1-48b5-b151-ec156037d47f |
 | C | Cinnamon brick, more brown, soft lived-in stain | 1d69100d-7e97-4d58-9849-1738b1c5ba38 |
+
+**#5 locked lip: Option A (terracotta rust, satin, medium).** Base still: b4808eab-ea6a-49dd-88f0-f35c5d5ef416
+- Chapel Hall still with lip A: 9b6d2492-42ee-4078-850e-deaf061aa95a
+- Chapel Hall talking clip with lip A (Kling 3.0): e90aaaa4-b5dd-4765-aad7-4b09dbf6fdfb
+
+## #1 voice audition (ElevenLabs Voice Design v3, lower and raspier)
+Previews (unsaved until picked): A NMLBsBL6CwUEH48uUAMe, B icz5LjuAg1cXQ5uJK4Ku, C OBA7kkVA1DTdxMFRfqzj
