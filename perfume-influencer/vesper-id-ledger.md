@@ -60,3 +60,11 @@ Previews (unsaved until picked): A NMLBsBL6CwUEH48uUAMe, B icz5LjuAg1cXQ5uJK4Ku,
 | 1 | Oxblood archive | 3f5a75e9-954d-473f-b74f-0737e75b7632 | 140c137f-edc1-4a1e-8801-f72f813047bc |
 | 5 (lip A) | Forest green archive | 4e6701ba-affe-4bff-b4a1-50f9a1251904 | 52ddd132-1e08-4a2a-ad6c-529030344bde |
 | 6 | Terracotta rose archive | 69785bed-b4f3-4fa5-b08f-9dba3b42e777 | cb6a4756-4472-46f7-af3d-3f99607b9439 |
+
+## Finalists: #1 and #6 (2 Oct 2026). #5 dropped.
+### #6 restyle: all-black asymmetrical suit, mixed-metal jewelry, "out until 4am" (Nano Banana edits of 69785bed, face/hair/makeup kept)
+| Option | Look | Job ID |
+|---|---|---|
+| A | One-shoulder sculpted-lapel blazer, nothing underneath, layered gold+silver chains, single onyx drop earring, pearl-and-chain choker | 3d70c31f-04a7-456e-a1c2-c6a0e5b8f262 |
+| B | Deconstructed wrap tuxedo (satin + wool lapels), sheer mesh under, silver cuff vs gold bangles, mismatched earrings | ee814244-f880-410b-9136-8e4ebc668e6b |
+| C | Asymmetric long-line coat-blazer, draped shoulder vs power shoulder, leather trousers, brutalist brooch, black pearl + gold ear climber | c60e2169-caeb-4bf3-8d82-21239079ba88 |
