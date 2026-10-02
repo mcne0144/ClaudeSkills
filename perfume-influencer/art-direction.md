@@ -53,3 +53,31 @@ The common thread is not "dark." It is **old-world, collected, saturated, intell
 | Navy eclectic sitting room | ab1cff3d-45b6-4453-ade3-e9b5e00d80a5 |
 | Black-brown paneled study | d1c4b7e9-65d4-4eda-9fe3-229254ce0177 |
 | Green perfume room | 0817c8db-828c-4353-a764-a9a3993628c8 |
+
+## Inspiration board (inspo/ folder, added 2 Oct 2026)
+| File | What to take from it |
+|---|---|
+| 01-black-paneled-dining | Black-brown paneling, candle chandelier, fireplace, gilt castle paintings at dusk, black velvet curtains, red Persian rug. The darkest register; keep it warm with fire and candles. |
+| 02-green-chesterfield-library | Green velvet tufted Chesterfield, plaid and paisley cushions in rust and tobacco, cognac club chair, carved walnut table, brass urns on shelves. AI-generated post with 190 saves on 521 likes. |
+| 03-manor-tea-corner-daylight | Real manor: linenfold oak paneling, leaded bay window with heraldic stained-glass roundels, rust damask curtains, pleated brass sconces, afternoon tea. Proves a daylight register. |
+| 04-archivist-desk-letters | Bundled letters tied with twine, card catalog, anglepoise lamp, teacup. Numbered-aphorism slideshow format ("3. Rain is never bad weather."), 3,774 likes. |
+| 05-grey-green-equestrian-salon | Grey-green paneling, white coffered ceiling, carved cream marble fireplace, equestrian oil painting, aubergine velvet tub chairs, green Chesterfield, arched window daylight. The lightest register. |
+
+### Additions to the ingredient list from the board
+- Linenfold paneling, leaded and stained-glass windows with heraldic roundels.
+- Castle-at-dusk and equestrian oil paintings in gilt frames.
+- Plaid and paisley textiles alongside velvet and leather.
+- Archive objects: letters in twine, card catalogs, journals, fountain pens, teacups.
+- Two daylight registers (overcast manor daylight, arched-window salon) so not every scene is night.
+- Grey-green and aubergine join the palette.
+
+### Content format to borrow
+**Vesper's Rules:** a numbered aphorism slideshow, one line per room ("4. Wear the cologne he can't pull off."), serif type centered on the image.
+
+## Room set round 2 (modeled on the board)
+| Room | Job ID |
+|---|---|
+| Candlelit black-paneled dining room | 204054c4-e2dd-4d82-9c4b-ca09c5888dbd |
+| Green Chesterfield library sitting room | e25ff0e8-76e9-493d-a71d-2aca9c9476a0 |
+| Manor tea corner, daylight | 7a53f441-ebfe-4516-8a4b-7c60e3abba6d |
+| Archivist's study, rainy evening | bb8eb601-82a4-4f07-9201-9910b752c41c |
