@@ -48,3 +48,8 @@ Previews (unsaved until picked): A NMLBsBL6CwUEH48uUAMe, B icz5LjuAg1cXQ5uJK4Ku,
 | Parisian French | 9MqHvIqy0RtU2JHMimJo | qw2uTzz7zmEFDGyKUZP0 | 9TroAtrlbyaRFIzu6MDk |
 | Soft Edinburgh Scottish | PzuFyn2LVl7QquCPNQCQ | 7GyWkK7zIHgDFpdkJLS3 | rp0kirZzORq5esWD8mqf |
 | Posh London, smoky | SS7674iThC1sg6ka8rGX | LPfVKC4YbmkNfCFwN1Fy | CiUsusTY74M7TtdcjESL |
+
+## Vesper's voice (LOCKED)
+- **ElevenLabs voice:** "Vesper", voice_id CiUsusTY74M7TtdcjESL (posh London RP, smoky, raspy; preview L3). Discarded L1 SS7674iThC1sg6ka8rGX, L2 LPfVKC4YbmkNfCFwN1Fy.
+- Apothecary line take (eleven_v3, 11.7 s): ElevenLabs flow 96QWiN6lQlPvCBmeoavE, generation w9IdqUHMJlRVJF3KxWZb. Imported to Higgsfield as audio media c298a86a-4358-471e-8a87-4bef134f996a.
+- First face + voice test: #1 Apothecary still 8c7abdf0 + Vesper audio, Wan 2.7 audio-driven (12 s, 720p): job 8de9447d-3935-40fb-998b-84f01066eab8
