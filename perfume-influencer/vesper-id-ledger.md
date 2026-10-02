@@ -79,3 +79,10 @@ Previews (unsaved until picked): A NMLBsBL6CwUEH48uUAMe, B icz5LjuAg1cXQ5uJK4Ku,
 ## Decision 2 Oct 2026: female duo, Theo dropped
 - Vesper = casting #1 (day archivist). Margaux (working name) = casting #6 (night archivist, suit B).
 - Margaux voice design round (low, lazy, throaty, slightly transatlantic): previews gwpeVLKCpYR7aeElRcbI, PAQEcCk9RWn2gTg6SNaE, PcU9nFm7uC0jcePUjQ7P (view viewstate_01m3y5yqpwe13sych94w2e4vmz)
+
+## Recast 2 Oct 2026 (supersedes names above)
+- **Margaux = casting #1.** Grounded keeper of the archive, New York high society, American voice (to lock).
+- **Edie = casting #6** (suit B). Wild, luxurious, irresponsible, posh British. Voice = ElevenLabs CiUsusTY74M7TtdcjESL (preview L3), still named "Vesper" in the library; rename to "Edie" in the ElevenLabs app.
+- Name "Vesper" retired. Higgsfield room Elements keep their original "Vesper-" names.
+- Transatlantic previews (N1 to N3) for #6 are no longer needed.
+- Margaux voice design round (NY high society): previews dxvT9glu46pVkKktsbdC, 7xTsu0xDNEAdURsMGbv9, FeHxfrRb5ISh3Cxnldzh (view viewstate_01m3y7bcxvetj8yehg89wtnv69)

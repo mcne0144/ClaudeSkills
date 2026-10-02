@@ -2,7 +2,7 @@
 
 ## HOUSE RULES (2 Oct 2026, override anything below that conflicts)
 
-1. **Every room is an archivist's dark library.** Books floor to ceiling plus archive objects: card catalogs, filing and map drawers, bundled letters in twine or ribbon, archive boxes labeled by year, ledgers, journals, fountain pens, wax seals, pressed specimens, magnifying glasses. Vesper keeps the archive of scent.
+1. **Every room is an archivist's dark library.** Books floor to ceiling plus archive objects: card catalogs, filing and map drawers, bundled letters in twine or ribbon, archive boxes labeled by year, ledgers, journals, fountain pens, wax seals, pressed specimens, magnifying glasses. Margaux keeps the archive of scent.
 2. **Full color drenching.** Walls, paneling, trim, crown molding, built-ins, doors and ceiling are all one color. Soft lacquer sheen where it suits.
 3. **Tiffany-style stained-glass lamps are the light source.** Leaded glass shades in amber, honey, rose, green and cobalt cast jewel-colored pools of light. Candles as accents. No overhead lighting, no chandeliers as the main source, no daylight rooms.
 4. **One jewel tone per room** so the house keeps range: oxblood, forest green, midnight navy, dusty terracotta rose, tobacco brown (plus burgundy, aubergine and grey-green in reserve).
@@ -51,8 +51,8 @@ The common thread is not "dark." It is **old-world, collected, saturated, intell
 
 ## Character fit
 
-- **Vesper** lives in the oxblood library, the burgundy drawing room and the green perfume room.
-- **Margaux** (casting #6, the night archivist) shares the house. Theo was dropped on 2 Oct 2026; the brand is now a female duo. Suggested home rooms: Vesper in oxblood and forest green, Margaux in terracotta rose and midnight navy, both in the tobacco two-level archive.
+- **Margaux** lives in the oxblood library, the burgundy drawing room and the green perfume room.
+- **Edie** (casting #6, the night archivist) shares the house. Theo was dropped on 2 Oct 2026; the brand is now a female duo. Suggested home rooms: Margaux in oxblood and forest green, Edie in terracotta rose and midnight navy, both in the tobacco two-level archive.
 
 ## Room changes
 
@@ -86,7 +86,7 @@ The common thread is not "dark." It is **old-world, collected, saturated, intell
 - Grey-green and aubergine join the palette.
 
 ### Content format to borrow
-**Vesper's Rules:** a numbered aphorism slideshow, one line per room ("4. Wear the cologne he can't pull off."), serif type centered on the image.
+**Margaux's Rules:** a numbered aphorism slideshow, one line per room ("4. Wear the cologne he can't pull off."), serif type centered on the image.
 
 ## Room set round 2 (modeled on the board)
 | Room | Job ID |
