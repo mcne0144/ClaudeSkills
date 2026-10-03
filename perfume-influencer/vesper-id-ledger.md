@@ -123,3 +123,14 @@ Nano Banana Pro edits of ee814244 (came back reframed to 3:4), 2 credits each.
 | C | Greyed plum-mauve, velvet matte | 328b184d-2fc6-468c-b6df-2a86ef5ce330 |
 
 **Edie locked lip: Option B.** New face reference for Edie: **750a05a8-9021-44ec-9151-b50d8be40c10** (supersedes ee814244 for all new images and the Soul ID training set).
+
+## Margaux eye rounds (3 Oct 2026, Nano Banana Pro edits, 2 credits each)
+Base: casting #1 f47ed34b. Deep-V open shirt kept on purpose ("no cleavage because she is too thin").
+- Color round 1: soft grey-green a4ec58e3-c912-4ead-859a-f3cbda4eebdb, clear grey-green 9c2ce5ed-64df-4dc2-b2e6-522be1d8bc23. User kept the original color at this point.
+- Shape round: 1 same shape larger 54cd2e4e-40ac-4ecd-ba16-53fa91976423, 2 almond 24bea99a-2a9f-4880-aea2-5aae8b9720cd, **3 open with lifted corners ca7500d9-03b0-40f6-838b-655c36a04e37 (chosen shape)**.
+- Size round on 3: 3a e496c564-7828-4eb6-9044-19ed50e41c40 (bigger, warmer skin), 3b 6b2fc940-45fe-47ae-ad3b-0bd3694528cc. Not used.
+- Color round 2 on 3: hazel 35ae2452-e2ed-4db0-bb8d-c12c64935c2d (eyes mismatched), brown 6584c514-602d-4132-94c5-7dbea9cadbb1, hazel matched b995b834-e501-42b5-9e28-32ddd6dcfe11 (rejected).
+- Color round 3 on 3: light grey-green 6ea12217-71f1-4297-b2e4-e0a3c0139696 (chosen, eyes slightly mismatched), lighter blue 7b276838-3046-40aa-b6c2-442233a128e5.
+- Match pass on 6ea12217: **88bc4ef2-740d-4a9e-b38e-04df858ebad9**, both eyes pale sea-glass grey-green. Side effect: overall grade came out a little darker and warmer.
+
+**Margaux locked face reference: 88bc4ef2-740d-4a9e-b38e-04df858ebad9** (supersedes f47ed34b for all new images and the Soul ID training set). Backup if the darker grade causes trouble: 6ea12217.
