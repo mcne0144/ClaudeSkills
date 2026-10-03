@@ -113,3 +113,13 @@ Retired / backups: "Vesper" CiUsusTY74M7TtdcjESL (L3, posh London), "Margaux" L2
 - Track v2: original stitched track with the "Same thing, darlin'." / "What are we wearing?" pause trimmed by 0.18 s (padded back before Margaux's line, so "Smoke." still starts at 7.2 s) and the pauses inside "Smoke. Leather. Regret." tightened (to 0.24 s and 0.30 s). "Regret." now ends at 9.77 s inside the 10.04 s video. Lines 1 to 3 keep their exact timings.
 - ElevenLabs asset eP13oR2A1bs7nGJZllqv (flow node qenAjLpTJQxNW3D3f0Ge); sync node L3dCcfxUt0WpqbTetrqu, sync-lipsync-v3, cut_off, same Kling video and prompt.
 - **Result:** generation z40hbdFgEcHstWeOuB8n (session 8YRGjRoUbdosnSArLvWj), 10.04 s, 716x1284, 8,092 ElevenLabs credits. Frame check: Edie speaks lines 1 and 3, Margaux lines 2 and 4; "Leather." and "Regret." land on Margaux facing camera. Remaining flaw (from the source video): "Smoke." still plays while Margaux has her back turned.
+
+## Edie lip recolor, less saturated (3 Oct 2026)
+Nano Banana Pro edits of ee814244 (came back reframed to 3:4), 2 credits each.
+| Option | Shade | Job ID |
+|---|---|---|
+| A | Muted dusty mulberry, brown undertone, satin | a4a17ba9-3009-48b8-b438-0fce042b3867 |
+| B | Soft blurred berry stain, half worn off, matte, diffused edges | 750a05a8-9021-44ec-9151-b50d8be40c10 |
+| C | Greyed plum-mauve, velvet matte | 328b184d-2fc6-468c-b6df-2a86ef5ce330 |
+
+**Edie locked lip: Option B.** New face reference for Edie: **750a05a8-9021-44ec-9151-b50d8be40c10** (supersedes ee814244 for all new images and the Soul ID training set).

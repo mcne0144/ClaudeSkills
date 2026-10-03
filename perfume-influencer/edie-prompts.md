@@ -1,3 +1,12 @@
+# Edie: prompts
+
+## Look (locked 3 Oct 2026)
+**Face reference:** always attach Higgsfield job 750a05a8-9021-44ec-9151-b50d8be40c10 (casting #6, suit B, lip option B). After the Soul ID is trained, use the Soul ID instead.
+
+**Lips:** a soft, blurred berry stain, low saturation, matte, edges slightly diffused, like lipstick pressed in with a fingertip and half worn off after a long night. Never a crisp, saturated or glossy berry.
+
+Tousled dark brown hair, all-black deconstructed asymmetrical wrap tuxedo (satin and wool lapels, sheer mesh under), mixed metals: silver cuff against gold bangles, mismatched earrings.
+
 # Edie: voice prompts
 
 ## Option A (locked): posh London, smoky
