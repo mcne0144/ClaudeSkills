@@ -108,3 +108,8 @@ Retired / backups: "Vesper" CiUsusTY74M7TtdcjESL (L3, posh London), "Margaux" L2
 - Note: direct uploads to Higgsfield are blocked by this environment's network policy; route audio through ElevenLabs.
 - **Scene 1 DONE** (3 Oct 2026): ElevenLabs generation euHSJNmgrJVN7sjXo7xh, 10.04 s, 716x1284, sync mode cut_off. Spot-check of frames: Edie's mouth moves on lines 1 and 3, Margaux's on lines 2 and 4; Margaux turns to the card catalog mid-scene and faces camera with the bottle on "Smoke. Leather. Regret."
 - Review (handoff session): two flaws. Margaux has her back to camera from about 4.4 s to 7.5 s, so the start of "Smoke." (about 7.2 s) plays over the back of her head. And cut_off trims the 10.3 s track to the 10.04 s video, so "Regret." (starts at 9.7 s) is likely clipped.
+
+## Scene 1 v2: re-timed re-sync (3 Oct 2026) (supersedes the first dub)
+- Track v2: original stitched track with the "Same thing, darlin'." / "What are we wearing?" pause trimmed by 0.18 s (padded back before Margaux's line, so "Smoke." still starts at 7.2 s) and the pauses inside "Smoke. Leather. Regret." tightened (to 0.24 s and 0.30 s). "Regret." now ends at 9.77 s inside the 10.04 s video. Lines 1 to 3 keep their exact timings.
+- ElevenLabs asset eP13oR2A1bs7nGJZllqv (flow node qenAjLpTJQxNW3D3f0Ge); sync node L3dCcfxUt0WpqbTetrqu, sync-lipsync-v3, cut_off, same Kling video and prompt.
+- **Result:** generation z40hbdFgEcHstWeOuB8n (session 8YRGjRoUbdosnSArLvWj), 10.04 s, 716x1284, 8,092 ElevenLabs credits. Frame check: Edie speaks lines 1 and 3, Margaux lines 2 and 4; "Leather." and "Regret." land on Margaux facing camera. Remaining flaw (from the source video): "Smoke." still plays while Margaux has her back turned.
