@@ -17,3 +17,6 @@ ElevenLabs voice CiUsusTY74M7TtdcjESL (preview L3), saved as "Vesper"; rename to
 - *Too strong to follow:* add "accent strong but clear, every word easy to understand."
 - *Too rough:* add "polished by years of money, East End vowels with expensive taste."
 - *Not wild enough:* add "giggles mid-sentence, sounds a bit tipsy at 4am."
+
+### Cockney design round 1 (3 Oct 2026)
+Previews: C1 3qpR5veP3X5Rv8zYauJf, C2 Yas6xb4F7T8mxeuOkPZf, C3 OBhSLloXa5lUAIbE2M11 (view viewstate_01m3zngdrvfj6astrwjke9yvxn)
