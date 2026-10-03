@@ -159,3 +159,11 @@ Prompt: margaux-prompts.md master prompt + one shot line each. Status: generated
 | 18 | One-lamp side light | 28e1c88a-a6fa-4f36-ae35-124686da46cc |
 | 19 | Candlelight close-up | 41ec2953-a7d3-4e9b-9239-67406272d6af |
 | 20 | Wingback chair reading | fb949e7b-ba4c-4617-a5ec-14bdba73eeb6 |
+
+### Retakes, #9 and #17 (user flagged smile and skin tone), 2 refs each: 88bc4ef2 + #7 f76b82ae for skin tone
+| Shot | Job ID |
+|---|---|
+| 9a laugh | 2dd28216-7d69-486a-a259-8c4126509536 |
+| 9b smile | 3c3bc4dd-b3c2-46c9-9fb0-508de768a9f9 |
+| 17a tobacco archive, waist-up | b98221c3-3473-4171-84e3-e3cc0c03cfa3 |
+| 17b tobacco archive, at railing | 5d2ef415-ebd0-4951-969a-2e46cbc7b2b7 |
