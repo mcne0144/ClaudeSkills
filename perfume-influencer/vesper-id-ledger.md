@@ -106,5 +106,5 @@ Retired / backups: "Vesper" CiUsusTY74M7TtdcjESL (L3, posh London), "Margaux" L2
 - Stitched with ffmpeg to 10.3 s and uploaded to ElevenLabs flow NQcfslZoQS8o9bJhxzwg ("Scene 1: You're up early").
 - Dub: sync-lipsync-v3 over the Kling two-shot a0bbc2f3, ~8,093 ElevenLabs credits, session gM2OktW1xBquIgeOAR5R.
 - Note: direct uploads to Higgsfield are blocked by this environment's network policy; route audio through ElevenLabs.
-- **Result (3 Oct 2026):** completed, 10.04 s, 716x1284. ElevenLabs generation euHSJNmgrJVN7sjXo7xh (history: https://elevenlabs.io/app/image-video/history?modality=video&generationId=euHSJNmgrJVN7sjXo7xh).
-- Review: voices land on the right mouths (Edie lines 1 and 3, Margaux lines 2 and 4). Two flaws: Margaux has her back to camera from about 4.4 s to 7.5 s, so the start of "Smoke." plays over the back of her head; and sync mode cut_off trims the 10.3 s track to the 10.04 s video, so "Regret." (starts at 9.7 s) is likely clipped.
+- **Scene 1 DONE** (3 Oct 2026): ElevenLabs generation euHSJNmgrJVN7sjXo7xh, 10.04 s, 716x1284, sync mode cut_off. Spot-check of frames: Edie's mouth moves on lines 1 and 3, Margaux's on lines 2 and 4; Margaux turns to the card catalog mid-scene and faces camera with the bottle on "Smoke. Leather. Regret."
+- Review (handoff session): two flaws. Margaux has her back to camera from about 4.4 s to 7.5 s, so the start of "Smoke." (about 7.2 s) plays over the back of her head. And cut_off trims the 10.3 s track to the 10.04 s video, so "Regret." (starts at 9.7 s) is likely clipped.
