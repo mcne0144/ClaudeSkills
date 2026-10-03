@@ -86,3 +86,9 @@ Previews (unsaved until picked): A NMLBsBL6CwUEH48uUAMe, B icz5LjuAg1cXQ5uJK4Ku,
 - Name "Vesper" retired. Higgsfield room Elements keep their original "Vesper-" names.
 - Transatlantic previews (N1 to N3) for #6 are no longer needed.
 - Margaux voice design round (NY high society): previews dxvT9glu46pVkKktsbdC, 7xTsu0xDNEAdURsMGbv9, FeHxfrRb5ISh3Cxnldzh (view viewstate_01m3y7bcxvetj8yehg89wtnv69)
+
+## Voices update 3 Oct 2026
+- **Edie LOCKED:** Cockney C2, ElevenLabs "Edie", voice_id Yas6xb4F7T8mxeuOkPZf.
+- **Margaux:** user prefers L3 (CiUsusTY74M7TtdcjESL, still named "Vesper" in ElevenLabs; rename to "Margaux"). May keep the British accent.
+- "Margaux" T2 (L2fsqHouyowafL2u0849, transatlantic) is saved but now a backup.
+- L3-with-American-accent test round (same timbre description): A1 wTrikY5DdejSOiRgP1DV, A2 P6W6rXlBaPthTUwNugy5, A3 IIIGF4beSU7TDV2DC4z3 (view viewstate_01m3zpcfskfwg8qtzc9pgze4vh)
