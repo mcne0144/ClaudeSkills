@@ -134,3 +134,28 @@ Base: casting #1 f47ed34b. Deep-V open shirt kept on purpose ("no cleavage becau
 - Match pass on 6ea12217: **88bc4ef2-740d-4a9e-b38e-04df858ebad9**, both eyes pale sea-glass grey-green. Side effect: overall grade came out a little darker and warmer.
 
 **Margaux locked face reference: 88bc4ef2-740d-4a9e-b38e-04df858ebad9** (supersedes f47ed34b for all new images and the Soul ID training set). Backup if the darker grade causes trouble: 6ea12217.
+
+## Margaux Soul ID training set (3 Oct 2026, Nano Banana Pro, 3:4 2k, face ref 88bc4ef2)
+Prompt: margaux-prompts.md master prompt + one shot line each. Status: generated, pending review.
+| # | Shot | Job ID |
+|---|---|---|
+| 1 | Front head and shoulders | 887b7d8b-f58a-4124-a632-f82a051dd82c |
+| 2 | Three-quarter left | 8901e36e-50b7-491e-aa8a-145d8ae9bcb7 |
+| 3 | Three-quarter right | e7e681d1-0443-435b-b9a1-9b4e6b0d6e0d |
+| 4 | Left profile | 4cc95ff5-7603-4ff3-b021-7dde38404942 |
+| 5 | High angle at desk | 9bf44ff5-7614-467c-8fe1-e2e130a47525 |
+| 6 | Waist-up at card catalog | aa81445a-c703-4c6d-be7f-afe9d335020b |
+| 7 | Neutral close-up | f76b82ae-d01f-4c85-b6e5-e2d18972703f |
+| 8 | Half-smile | 2a2ded06-1683-468f-b24c-758153343f9e |
+| 9 | Laugh | fbf6557f-ab55-4e9f-abfb-d4f01220a150 |
+| 10 | Eyebrow raised | 5ade6f88-3944-4742-9cc1-94b2b5dfc17f |
+| 11 | Smelling wrist | 123d4c82-4010-4be1-b401-b003d90d58d2 |
+| 12 | Mid-sentence gesture | 83f4f52f-98be-41e6-865d-78b405d88ed2 |
+| 13 | Bottle at collarbone | a711a107-60ee-40b2-90f2-5396dd901f8d |
+| 14 | Spraying wrist | b4894af8-ca53-47e8-a6b0-612af3e95e93 |
+| 15 | Writing archive card | 4cc0dbc4-fa9d-49a3-a350-a6f564d3ff94 |
+| 16 | Forest green archive | 5b85cd2f-e3d6-4c2a-a9b2-afa98a2f83f4 |
+| 17 | Tobacco two-level archive | ee0acb8e-7295-40ce-9eed-6c57813db719 |
+| 18 | One-lamp side light | 28e1c88a-a6fa-4f36-ae35-124686da46cc |
+| 19 | Candlelight close-up | 41ec2953-a7d3-4e9b-9239-67406272d6af |
+| 20 | Wingback chair reading | fb949e7b-ba4c-4617-a5ec-14bdba73eeb6 |
