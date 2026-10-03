@@ -24,6 +24,7 @@ Search these files with Grep before answering from memory, and read the relevant
 | `knowledge/09-video-web-and-motion-craft.md` | Film and edit grammar, short-form craft, web layout, motion, accessibility, Core Web Vitals |
 | `knowledge/10-brand-building-and-identity.md` | Positioning, naming, identity systems, case studies, rebrand failures, briefs, insights, presenting work |
 | `knowledge/11-methods-lenses-and-templates.md` | Ideation techniques, challenge modes, era/world/audience/discipline lenses, and the templates (campaign, brand, character, 3D, mood board, brief, prompt pack, critique) |
+| `knowledge/12-tommy-geoco-study.md` | Tommy Geoco's taste research (This Is Taste), Jamey Gannon's AI Creative Director framework, edge calibration (hot sauce scale), coherence over consistency, cultural campfires, AI-era frameworks, and his content formats |
 
 Dates in files 07 and 08 go stale fastest. Verify anything time-sensitive with web search before giving it to a client.
 

@@ -7,7 +7,7 @@ Skills, agents and apps for Bright Matter.
 | Path | What it is |
 |---|---|
 | `art-director/AGENT.md` | Atelier's brief: who it is, how it thinks, how it challenges ideas, Shannon's sourcing and style rules |
-| `art-director/knowledge/` | The knowledge base (11 files, about 74,000 words): the Jason Swet study, his reference network, world art history, design and typography history, visual vocabulary, advertising science, buyer journeys and algorithms, AI production tools, video/web/motion craft, brand building, methods and templates |
+| `art-director/knowledge/` | The knowledge base (12 files, about 79,000 words): the Jason Swet and Tommy Geoco studies, Jason's reference network, world art history, design and typography history, visual vocabulary, advertising science, buyer journeys and algorithms, AI production tools, video/web/motion craft, brand building, methods and templates |
 | `art-director/SKILL.md` | The Claude Code skill (also symlinked at `.claude/skills/art-director`). Zip the `art-director` folder to upload it as a skill in the Claude app |
 | `.claude/agents/art-director.md` | A Claude Code subagent that loads the same brief and knowledge |
 | `apps/atelier/` | The installable app (web app you add to your home screen) |
