@@ -106,3 +106,4 @@ Retired / backups: "Vesper" CiUsusTY74M7TtdcjESL (L3, posh London), "Margaux" L2
 - Stitched with ffmpeg to 10.3 s and uploaded to ElevenLabs flow NQcfslZoQS8o9bJhxzwg ("Scene 1: You're up early").
 - Dub: sync-lipsync-v3 over the Kling two-shot a0bbc2f3, ~8,093 ElevenLabs credits, session gM2OktW1xBquIgeOAR5R.
 - Note: direct uploads to Higgsfield are blocked by this environment's network policy; route audio through ElevenLabs.
+- **Scene 1 DONE** (3 Oct 2026): ElevenLabs generation euHSJNmgrJVN7sjXo7xh, 10.04 s, 716x1284, sync mode cut_off. Spot-check of frames: Edie's mouth moves on lines 1 and 3, Margaux's on lines 2 and 4; Margaux turns to the card catalog mid-scene and faces camera with the bottle on "Smoke. Leather. Regret."
