@@ -74,3 +74,5 @@ Previews: MA g4c0KwLikiqhZVbQV2uc, MB sUmuuTBr3zOZA8XpAcEb, MC gqaVTrnel9yDInI3J
 ### Voice design round 3 (3 Oct 2026, transatlantic "Locust Valley lockjaw", guidance 8)
 Description: Upper East Side old money, pronounced transatlantic accent, slightly clenched jaw, non-rhotic Rs, broad A's, crisp T's, half British half Manhattan, low warm alto, dry and quietly amused, not a parody.
 Previews: T1 SJJfz8p4huCPCjO6hb1T, T2 L2fsqHouyowafL2u0849, T3 4eCvKqkzEojCBLLY4zxp (view viewstate_01m3znyb0sfn49c83wnx1zabze)
+
+**LOCKED 3 Oct 2026: Margaux's voice = T2**, saved in ElevenLabs as "Margaux", voice_id L2fsqHouyowafL2u0849.
