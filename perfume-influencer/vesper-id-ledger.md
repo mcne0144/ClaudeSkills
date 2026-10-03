@@ -100,3 +100,9 @@ Previews (unsaved until picked): A NMLBsBL6CwUEH48uUAMe, B icz5LjuAg1cXQ5uJK4Ku,
 | Edie | "Edie" | Yas6xb4F7T8mxeuOkPZf | Preview C2: strong East End Cockney, low, raspy, cheeky |
 
 Retired / backups: "Vesper" CiUsusTY74M7TtdcjESL (L3, posh London), "Margaux" L2fsqHouyowafL2u0849 (T2, transatlantic).
+
+## Scene 1 with real voices (3 Oct 2026)
+- Lines (eleven_v3): Edie "You're up early." (flow DvQcReysqCuQFHSoCkBb), Margaux "You're up late." (nuEC2Wkqhu0AryjJYZDB), Edie "Same thing, darlin'. What are we wearing?" (e89evDPUICigyeGR02gZ), Margaux "Smoke. Leather. Regret." (fY8pKLeJpALGrAXXhFtq)
+- Stitched with ffmpeg to 10.3 s and uploaded to ElevenLabs flow NQcfslZoQS8o9bJhxzwg ("Scene 1: You're up early").
+- Dub: sync-lipsync-v3 over the Kling two-shot a0bbc2f3, ~8,093 ElevenLabs credits, session gM2OktW1xBquIgeOAR5R.
+- Note: direct uploads to Higgsfield are blocked by this environment's network policy; route audio through ElevenLabs.
