@@ -67,3 +67,6 @@ Add one of these to the end of the master prompt. Keep everything else identical
 - *Less polished:* add "a little gravel from late nights, relaxed and unbothered."
 
 **Settings:** Voice Design v3. If previews drift from the description, raise "guidance" (prompt strength). Generate a few rounds and save the one that sounds like she owns the building.
+
+### Voice design round 2 (3 Oct 2026, Manhattan old-money prompt)
+Previews: MA g4c0KwLikiqhZVbQV2uc, MB sUmuuTBr3zOZA8XpAcEb, MC gqaVTrnel9yDInI3JvwZ (view viewstate_01m3znmmaqe9zvqn9azdvay215). Round 1 (M1 to M3) is logged in vesper-id-ledger.md.
