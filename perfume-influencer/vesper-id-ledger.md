@@ -92,3 +92,11 @@ Previews (unsaved until picked): A NMLBsBL6CwUEH48uUAMe, B icz5LjuAg1cXQ5uJK4Ku,
 - **Margaux:** user prefers L3 (CiUsusTY74M7TtdcjESL, still named "Vesper" in ElevenLabs; rename to "Margaux"). May keep the British accent.
 - "Margaux" T2 (L2fsqHouyowafL2u0849, transatlantic) is saved but now a backup.
 - L3-with-American-accent test round (same timbre description): A1 wTrikY5DdejSOiRgP1DV, A2 P6W6rXlBaPthTUwNugy5, A3 IIIGF4beSU7TDV2DC4z3 (view viewstate_01m3zpcfskfwg8qtzc9pgze4vh)
+
+## FINAL VOICES (3 Oct 2026)
+| Character | ElevenLabs name | voice_id | Sound |
+|---|---|---|---|
+| Margaux | "Margaux (final)" | IIIGF4beSU7TDV2DC4z3 | Preview A3: L3's low raspy smoky timbre, moneyed New York American accent |
+| Edie | "Edie" | Yas6xb4F7T8mxeuOkPZf | Preview C2: strong East End Cockney, low, raspy, cheeky |
+
+Retired / backups: "Vesper" CiUsusTY74M7TtdcjESL (L3, posh London), "Margaux" L2fsqHouyowafL2u0849 (T2, transatlantic).
