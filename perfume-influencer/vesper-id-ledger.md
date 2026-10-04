@@ -167,3 +167,9 @@ Prompt: margaux-prompts.md master prompt + one shot line each. Status: generated
 | 9b smile | 3c3bc4dd-b3c2-46c9-9fb0-508de768a9f9 |
 | 17a tobacco archive, waist-up | b98221c3-3473-4171-84e3-e3cc0c03cfa3 |
 | 17b tobacco archive, at railing | 5d2ef415-ebd0-4951-969a-2e46cbc7b2b7 |
+| 18 retake, one-lamp side light | 8e083dfc-970d-4e0a-ad8a-6c2ee55aaa86 |
+| 19 retake, candlelight close-up | 5df05cd4-387a-458b-891a-ee06af869f68 |
+
+### FINAL Margaux training set (20 images, user-approved swaps 4 Oct 2026)
+1 887b7d8b-f58a-4124-a632-f82a051dd82c · 2 8901e36e-50b7-491e-aa8a-145d8ae9bcb7 · 3 e7e681d1-0443-435b-b9a1-9b4e6b0d6e0d · 4 (9b smile, replaces old #4 profile) 3c3bc4dd-b3c2-46c9-9fb0-508de768a9f9 · 5 9bf44ff5-7614-467c-8fe1-e2e130a47525 · 6 aa81445a-c703-4c6d-be7f-afe9d335020b · 7 f76b82ae-d01f-4c85-b6e5-e2d18972703f · 8 2a2ded06-1683-468f-b24c-758153343f9e · 9 (9a laugh) 2dd28216-7d69-486a-a259-8c4126509536 · 10 5ade6f88-3944-4742-9cc1-94b2b5dfc17f · 11 123d4c82-4010-4be1-b401-b003d90d58d2 · 12 83f4f52f-98be-41e6-865d-78b405d88ed2 · 13 a711a107-60ee-40b2-90f2-5396dd901f8d · 14 b4894af8-ca53-47e8-a6b0-612af3e95e93 · 15 4cc0dbc4-fa9d-49a3-a350-a6f564d3ff94 · 16 5b85cd2f-e3d6-4c2a-a9b2-afa98a2f83f4 · 17 (17a) b98221c3-3473-4171-84e3-e3cc0c03cfa3 · 18 (retake) 8e083dfc-970d-4e0a-ad8a-6c2ee55aaa86 · 19 (retake) 5df05cd4-387a-458b-891a-ee06af869f68 · 20 fb949e7b-ba4c-4617-a5ec-14bdba73eeb6
+Set cost: 40 (first pass) + 8 (#9/#17 retakes) + 4 (#18/#19 retakes) = 52 Higgsfield credits.
