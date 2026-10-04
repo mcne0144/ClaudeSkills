@@ -205,3 +205,12 @@ Set cost: 40 (first pass) + 12 (retakes, including the failed pink #17) = 52 Hig
 - Cleanup try 1 (seedream_v5_pro, 2.5 credits): afd0033c-bcfb-432d-891f-0b2961ae55a8. REJECTED: added stray "Step 1" and "Step 2" text (caused by the tutorial-only line in the cleanup prompt).
 - Cleanup try 2 (prompt without that line): 5e3660fa-4cf8-4037-ab5b-7f899a5386e6. Status ip_detected (content check). Credits refunded (2.5). Workflow says stop on moderation, so NO video was generated. Net spent: 9 credits (6.5 + 2.5). Video quote was 180 credits for 15 s, not spent.
 - Lesson: for unboxing, drop "Preserve existing tutorial Step N headings exactly" from the cleanup prompt.
+
+## UGC test: Edie makeup unboxing, RESUMED with unbranded palette (4 Oct 2026)
+- Decision: user chose to regenerate with an unbranded palette after the ip_detected flag on the Mario-branded run.
+- Unbranded palette reference (nano_banana_2, ~2 credits): ad02a414-d707-49f6-b0d1-5b966332f01f. Plain white hinged 12-pan neutral palette, no text or logo, checked by eye.
+- Board raw (gpt_image_2, 21:9, 6.5 credits): 17a3c3e1-9cc3-4ae0-89a7-fc0f5a54c1bd. Four slots, no stray text.
+- Board cleanup (seedream_v5_pro, 2.5 credits): e13a2ec7-2e75-4472-ab51-5e90ef9e2e37. Passed moderation, no text, identity kept. This is the board fed to the video.
+- Video (seedance_2_5, 9:16, 1080p, 15 s, omni_reference, native audio, about 180 credits): 50df4021-ae0b-4466-bae3-5dc53f599cea. Frame strip checked: four hard cuts in order, same face and outfit, palette consistent. Audio and accent NOT yet reviewed by ear.
+- Inputs: board e13a2ec7, character 4a59f37c (Edie Soul ID test 2), product ad02a414. Script as planned (31 words, claim-free), Cockney persona line first.
+- Note: video submit first returned a preset recommendation ("IN THE DARK"); retried with declined_preset_id 24bae836-2c4a-48e0-89b6-49fcc0b21612.
