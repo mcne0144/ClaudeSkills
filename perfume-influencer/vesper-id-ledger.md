@@ -194,3 +194,5 @@ Set cost: 40 (first pass) + 12 (retakes, including the failed pink #17) = 52 Hig
 
 ## Edie Soul ID (4 Oct 2026)
 - **Soul ID: b09a6b22-2d3d-4f90-b4aa-dd0c81101a6a** (type soul_2, name "Edie"), trained on the final 20 above. Status at submit: training.
+- Edie training finished: status ready. **Cost: 25 credits** ("Soul ID" transaction, 4 Oct 2026 10:20 UTC).
+- First test on Soul V2 with the Soul ID only (no reference image), 0.12 credits each: be957495-5ec1-4176-b1d4-5a81ba48a5ec, 4a59f37c-ed23-4656-9e0d-fabe8a5c50b1. Both hold her face, brows, hair, skin tone and soft lip stain. Candidate clean creator stills for UGC (empty hands, no props).
