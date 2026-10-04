@@ -1,5 +1,7 @@
 # Margaux: generation prompts
 
+**Soul ID (ready 4 Oct 2026):** c671d3b1-7c80-455b-b210-0a3845121b86. Use it with Soul V2 (soul_2) or Soul Cinema for solo shots. For other models (Nano Banana, Kling, two-shots with Edie), keep using the face reference below.
+
 **Face reference:** always attach Higgsfield job 88bc4ef2-740d-4a9e-b38e-04df858ebad9 (casting #1 with locked eyes, 3 Oct 2026) as the image reference so the face stays hers. After the Soul ID is trained, use the Soul ID instead. The original casting still f47ed34b is superseded.
 
 ## Master prompt (paste as-is, then add one line from the shot list)

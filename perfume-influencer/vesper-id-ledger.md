@@ -176,3 +176,5 @@ Set cost: 40 (first pass) + 8 (#9/#17 retakes) + 4 (#18/#19 retakes) = 52 Higgsf
 
 ## Margaux Soul ID (4 Oct 2026)
 - **Soul ID: c671d3b1-7c80-455b-b210-0a3845121b86** (type soul_2, name "Margaux"), trained on the final 20 above. Use with model soul_2 (Soul V2) or soul_cinematic. Status at submit: training. Balance before training: 2,750.55 credits.
+- Training finished: status ready. **Cost: 25 credits** ("Soul ID" transaction, 4 Oct 2026 01:17 UTC).
+- First test on Soul V2 with the Soul ID only (no reference image), 0.12 credits each: 45ec04e9-4a0d-4435-bbec-25c45b9256a0, d0e00b65-0dec-4dff-a206-bd32b75974c3. Both hold her face, brows, pale eyes and hair. Test 1 skin runs slightly warm.
