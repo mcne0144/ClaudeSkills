@@ -214,3 +214,11 @@ Set cost: 40 (first pass) + 12 (retakes, including the failed pink #17) = 52 Hig
 - Video (seedance_2_5, 9:16, 1080p, 15 s, omni_reference, native audio, about 180 credits): 50df4021-ae0b-4466-bae3-5dc53f599cea. Frame strip checked: four hard cuts in order, same face and outfit, palette consistent. Audio and accent NOT yet reviewed by ear.
 - Inputs: board e13a2ec7, character 4a59f37c (Edie Soul ID test 2), product ad02a414. Script as planned (31 words, claim-free), Cockney persona line first.
 - Note: video submit first returned a preset recommendation ("IN THE DARK"); retried with declined_preset_id 24bae836-2c4a-48e0-89b6-49fcc0b21612.
+
+## Intro / pinned video "We are AI" (4 Oct 2026), clip 1 of 2 made, clip 2 NOT yet made
+- Purpose: pinned TikTok post. Honest framing: Margaux and Edie say they are AI, a human nose is behind them, every opinion is hers.
+- Two-shot still (nano_banana_2, refs: Margaux face 88bc4ef2, Edie face 750a05a8, room ef4a3fd9): bac93873-bd81-4bf2-8ac8-4914d5ebcd15. Checked by eye: both distinct, facing camera, hands on desk.
+- Clip 1 (seedance_2_5, 15 s, 9:16, 1080p, native audio, about 180 credits): ee9f462c-1efe-4380-94b9-c34c61d3c239. Lines: Margaux "Let's get this out of the way. I'm not real." / Edie "Neither am I. We're AI." / Margaux "There is a real person behind us. She is the nose."
+- Frame strip: static two-shot held, but the video reframed wider than the still, so faces are smaller. Audio, accent and who-speaks-which-line NOT yet reviewed by ear. Voices are Seedance native, NOT the locked ElevenLabs voices (Margaux IIIGF4beSU7TDV2DC4z3, Edie Yas6xb4F7T8mxeuOkPZf).
+- Clip 2 lines (not made): Edie "She's loved fragrance her whole life, and she's too shy to stand here herself, so we do it for her." / Margaux "Every opinion you hear from us is hers. Honest, and literal." / Edie "Come and smell with us."
+- Balance before this work: 2,437.57 credits.
