@@ -1,6 +1,8 @@
 # Edie: prompts
 
 ## Look (locked 3 Oct 2026)
+**Soul ID (training 4 Oct 2026):** b09a6b22-2d3d-4f90-b4aa-dd0c81101a6a. Use it with Soul V2 (soul_2) or Soul Cinema for solo shots. For other models (Nano Banana, Kling, two-shots with Margaux), keep using the face reference below.
+
 **Face reference:** always attach Higgsfield job 750a05a8-9021-44ec-9151-b50d8be40c10 (casting #6, suit B, lip option B). After the Soul ID is trained, use the Soul ID instead.
 
 **Lips:** a soft, blurred berry stain, low saturation, matte, edges slightly diffused, like lipstick pressed in with a fingertip and half worn off after a long night. Never a crisp, saturated or glossy berry.

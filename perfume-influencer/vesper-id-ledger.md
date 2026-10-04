@@ -191,3 +191,6 @@ Prompt: edie-prompts.md master prompt + shot list. Status: generated, pending re
 ### FINAL Edie training set (20 images)
 1 83bd3c5c-ceb1-4ee4-bda0-5a7283920f96 · 2 785d9ef8-38b1-4a2d-80fd-92fec39c34a0 · 3 abee1aeb-b0dd-422c-a020-f93b6ef84c5b · 4 3958770a-ebea-4c3d-b269-9d17c6263720 · 5 f7cc004e-1dc7-4a51-9d35-eef7365ffc67 · 6 45a34138-e344-4b42-a8e9-f1a9118db0c0 · 7 692f215e-9f5f-4387-a77f-20016040bdd4 · 8 9f79fdae-7a5d-4683-8c01-9dd98e82ad57 · 9 11390631-b64d-4bc4-9868-e02fbc992385 · 10 ea1ed496-8252-4bde-abe3-a7edf625045d · 11 a7e887c2-fde8-4117-8e2a-ec0e29f4e41d · 12 41d0da6c-b456-4d14-a611-0d4aa5c39cb8 · 13 a3a06d9a-a633-4939-80f2-937acb52b88e · 14 6c252f61-e833-4bff-b90a-7d34560bbfc9 · 15 700ef35e-030f-4a04-a6e2-3638ae34e5a6 · 16 fbafd217-163c-4918-88d2-4d0a6b02d915 · 17 f74b9ac0-8bf6-4227-9ab3-53f223dd0754 · 18 e029f184-1c3e-4831-a8b7-dc960bf899e6 · 19 166cd343-d6b2-46c5-80e0-15de25251657 · 20 fec11bb1-fc7a-4cd7-bcf2-4dd6ba60480e
 Set cost: 40 (first pass) + 12 (retakes, including the failed pink #17) = 52 Higgsfield credits.
+
+## Edie Soul ID (4 Oct 2026)
+- **Soul ID: b09a6b22-2d3d-4f90-b4aa-dd0c81101a6a** (type soul_2, name "Edie"), trained on the final 20 above. Status at submit: training.
