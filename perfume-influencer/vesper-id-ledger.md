@@ -196,3 +196,12 @@ Set cost: 40 (first pass) + 12 (retakes, including the failed pink #17) = 52 Hig
 - **Soul ID: b09a6b22-2d3d-4f90-b4aa-dd0c81101a6a** (type soul_2, name "Edie"), trained on the final 20 above. Status at submit: training.
 - Edie training finished: status ready. **Cost: 25 credits** ("Soul ID" transaction, 4 Oct 2026 10:20 UTC).
 - First test on Soul V2 with the Soul ID only (no reference image), 0.12 credits each: be957495-5ec1-4176-b1d4-5a81ba48a5ec, 4a59f37c-ed23-4656-9e0d-fabe8a5c50b1. Both hold her face, brows, hair, skin tone and soft lip stain. Candidate clean creator stills for UGC (empty hands, no props).
+
+## UGC test: Edie makeup unboxing (4 Oct 2026), PAUSED before video
+- Product: Makeup By Mario Master Mattes Eyeshadow Palette: The Neutrals (product page makeupbymario.com, $56 on the maker's page). Hero image imported to Higgsfield as media f96e18bf-2178-4453-80d7-32f079bacdee.
+- Creator image: Edie Soul ID test 2, job 4a59f37c-ed23-4656-9e0d-fabe8a5c50b1 (empty hands). Length 15 s, generic brown box, Cockney accent, no approved claims, terracotta archive room and tuxedo.
+- Planned script (31 words, claim-free): "Mystery box, looking far too innocent." / "Ooh, a little mirror in the lid." / "Twelve squares, cream to near black, lined up like paint." / "Lid up, pick a square, off you go."
+- Board (gpt_image_2, 21:9, 6.5 credits): raw 5ba0b8e7-9fa6-47cc-952b-42a0edeaf671, imported as media dda4f767-3259-415e-a087-ae9cd9ce78db. Looks right: sealed box, reveal, macro, selfie wrap.
+- Cleanup try 1 (seedream_v5_pro, 2.5 credits): afd0033c-bcfb-432d-891f-0b2961ae55a8. REJECTED: added stray "Step 1" and "Step 2" text (caused by the tutorial-only line in the cleanup prompt).
+- Cleanup try 2 (prompt without that line): 5e3660fa-4cf8-4037-ab5b-7f899a5386e6. Status ip_detected (content check). Credits refunded (2.5). Workflow says stop on moderation, so NO video was generated. Net spent: 9 credits (6.5 + 2.5). Video quote was 180 credits for 15 s, not spent.
+- Lesson: for unboxing, drop "Preserve existing tutorial Step N headings exactly" from the cleanup prompt.
