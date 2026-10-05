@@ -231,3 +231,10 @@ Set cost: 40 (first pass) + 12 (retakes, including the failed pink #17) = 52 Hig
 - Clip 4 (lore): f0a58a52-0836-4f3a-9189-9a58436c14b3. STATUS nsfw (moderation). No video. Cause unknown; not retried yet.
 - Observation: in clips 2 and 3 Margaux reads as wearing a black blazer over the deep V, not the loose silk shirt in the still bac93873.
 - Balance after clips 2 and 3: 1,867.09 credits.
+
+## Intro video: remakes of clips 2 and 3 (5 Oct 2026), supersede dee407ae and 3bfbf540
+- User feedback: Margaux's stare looked dead; she should have a hint of a sexy smirk on "Also, we're hot"; Edie's "AuDHD" was mispronounced, so say "autistic and has ADHD". Plus new Margaux line about Ginger being a scent scholar for decades.
+- Clip 2 v2: d6e71264-f632-4fec-90b7-6b8e5d58b556. Edie: "Her name is Ginger. She's forty-one, a mum of two, she's autistic and she has ADHD." Prompt adds a Margaux performance note (alive eyes, warm eye contact, half-smile) and a sly smirk with slow blink on "Also, we're hot." Frame check: Margaux smirks and winks near the end, Edie laughs. Audio not reviewed by ear.
+- Clip 3 v2: 8cb7d9ca-f90e-494b-a9ec-bf6da14d290d. Margaux: "Ginger has been a scent scholar for decades, building her collection and curating her preferences." Edie: "Month-long rabbit holes, nobody to tell. Until now." Margaux: "Everything she knows about perfume, and everything she feels." Edie: "Starting with something weird." Frame check: Margaux still fairly neutral in the face strip, less changed than clip 2.
+- Clip 4 (lore) still blocked (nsfw) and not retried.
+- Balance after remakes: 1,507.09 credits.
