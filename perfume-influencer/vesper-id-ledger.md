@@ -222,3 +222,12 @@ Set cost: 40 (first pass) + 12 (retakes, including the failed pink #17) = 52 Hig
 - Frame strip: static two-shot held, but the video reframed wider than the still, so faces are smaller. Audio, accent and who-speaks-which-line NOT yet reviewed by ear. Voices are Seedance native, NOT the locked ElevenLabs voices (Margaux IIIGF4beSU7TDV2DC4z3, Edie Yas6xb4F7T8mxeuOkPZf).
 - Clip 2 lines (not made): Edie "She's loved fragrance her whole life, and she's too shy to stand here herself, so we do it for her." / Margaux "Every opinion you hear from us is hers. Honest, and literal." / Edie "Come and smell with us."
 - Balance before this work: 2,437.57 credits.
+
+## Intro video "We are AI / Ginger", clips 2 to 4 (5 Oct 2026)
+- Script locked with Ginger: Part 2 meet Ginger, Part 3 what she has been holding in, Part 4 lore (per fumum, ambergris). Persona note: Ginger is the 41 year old mum of two with AuDHD behind the duo; user chose to name her and say AuDHD on camera.
+- Fact checks for Part 4 (Exa, 5 Oct 2026): "per fumum, through smoke" confirmed by Britannica and Wikipedia (Etymonline: Latin per + fumare via French; OED: borrowing from French). Ambergris from sperm whales confirmed by Natural History Museum, Britannica, Smithsonian; NHM says whether it is vomited or passed from the intestine is disputed, so Margaux's line is "Technically, probably intestinal." Edie's line softened to "a lot of early perfume was burned, not worn."
+- Clip 2 (Ginger intro, seedance_2_5, 15 s, native audio): dee407ae-5c56-48dc-9f6e-1a2490ca81a8. Frame check OK, static two-shot held. Audio not reviewed by ear.
+- Clip 3 (rabbit holes): 3bfbf540-a86b-4607-b364-2e91acd53473. Frame check OK. Audio not reviewed by ear.
+- Clip 4 (lore): f0a58a52-0836-4f3a-9189-9a58436c14b3. STATUS nsfw (moderation). No video. Cause unknown; not retried yet.
+- Observation: in clips 2 and 3 Margaux reads as wearing a black blazer over the deep V, not the loose silk shirt in the still bac93873.
+- Balance after clips 2 and 3: 1,867.09 credits.
