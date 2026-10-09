@@ -247,6 +247,8 @@ Consistency: reference image(s), character/style reference, seed
 Variants: 3 hooks x 2 formats x 2 palettes
 ```
 
+For Higgsfield video (Seedance, Cinema Studio) use the labelled form instead, STYLE / ACTION with @Image chips / CAMERA / CONSISTENCY / AUDIO / CONSTRAINTS, documented with the connector mapping and credit costs in file 08, "The Seedance reference prompt (Higgsfield Elements grammar)".
+
 ## Part L. Critique protocol (for work Shannon shares)
 
 1. What is it trying to do (state the brief back)?

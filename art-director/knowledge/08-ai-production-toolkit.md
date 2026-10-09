@@ -348,6 +348,60 @@ Constraints: [what must not change].
 - **Veo / Omni / Kling / Seedance**: full shot grammar plus audio; one move and one action per clip; use first/last frames for endings that land on the product.
 - **Higgsfield Cinema Studio**: put lens, camera, genre, era and tempo in the panel, keep the prompt for story and action.
 
+### The Seedance reference prompt (Higgsfield Elements grammar)
+
+Borrowed from the Higgsfield Seedance 2.0 panel (screens Shannon shared 2026-10-09 [P]). The prompts that work there follow one shape: style first, every subject bound to a reference chip the first time it is named, the action as three beats, the camera plan as its own labelled sentence, and the consistency line at the end. Use this shape for every Higgsfield video brief, and the keyframe briefs that feed it.
+
+**Template**
+
+```
+STYLE: [render world and medium in one line: "2D Disney animation style" / "Mixed media, live-action integration" / "Pixar-style 3D"].
+ACTION: @Image1 ([Name]) [what they are and how they stay themselves], while [Name] (from @Image2) [what they are].
+They [situation] in [setting] (@Image3). [Beat 1]. Suddenly, [Beat 2]. [Beat 3].
+[Contrast line when media mix: "X's animated expressions contrast with Y's realistic straining face."]
+CAMERA: [shot plan: "Alternating extreme close-ups of X's eyes and Y's arm muscles" / "slow push-in, then cut to interior"].
+CONSISTENCY: Maintain perfect character consistency across all frames. Smooth 24fps motion.
+AUDIO: [ambience], [SFX], [music mood], [no dialogue / dialogue in quotes].
+CONSTRAINTS: [no text, no logos except ..., no extra limbs].
+```
+
+**Rules the screens show**
+
+- Style is declared before any subject, so the model does not inherit the look of the first reference.
+- Each named subject gets its chip once, with parentheses tying name to chip: `@Image 1 (Bob)` or `Dan (from @Image 2)`. After that the bare name is enough.
+- Locations are chips too: `a gritty real-world dive bar (@Image 3)`.
+- One action verb per beat, three beats per 15-second clip. "Suddenly" marks the turn.
+- When two media mix, one explicit contrast line tells the model what not to blend.
+- CAMERA is a separate labelled sentence at the end, never buried in the action.
+- Panel settings seen: Seedance 2.0, 15 s, 16:9 (9:16 for social), 1080p, Elements on, audio On, each reference set to Use as Reference, Start Frame or End Frame. The 15 s 1080p button showed 180 credits, 135 on the discounted tier.
+
+**How the same prompt runs through the connector**
+
+| In the Higgsfield panel | In the MCP call |
+|---|---|
+| `@Image N` chips | `params.medias` entries with role `image_references` on `seedance_2_5` (mode `omni_reference`), listed in the order the prompt names them; the prompt says "Reference 1 is ..., reference 2 is ..." because the connector has no inline chips |
+| Saved Elements (reusable @name) | `manage_reference_elements` action `create` from a `media_input` or `image_job`, then write `<<<element_id>>>` inline in the prompt; the backend rewrites it to `@name`. Works on `seedance_2_0`, `nano_banana_pro`, `nano_banana_2`, `gpt_image_2`, Seedream and Cinema Studio; `kling3_0` also needs a `start_image` [P] |
+| Use as Start Frame / End Frame | roles `start_image` / `end_image` |
+| Elements on, audio On | `generate_audio: true`; references as above |
+| Reference / Start / End per image | one keyframe pair per clip (start and end), generated first with `gpt_image_2_5` or `nano_banana_pro`, approved, then fed to video |
+
+Credit preflights on 2026-10-09 (`get_cost` [P]): `seedance_2_5` omni_reference with audio, 5 s 1080p 60; 15 s 1080p 180; 15 s 720p 105; 15 s 480p draft 45. `nano_banana_pro` 2k frame 2. `gpt_image_2_5` high 2k frame 2.75. A preset recommendation can come back instead of a job; resubmit with `declined_preset_id`.
+
+**Worked example** (Driving Miles, clip 2, Greenway Kia West Palm Beach)
+
+```
+STYLE: Pixar-style 3D animated commercial, polished feature-film render.
+ACTION: @Image1 (Miles, apricot Cavapoo, orange bandana, employee badge) drives, paws on the wheel,
+while @Image2 (Mike, mustache, swept-back salt-and-pepper hair, navy polo) rides in the passenger seat,
+inside the Telluride cabin (@Image3), oceanfront road at sunset outside. Miles flicks gold aviators down
+from the top of his head with one paw and settles back, deadpan. Suddenly Mike reaches up to the visor,
+pulls down black wayfarers and puts them on. Both face straight ahead by the end.
+CAMERA: Locked two-shot from the dashboard, one continuous take, ears and hair lift in the window breeze.
+CONSISTENCY: Maintain perfect character consistency across all frames. Smooth 24fps motion.
+AUDIO: Upbeat synth-pop bed lifts on the sunglasses moment, soft wind, no dialogue.
+CONSTRAINTS: No text, no logos, no extra limbs.
+```
+
 ### Consistency techniques
 
 | Technique | What it locks | Where |
