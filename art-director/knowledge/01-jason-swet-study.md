@@ -199,6 +199,31 @@ The spectrum:
 - **MAD Decks 001 (9 and 15 Sep)**: a five-day sale, **$57** per his caption. Four decks: the Quick Pitch Deck, the Full Pitch Deck, the Vendor Deck, the Feedback Deck. Each has an editable template with guidance, a built-out example deck and spec campaign, Figma, Google Slides and PowerPoint versions, plus a mini course with two lessons from his NEXT Art Director bootcamp. The Vendor Deck and Feedback Deck are the useful idea: a deck for briefing the people who execute, and a deck for structuring feedback.
 - **Performance read**: in these 15 posts the median is 30.2K views. The biggest is Theory of Taste Ep. 3 (337K, 25.4K saves, 7.5% save rate, 0.89% share rate). Long-form teasers that just say "Full video on the YT channel" got the least reach (5.8K and 9.5K views). The framework and format posts (the technique ladder, taste episodes) lead.
 
+## Update: his YouTube teaching and podcast videos (20 videos, distilled 2026-10-10)
+
+Full notes with sourcing flags: `art-director/research/jason-swet-youtube-notes.md`. Everything here is his own account (maker's claims). Ideas below are the ones not already covered above.
+
+### Ideas the agent can use directly
+
+- **Insight, idea, concept ladder**: an insight is an unspoken human truth rooted in behavior, with tension, and actionable. An observation is not an insight. Ask why until it turns emotional, then add conflict. To find it, rewrite the observation more "savagely" (a Mark Pollard technique he cites). The insight is not the idea; the idea is what you do with it, stated as a verb phrase. Say the idea internally before any tagline ("Snickers is a hunger-fixing personality reset"). A platform should fit on a Post-It note.
+- **Art direction ingredients**: execution is a menu of visual decisions (color, lighting, texture, depth of field, casting, medium, type, music). A strong piece leans on two to three standout ingredients and threads one across every touchpoint. Test each ingredient on a spectrum: visual feeling (supports the copy) versus visual device (is the message, any subject can be slotted in).
+- **Three levels of articulating taste**: like or dislike, then feeling (a metaphor or reference, such as "Michel Gondry"), then named ingredients (flash lighting, hand-drawn mixed media). Use feelings with clients and ingredients to brief executors and vendors. Save with a reason, title collections by feeling, then click through to the source photographer, director and their rep or agency.
+- **Hook checklist**: sparks curiosity, reframes the familiar, instantly understandable, hits a nerve, aligned with the idea so there is a payoff. A hook catches and holds; clickbait only catches. "Clear, not clever." Music hooks: mismatch, amplifier, sonic signature.
+- **Mood board finishing**: justify every image, apply one unifying layer (color grade, LUT or subtle grain), compose like a film (close-up, wide, texture), then a client-hat check for misreadings.
+- **Break it down and steal one note**: when you like a piece of work, name exactly why and build only that element into the next piece (one film scene's mood, one flash technique). Lean into weakness as style (rough, scribbly, grainy) and imprint your own framing on an unfamiliar subject.
+- **Time-based finish line and minimum viable scope**: scope the project to the time you can guarantee, so the timer ending is the finish. Make everything shorter than you think. Price work so you could hire someone else to do it.
+- **Portfolio and pitch criteria he uses**: the thumbnail tells the idea at a glance; one key visual locks up the campaign; insight and idea stated in a short overview; STAR write-ups (situation, task, actions, results; results can be shares, press, awards); one-line label per thumbnail; state plainly what you are; no text over photos; passion projects near the top; every decision should communicate something. Passion projects become portfolio pieces by plussing them up, naming and branding them, giving them a beginning, middle and end, and showing process.
+- **Portfolio mix rubric**: one or two 360 campaigns (4 to 10 touchpoints), one craft piece, one or two passion projects, optional social, experimental and real-world stunt pieces. Four to six pieces, none weak.
+- **Designer versus art director**: designer maximizes clarity and effect; art director maximizes attention, surprise and impact (he quotes Hegarty's framing). On AI he says it squeezes the middle between vision and execution, and warns that AI mockups for pitches are fine but final execution narrows aesthetic exploration (dated, circa 2022 to 2025).
+- **Short-form workflow**: script word for word (about 70 to 90 words for 30 to 45 seconds), teleprompter, clean cuts only, captions, a one-hour limit. Background as visual hook. A fear-of-missing-out content test: what would someone miss if they did not know this?
+
+### How this applies to the Greenway "Don't Get Outfoxed" campaign
+
+- The ingredients menu gives a clean way to brief Higgsfield and any human puppet maker: stop-motion on twos, felt and storybook textures, one warm lamp light, miniature dealership scale. Keep to two or three standouts and name them in every prompt.
+- Test the hook with his checklist before spending more credits: the Fox as the friendly "no fees" lie is curiosity plus a reframe of a familiar fairy tale.
+- Key visual: one frame that locks up the whole idea (the Shopper at the dealership door with the Fox behind the sign) is worth more than extensions.
+- Weakness as style: slightly handmade stop-motion jitter reads as intentional, not as an AI failure.
+
 ## How the agent should use this study
 
 1. Default concept workflow: **Insight ("people think X, but really Y") → Idea (a verb) → Look and feel (metaphor + written boundaries) → Executions**, then size the idea on the Idea Sizing scale and say whether it's a tactic, one-off, execution, campaign, or platform.
