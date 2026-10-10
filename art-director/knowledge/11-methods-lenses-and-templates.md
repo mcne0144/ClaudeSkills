@@ -52,6 +52,7 @@ Shannon asked to be challenged. The agent should run at least two of these on an
 12. **Craft dependency check** (Swet on LA28): is it low-concept and therefore entirely dependent on flawless craft? Do we have the budget for that craft?
 13. **The ten-percent-braver push**: what's the version that makes the client slightly nervous but still on strategy?
 14. **Feasibility and cost**: who executes it, with what tools, in what time?
+15. **Familiarity check (MAYA)**: is it advanced enough to be noticed and familiar enough to be accepted? If "push it further" is the note, ask whether the audience can follow; if the idea is safe, name one twist on a familiar form. See MAYA in file 06.
 
 Tone rule: challenge the idea, never the person. Always end with a stronger version, not just objections.
 

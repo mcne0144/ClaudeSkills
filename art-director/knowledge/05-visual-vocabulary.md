@@ -25,7 +25,7 @@ Jason Swet's rule applies throughout: three levels of language. **Feeling** (for
 - **Emphasis / focal point**: where attention lands first. **Isolation effect** (von Restorff): the one thing different from its neighbors is remembered.
 - **Rhythm**: repetition with variation creating tempo. Regular, alternating, progressive, flowing.
 - **Repetition / pattern**: repeated elements build a system and recognition. Repetition is what turns a motif into a brand (see Bright Matter's punched dot).
-- **Proportion and scale**: size relationships. Scale shift (making a familiar thing huge or tiny) is one of the cheapest ways to make an ad strange enough to notice.
+- **Proportion and scale**: size relationships. Scale shift (making a familiar thing huge or tiny) is one of the cheapest ways to make an ad strange enough to notice. **Scale disparity** (Jason Swet, 2026) is the named technique: dramatically different sizes put together in one frame.
 - **Unity / harmony**: everything feels like one family. **Variety** keeps unity from becoming monotony.
 - **Movement / directional cues**: how the eye travels. Diagonals create energy; horizontals calm; verticals assert.
 - **Alignment**: elements share edges or axes. Invisible alignment is what makes "amateur" look "designed."
@@ -40,7 +40,7 @@ Jason Swet's rule applies throughout: three levels of language. **Feeling** (for
 - **Golden ratio / golden spiral** (1:1.618): widely claimed in design and nature; evidence that viewers prefer it is weak and contested. Use as a proportion tool, never as a selling argument.
 - **Center framing / symmetrical framing**: frontal, confrontational, iconic (Wes Anderson, Kubrick one-point perspective).
 - **Leading lines**: roads, rails, arms, edges pointing to the subject.
-- **Frame within a frame**: doorways, windows, mirrors, screens. Adds depth and voyeurism.
+- **Frame within a frame**: doorways, windows, mirrors, screens. Adds depth and voyeurism. Jason Swet teaches it as a named art direction technique: use an opening or boundary inside the image to frame the subject.
 - **Foreground interest / layering**: something close to the lens creates depth. Jason's "think 2D" tip: a foreground element and an empty room still reads as a designed set.
 - **Fill the frame / tight crop**: intimacy, intensity, detail (Jason's favorite: "awkwardly close-up photography").
 - **Dutch angle (canted)**: tilted horizon, unease.

@@ -1,6 +1,6 @@
 # Study: Jason Swet (@jason_swet), "The Art Direction of Everything"
 
-Source base: a scrape of @jason_swet run 2026-10-03 (Apify `clockworks/tiktok-scraper`): the 80 most popular videos with captions and stats, the 150 most recent accounts he follows, and machine transcripts of 33 teaching videos. Every quote below is from his own captions or transcripts **[primary: the creator's own words]**. Transcripts are speech-to-text, so proper names were corrected against his captions (for example "Isle of Annie" in audio is "Isle of Any" in his caption; "Sylvester Macco" is "Szilveszter Makó").
+Source base (updated 2026-10-10 with his latest 15 videos, see the update section below): a scrape of @jason_swet run 2026-10-03 (Apify `clockworks/tiktok-scraper`): the 80 most popular videos with captions and stats, the 150 most recent accounts he follows, and machine transcripts of 33 teaching videos. Every quote below is from his own captions or transcripts **[primary: the creator's own words]**. Transcripts are speech-to-text, so proper names were corrected against his captions (for example "Isle of Annie" in audio is "Isle of Any" in his caption; "Sylvester Macco" is "Szilveszter Makó").
 
 ## Who he is
 
@@ -64,13 +64,15 @@ His central metaphor: taste is food. He pushes it as far as it will go.
   - **Elite taste**: criteria gatekept by access or privilege; mainstream envies it.
   - **Commercial taste**: the CD's sense for what fits business objectives. "A little flavor of aspiration mixed with something familiar and inviting."
   - "Everyone loves a burger, but even burgers can't be served every meal."
-- Ep. 5 (teased): the senses beyond taste.
+- **Ep. 5 (season finale, 22 Sep)**: stop tasting and start cooking; taste judges what exists, vision imagines what doesn't. Full notes in the update section below.
 
 ### 5. Named visual techniques (his growing toolbox)
 
 - **Figure/ground reversal**: when the visual is too obvious, "turn the subtraction into the subject."
 - **Genre quotation / visual quotation / pastiche**: when visuals don't mean anything, borrow the codes of a known genre, era, format, or specific work. The borrowed association does the talking and lets viewers predict what comes next.
-- **Form substitution**: when too literal, "use the shape of one thing to mean something else."
+- **Form substitution**: when too literal, "use the shape of one thing to mean something else." His fuller definition (9 Oct): one thing takes on the recognizable shape of something else while keeping its own identity.
+- **Scale disparity** (9 Oct): put things of dramatically different sizes together.
+- **Frame within a frame** (9 Oct): use an opening or boundary inside the image to frame the subject.
 - **Visible facture**: facture is how a thing was made; show the process (paint strokes, the pen line, handmade props). Seen in Szilveszter Makó's painterly photography and Polaroid's ballpoint campaign.
 - **Hockney joiner (panography)**: Hockney disliked that a photo freezes one instant; the eye takes hundreds of micro-snapshots over time. Use it to collapse time into one frame: sports motion, attention or distraction, accumulation, time-lapse ideas. Always "trace back the visual lineage."
 - **Contrast** (Rosalía, "Berghain", by production company Canada, director Nicolás Méndez): "bringing clearly disparate subjects together." An orchestra crammed into mundane spaces but lit naturally: "High art shoved into the mundane." Contrast can be of subjects and situations, not only color or scale.
@@ -145,11 +147,63 @@ From the 150 most recent follows. Full profiles live in `02-reference-network.md
 - **Urbanism and space**: Talking Cities, Dear Modern (architect, feng shui), Design Daddy, Lone Fox, Emily and Lucas DIY, Heidi Caillier (referenced).
 - **Brands he watches**: lululemon, GoPro, Burton, Lucky Energy, CapCut, TikTok for Business, FC Barcelona, Premier League, MLS (football is his personal passion and a recurring case-study category).
 
+## Update: his latest videos (15 posts, 2026-09-04 to 2026-10-09, re-scraped 2026-10-10)
+
+Source: Apify `clockworks/tiktok-scraper`, the 15 newest videos with TikTok's own subtitle files. Quotes are from those subtitles and his captions **[primary: the creator's own words]**. Stats are the public counts at scrape time. A few of his factual claims below are flagged because I have not checked them against a primary source.
+
+### The technique-card format (his newest hit)
+
+- **30 Sep (83.7K views, 12.1K likes, 4.5K saves, 5.4% save rate)**: a 17-second "technique ladder". Caption: "Let's find a visual solution that actually rewards the viewer's attention... Been seeing this format a lot in the design space. Thought I'd play with the format in the art direction world." He borrowed a design-world format and applied it to art direction.
+- **4 Oct (7.6K views, 3.8% save rate)**: the same ladder re-cut: "Too obvious. Try figure ground reversal. Turn the subtraction into the subject. If your visuals don't mean anything, try genre quotation. Reference something too literal, try form substitution. Use the shape of one thing to mean something else." Lower reach for the repeat, a reminder that a format wins once and fades fast.
+- **9 Oct (30.2K views, 8.4% save rate, the best save rate in this batch)**: "3 art direction techniques you should know," closing "Save this video next time you're stuck on a visual idea." Direct ask to save, in a framework video. Three new definitions:
+  - **Form substitution**: "when one thing takes on the recognizable shape of something else while keeping its own identity."
+  - **Scale disparity**: "when you put things of dramatically different sizes together."
+  - **Frame within a frame**: "when you use an opening or boundary inside the image to frame your subject."
+- Pattern worth copying: a problem-led ladder ("too obvious, meaningless, too literal") with one named technique per line, fast and visual. It is the same retrieval-cue structure as his Idea Sizing chart. Save rates run 3.7% to 8.4% across this batch (my calculation from public counts).
+
+### The "visual ingredients" spectrum (long-form teasers, 28 Sep and 1 Oct)
+
+His YouTube episode, teased on TikTok ("If 1-3 minute reels are too short, go check out the YouTube channel"), tackles a real question: what is an art director's tool? A photographer has a camera, a painter a brush, a designer software. His answer: **ingredients, frameworks and principles you reuse**, and he frames the role two ways: "visual orchestration" (you conduct the visuals, or you are a "one man band" who puts on each hat) and "a chef" (leads a kitchen, but can assemble the ingredients alone).
+
+The spectrum:
+- **Left side, "visual feeling"**: the concept is carried by copy or dialogue, and the visual ingredients support it. Example: the Polaroid campaign. "You read the headlines and you get what they want you to understand," but the photography of specific moments plus the **handwritten ballpoint pen** make you feel it. "You could imagine this just being Helvetica... we wouldn't feel it in the same way."
+- **Right side, the visuals are the concept**: "sometimes when you pair the right ingredients together they can become the message itself." Example he gives: the Lego ads, where the product is paired with a shadow that does not match (two blocks cast the shadow of a boat or a dinosaur). He reads the concept as "the simplest building blocks can unlock the most vivid imaginations in a child, but we don't have to say that." He calls it "a visual device that just has endless possibilities." [His description; I have not verified the agency, date or exact executions.]
+- Use: ask where a project sits. Copy-heavy or dialogue-heavy work needs ingredients that support. Work with little copy needs a visual device that carries the whole idea.
+
+### Theory of Taste, Ep. 5 and season finale (22 Sep, 11.9K views)
+
+- Thesis line: "If you want to develop insatiable taste, you eventually gotta stop tasting and start cooking."
+- Taste is a metaphor: "We borrowed the tongue to describe the mind's palette," and it recurs across languages (French, Thai, German).
+- His claim: Aristotle ranked the senses with taste near the bottom and sight on top. "Taste judges what already exists. Vision imagines what doesn't." [Aristotle ranking is his claim; not verified here.]
+- Recap of the series: broaden the inputs, articulate your taste (flavors and ingredients you like and dislike), immerse until you gain fluency, then map other people's tastes and who you want to serve.
+- Call to action: "look up from your plate. Start using your eye, your vision, your imagination or delusions... Start asking yourself, what would you like to see?" The shift is from "what do I like" to "what would I like to see."
+- He asked viewers if there should be a Season 2.
+
+### The Makó breakdown (24 Sep, 42.7K views): technique stacking
+
+- Hook: "This is why your art lacks direction. We are not obsessing enough." Subject: Hungarian photographer and art director Szilveszter Makó. The look is "painterly," borrowing from fine art: 2D posing, little feet turned, subdued expressions, a direct Nosferatu reference.
+- He names **visual quotation** (borrowing the codes of a known genre, period, format or specific work) and **visible facture** (the process is shown: paint strokes, handmade props) and makes the point that "none of these pieces of work are a single technique." Techniques overlap, and the unique look comes from the constraints of one world (photography) overlapping another (painting).
+- Takeaway: name each technique, then stack two. A look that is only one technique reads as a trend; two stacked read as a style.
+
+### The MAYA principle and the limit of "push it further" (8 Sep, 7.9K views)
+
+- Problem: the most common feedback a young creative gets is "push it further." Counterweight: **MAYA, Most Advanced Yet Acceptable**, an industrial design principle credited to Raymond Loewy, plus mere exposure ("we rate things we've already seen as better").
+- His three applications: (1) **find the sweet spot** where something feels advanced but stays grounded in what the user already accepts; (2) **gradual evolution**, introducing the future in small, digestible steps; (3) **familiar with a twist**, which is reframing the familiar, "a common principle in visual hooks."
+- Examples he offers: Apple (gradual evolution) and Spotify's Discover Weekly mixing known and new tracks ("and I guess that performs better," his hedge, not a sourced fact).
+- His open question, worth keeping: "How do you find that limit without risk of failure? Or is failure required for true creative limits to be revealed?"
+- Sourcing check: MAYA is attributed to Loewy and traced to his 1951 autobiography *Never Leave Well Enough Alone* in secondary sources (Everyday Concepts, a ResearchGate paper, IxDF) **[secondary: not read in the primary book]**. Mere exposure is graded in file 06.
+
+### Other notes from the batch
+
+- **Who deserves the spotlight (4 Sep, 36.7K views)**: he asks which content and personal-brand creative directors deserve attention and admits he mostly sees "white dudes," asking to be pointed toward women and Black and brown creatives. For the agent: when naming reference creatives, widen the roster and credit people from the source culture.
+- **MAD Decks 001 (9 and 15 Sep)**: a five-day sale, **$57** per his caption. Four decks: the Quick Pitch Deck, the Full Pitch Deck, the Vendor Deck, the Feedback Deck. Each has an editable template with guidance, a built-out example deck and spec campaign, Figma, Google Slides and PowerPoint versions, plus a mini course with two lessons from his NEXT Art Director bootcamp. The Vendor Deck and Feedback Deck are the useful idea: a deck for briefing the people who execute, and a deck for structuring feedback.
+- **Performance read**: in these 15 posts the median is 30.2K views. The biggest is Theory of Taste Ep. 3 (337K, 25.4K saves, 7.5% save rate, 0.89% share rate). Long-form teasers that just say "Full video on the YT channel" got the least reach (5.8K and 9.5K views). The framework and format posts (the technique ladder, taste episodes) lead.
+
 ## How the agent should use this study
 
 1. Default concept workflow: **Insight ("people think X, but really Y") → Idea (a verb) → Look and feel (metaphor + written boundaries) → Executions**, then size the idea on the Idea Sizing scale and say whether it's a tactic, one-off, execution, campaign, or platform.
 2. Always write the mood board down: feelings, a metaphor template, then named ingredients, then who can execute.
-3. When a concept is weak, run his diagnostics: too obvious → figure/ground reversal; meaningless → genre quotation; too literal → form substitution; flat → contrast of subjects; forgettable → reframe the familiar; generic → visible facture.
+3. When a concept is weak, run his diagnostics: too obvious → figure/ground reversal; meaningless → genre quotation; too literal → form substitution; flat → contrast of subjects; forgettable → reframe the familiar; generic → visible facture; static composition → frame within a frame; no drama in the scene → scale disparity; one technique feels like a trend → stack two techniques. Check the ambition with MAYA (Most Advanced Yet Acceptable): is it new enough to notice and familiar enough to accept?
 4. Trace visual lineage for every reference (who did this first, what DNA does it share).
 5. Ask "whose taste?" (mainstream, cultural, counter, elite, commercial) before judging any direction. Respect that cultural taste is earned by lived experience.
 6. Treat creators as creatives upstream; prefer ritual over reach for community; prefer enabling culture over hijacking it.

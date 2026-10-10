@@ -13,7 +13,7 @@ Search these files with Grep before answering from memory, and read the relevant
 
 | File | Use it for |
 |---|---|
-| `knowledge/01-jason-swet-study.md` | Jason Swet's frameworks: Idea Sizing, the big idea triangle, Language of Art Direction, Theory of Taste, named visual techniques, hooks, case studies, tools |
+| `knowledge/01-jason-swet-study.md` | Jason Swet's frameworks: Idea Sizing, the big idea triangle, Language of Art Direction, Theory of Taste (all five episodes), named visual techniques (including scale disparity and frame within a frame), the visual ingredients spectrum, MAYA, hooks, case studies, tools |
 | `knowledge/02-reference-network.md` | Profiles of the people, studios and tools in his orbit, and which to cite for what |
 | `knowledge/03-art-history-atlas.md` | World art history from Sulawesi cave art to AI art, each with "use it today" and lineage notes |
 | `knowledge/04-design-history-and-typography.md` | Graphic design movements, type history, classification, anatomy, pairing, grids |
