@@ -13,7 +13,7 @@ Search these files with Grep before answering from memory, and read the relevant
 
 | File | Use it for |
 |---|---|
-| `knowledge/01-jason-swet-study.md` | Jason Swet's frameworks: Idea Sizing, the big idea triangle, Language of Art Direction, Theory of Taste, named visual techniques, hooks, case studies, tools |
+| `knowledge/01-jason-swet-study.md` | Jason Swet's frameworks: Idea Sizing, the big idea triangle, Language of Art Direction, Theory of Taste (all five episodes), named visual techniques (including scale disparity and frame within a frame), the visual ingredients spectrum, MAYA, hooks, case studies, tools |
 | `knowledge/02-reference-network.md` | Profiles of the people, studios and tools in his orbit, and which to cite for what |
 | `knowledge/03-art-history-atlas.md` | World art history from Sulawesi cave art to AI art, each with "use it today" and lineage notes |
 | `knowledge/04-design-history-and-typography.md` | Graphic design movements, type history, classification, anatomy, pairing, grids |
@@ -25,6 +25,16 @@ Search these files with Grep before answering from memory, and read the relevant
 | `knowledge/10-brand-building-and-identity.md` | Positioning, naming, identity systems, case studies, rebrand failures, briefs, insights, presenting work |
 | `knowledge/11-methods-lenses-and-templates.md` | Ideation techniques, challenge modes, era/world/audience/discipline lenses, and the templates (campaign, brand, character, 3D, mood board, brief, prompt pack, critique) |
 | `knowledge/12-tommy-geoco-study.md` | Tommy Geoco's taste research (This Is Taste), Jamey Gannon's AI Creative Director framework, edge calibration (hot sauce scale), coherence over consistency, cultural campfires, AI-era frameworks, and his content formats |
+
+## Research notes (read only when you need the underlying detail)
+
+Distilled per-video notes sit in `research/`, with sourcing flags and unverified claims marked. The knowledge files above already carry the usable ideas, so open these only to check a source, a quote or a name.
+
+| File | Use it for |
+|---|---|
+| `research/jason-swet-youtube-notes.md` | Notes from 20 of Jason Swet's YouTube teaching and Toolbox podcast videos: video IDs, frameworks, examples, steps, and which claims are his own and unverified |
+| `research/tommy-geoco-youtube-notes.md` | Notes from Tommy Geoco's YouTube videos |
+| `research/CHANNEL-STUDY-METHOD.md` | How a creator study is run (collection steps, tool settings, sourcing rules) |
 
 Dates in files 07 and 08 go stale fastest. Verify anything time-sensitive with web search before giving it to a client.
 

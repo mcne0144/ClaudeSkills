@@ -232,6 +232,11 @@ Design for the scrolling, half-watching System 1 viewer: one idea, instant brand
 - **Status**: **Replicated with an inverted-U.** Bornstein (1989, *Psychological Bulletin*) meta-analysis of 208 experiments [peer-reviewed]; Montoya et al. (2017, *Psychological Bulletin*) found liking rises then falls with many exposures [peer-reviewed].
 - **Art direction implication**: Consistent assets and repetition build liking; plan rotation of executions inside one consistent look to avoid the downslope.
 
+### MAYA (Most Advanced Yet Acceptable)
+- **Says**: to sell something new, balance a futuristic design with familiar patterns so people do not reject it out of confusion. Credited to the industrial designer Raymond Loewy and traced to his 1951 book *Never Leave Well Enough Alone* [secondary sources: Everyday Concepts, ResearchGate, IxDF; I have not read the primary book].
+- **Status**: **Designer's rule of thumb, not a tested law.** It rhymes with mere exposure (above, replicated) and processing fluency (below), which give it a research basis, but I found no direct experimental test of MAYA itself.
+- **Art direction implication**: When asked to "push it further," find the sweet spot between new and acceptable: introduce the future in small steps, or use the familiar with a twist (reframe the familiar). Jason Swet teaches it this way (8 Sep 2026).
+
 ### Processing fluency
 - **Says**: things that are easier to perceive and process feel more true, more likeable, more familiar. Reber, Schwarz and Winkielman (2004, *Personality and Social Psychology Review*) [peer-reviewed].
 - **Status**: **Robust** across many paradigms.
