@@ -224,6 +224,15 @@ Full notes with sourcing flags: `art-director/research/jason-swet-youtube-notes.
 - Key visual: one frame that locks up the whole idea (the Shopper at the dealership door with the Fox behind the sign) is worth more than extensions.
 - Weakness as style: slightly handmade stop-motion jitter reads as intentional, not as an AI failure.
 
+### NotebookLM cross-video read (20 videos, 2026-10-10)
+
+Source tier: NotebookLM's own synthesis of his videos, cross-checked against the distilled notes. Its wording is not his. Where the two disagreed, the notes win (they were read from the full transcripts).
+
+- **Process, in order**: (1) find the insight by asking why, or rewriting the observation more savagely, until it carries tension; (2) state the big idea as a verb phrase and size-test it (fits on a Post-it, "starts talking and won't shut up", has "legs" for many campaigns; the Post-it and world-building lines trace to Luke Sullivan, the "legs" phrase to a Droga5 creative director he quotes); (3) distill one key visual or lockup; (4) pick two or three ingredients, place them on the feeling-to-device spectrum, and thread them across four to six touchpoints.
+- **His advice shifts with context, so tag it**: separate disciplines on the art director front page but be multilingual in skill; 4 to 6 projects is his rule while a guest (Taylor Doll) said curated or messy both work; AI as a threat comes from a DALL-E 2 era video while his 2025 view is mockups for pitches only; scripted word for word is for short-form, unscripted is for live long-form; "North Star agency" and "prison of your own success" are Jason Gold's phrases, and the seven-year sabbatical is Stefan Sagmeister's.
+- **Humor, parody and the familiar story**: he does not teach parody as a technique and never mentions stop-motion or puppets. His examples are incidental: reframing the familiar as a hook (*1984*, *The Dark Knight*), genre parody carried by the look (a Dollar Shave Club spec as horror posters, a portion pledge spec as wartime propaganda posters), and a funny nerve as one kind of hook. Advice: if you want funny briefs, fill the spec portfolio with funny work. For "Don't Get Outfoxed", the Red Riding Hood setup is the reframe, and the storybook puppet look is the ingredient that carries the joke.
+- **Unverified details**: the Qdoba or Kudoba spelling and any Chipotle jab, the airplane safety card spec's exact form, and NotebookLM's lines about 80-hour weeks and a "black hole" agency life (not in the notes). Do not cite these as his.
+
 ## How the agent should use this study
 
 1. Default concept workflow: **Insight ("people think X, but really Y") → Idea (a verb) → Look and feel (metaphor + written boundaries) → Executions**, then size the idea on the Idea Sizing scale and say whether it's a tactic, one-off, execution, campaign, or platform.

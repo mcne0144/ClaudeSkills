@@ -127,6 +127,8 @@ Insight: People think ___, but really ___.
 Idea (verb + object): ___
 Line / platform name:
 Idea size: tactic | one-off | execution | campaign | platform
+Hook (clear, not clever; must catch and hold, with a payoff tied to the idea):
+Key visual: one image that locks up the whole idea at a glance
 Look and feel:
   Feeling words:
   Metaphor: It's like ___ meets ___ / It should feel like ___ but ___
@@ -142,6 +144,10 @@ Executions by role:
 Variant system: hooks x formats x audiences (for Advantage+ / Smart+ style delivery)
 Measures: brand (recall, linkage, search lift) and activation (CPA, leads, sales)
 Risks and pre-mortem:
+Case study write-up (STAR, for portfolio or pitch; from Swet's portfolio videos):
+  Situation and task: the client challenge
+  Actions: strategy, concepting and the art direction choices made
+  Results: shares, press, awards or real-world impact (spec work can enter award shows)
 ```
 
 ## Part F. Brand creation template
@@ -217,6 +223,14 @@ Lineage: these references descend from ___
 Who can execute: photographers, directors, illustrators, studios, AI tools
 Boundaries (not this):
 Why it serves the idea:
+Finishing pass (from Swet's mood board and taste videos; template wording is NotebookLM's):
+  Every image justified: why is it here, which ingredient does it show? Cut what cannot answer.
+  Level 2 taste metaphor, for clients: a feeling or reference ("dreamlike", "a Michel Gondry collection").
+  Level 3 named ingredients, for executors: flash lighting, hand-drawn mixed media, toasted oak.
+  One unifying layer: a shared color grade, LUT or subtle grain across all images (he gives no percentage).
+  Rogue colors harmonized (mask the object, shift only that hue).
+  Composed like a film: mix close-ups, wides and textures; color spread evenly, nothing lopsided.
+  Client-hat check: anything that could be misread gets a caption or gets cut.
 ```
 
 ## Part J. Creative brief template
