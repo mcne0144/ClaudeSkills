@@ -1,0 +1,143 @@
+{
+  "name": "CLIENT: campaign purpose (for example, Win-back lapsed customers)",
+  "client": "Client name",
+  "mode": "lifecycle",
+  "_mode_note": "lifecycle = per-user decisions sent through email/SMS/push. paid_ads = per-segment creative allocation for Meta, Google, TikTok.",
+
+  "user_id_field": "user_id",
+  "audience": {
+    "source": "csv",
+    "path": "audience.csv",
+    "_path_note": "One row per eligible user. Export it from the client's CRM, Shopify, DMS, BigQuery, or a Zapier table. Keep the id stable between exports.",
+    "filter": [
+      { "field": "days_since_last_purchase", "op": "gte", "value": 60 }
+    ]
+  },
+
+  "experiment": {
+    "salt": "winback-2026q4",
+    "_salt_note": "Fixed string. Users hash to the same bucket forever as long as this does not change.",
+    "holdout_pct": 20,
+    "customer_managed_pct": 0,
+    "_customer_managed_note": "Set above 0 to keep a slice on the client's business-as-usual sends for a three-way comparison.",
+    "external_group_field": null
+  },
+
+  "features": ["segment", "loyalty_tier"],
+  "_features_note": "Audience columns the model may personalize on. Each distinct combination is a context with its own posterior, pooled toward the global estimate.",
+
+  "goals": [
+    {
+      "name": "purchase",
+      "event": "purchase",
+      "classification": "best",
+      "decisioning": true,
+      "attribution_days": 7,
+      "weight_field": "value",
+      "value_per_conversion": 60
+    },
+    { "name": "clicked", "event": "click", "classification": "good", "decisioning": true, "attribution_days": 3 },
+    { "name": "unsubscribed", "event": "unsubscribe", "classification": "worst", "decisioning": true, "attribution_days": 7 }
+  ],
+  "_goals_note": "classification: best, very_good, good, bad, very_bad, worst. Exactly one 'best'. value_per_conversion is used with offer costs to compute expected value.",
+
+  "channels": [
+    {
+      "name": "email",
+      "eligibility": [ { "field": "email_opt_in", "op": "true" } ],
+      "quiet_hours": { "start": "21:00", "end": "08:00" },
+      "max_per_week": 2
+    },
+    {
+      "name": "sms",
+      "eligibility": [ { "field": "sms_opt_in", "op": "true" } ],
+      "quiet_hours": { "start": "20:00", "end": "10:00" },
+      "max_per_week": 1
+    }
+  ],
+
+  "scheduling": {
+    "frequency_limit": { "max_sends": 3, "per_days": 7 },
+    "quiet_hours": { "start": "22:00", "end": "07:00" },
+    "blackout_days": ["2026-12-25"],
+    "timezone_field": "timezone",
+    "fallback_timezone": "America/New_York"
+  },
+
+  "smart_suppression": {
+    "enabled": true,
+    "send_to_top_pct": 80,
+    "min_send_probability": 0.01
+  },
+
+  "offers": [
+    { "id": "ten_off", "name": "$10 off next order", "cost_value": 10, "cost_multiplier": 0 },
+    { "id": "pct15", "name": "15% off", "cost_value": 0, "cost_multiplier": 0.15 }
+  ],
+
+  "synced_user_columns": ["first_name", "email"],
+  "_synced_note": "Audience columns copied into the send plan so the ESP can personalize. Keep it to what the destination needs.",
+
+  "messages": [
+    {
+      "id": "winback_email_discount",
+      "name": "Win-back email, discount",
+      "channel": "email",
+      "destination": "mailchimp",
+      "destination_ref": "campaign-or-template-id",
+      "enabled": true,
+      "tags": { "tone": "urgent", "offer_type": "discount" },
+      "offer": "ten_off",
+      "eligibility": [],
+      "send_limit": { "type": "time_window", "count": 1, "days": 30 },
+      "timeline": { "start": null, "end": null },
+      "delivery_windows": { "days": ["mon", "tue", "wed", "thu", "fri"], "hours": [[9, 12], [17, 20]] },
+      "variants": {
+        "subject": [
+          { "id": "s1", "text": "We saved you $10", "tags": { "frame": "value" } },
+          { "id": "s2", "text": "Come back this week and save", "tags": { "frame": "urgency" } }
+        ],
+        "cta": [
+          { "id": "c1", "text": "Claim $10 off" },
+          { "id": "c2", "text": "Shop now" }
+        ]
+      }
+    },
+    {
+      "id": "winback_email_product",
+      "name": "Win-back email, new arrivals",
+      "channel": "email",
+      "destination": "mailchimp",
+      "destination_ref": "campaign-or-template-id",
+      "enabled": true,
+      "tags": { "tone": "friendly", "offer_type": "none" },
+      "offer": null,
+      "eligibility": [],
+      "send_limit": { "type": "time_window", "count": 1, "days": 30 },
+      "variants": {
+        "subject": [
+          { "id": "s1", "text": "New this month, picked for you" },
+          { "id": "s2", "text": "You have not seen these yet" }
+        ]
+      }
+    },
+    {
+      "id": "winback_sms",
+      "name": "Win-back SMS, 15% off",
+      "channel": "sms",
+      "destination": "twilio",
+      "destination_ref": "messaging-service-id",
+      "enabled": true,
+      "tags": { "tone": "urgent", "offer_type": "discount" },
+      "offer": "pct15",
+      "eligibility": [ { "field": "loyalty_tier", "op": "in", "value": ["mid", "high"] } ],
+      "send_limit": { "type": "static", "count": 1 },
+      "variants": {
+        "body": [
+          { "id": "b1", "text": "15% off this week, just for you: {link}" },
+          { "id": "b2", "text": "It has been a while. 15% off anything: {link}" }
+        ]
+      }
+    }
+  ]
+}

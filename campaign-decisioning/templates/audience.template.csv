@@ -1,0 +1,3 @@
+user_id,email,first_name,segment,loyalty_tier,email_opt_in,sms_opt_in,days_since_last_purchase,timezone
+u000001,ana@example.com,Ana,a,high,true,true,75,America/New_York
+u000002,ben@example.com,Ben,b,low,true,false,120,America/Chicago

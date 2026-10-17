@@ -1,0 +1,4 @@
+user_id,event,timestamp,value
+u000001,click,2026-10-18T14:02:00Z,
+u000001,purchase,2026-10-19T09:30:00Z,84.50
+u000002,unsubscribe,2026-10-18T15:10:00Z,

@@ -18,6 +18,15 @@ Skills, agents and apps for Bright Matter.
 |---|---|
 | `rules-vs-guards-audit/SKILL.md` | Audits an AI agent or automation build: maps every hard rule to what enforces it (hook, deny list, gate, approval step, or a sentence only), rates the cost if broken, and lists the gaps to close. Also symlinked at `.claude/skills/rules-vs-guards-audit` |
 
+## Campaign Decisioning
+
+| Path | What it is |
+|---|---|
+| `campaign-decisioning/SKILL.md` | The skill: runs any client lifecycle or paid ad campaign the way Hightouch AI Decisioning does (audience, goals, messages, guardrails in; per-customer decisions, send plans, holdout lift and insights out). Also symlinked at `.claude/skills/campaign-decisioning` |
+| `campaign-decisioning/engine/decisioning.py` | The engine. Python standard library only. Verbs: init, validate, assign, run, outcomes, report, inspect, simulate |
+| `campaign-decisioning/templates/` | campaign.json templates for lifecycle and paid ads, plus the CSV shapes for audiences and outcomes |
+| `campaign-decisioning/examples/dealership-winback/` | A worked example with a sample report from a simulated run |
+
 ## Using Atelier
 
 Use it three ways:

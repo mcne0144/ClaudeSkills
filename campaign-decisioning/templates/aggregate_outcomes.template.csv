@@ -1,0 +1,4 @@
+segment,creative_id,group,impressions,conversions,spend,revenue
+segment=a,ad_ugc_testimonial,treatment,12000,48,310.00,3840.00
+segment=a,ad_product_demo,treatment,11500,31,298.00,2480.00
+segment=a,,holdout,0,9,0,720.00

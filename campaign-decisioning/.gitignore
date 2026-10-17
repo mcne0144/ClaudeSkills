@@ -1,0 +1,5 @@
+examples/*/state/
+examples/*/out/
+examples/*/reports/
+examples/*/audience.csv
+clients/

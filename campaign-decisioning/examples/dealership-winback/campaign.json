@@ -1,0 +1,28 @@
+{
+  "name": "Greenway: service win-back",
+  "client": "Greenway Automotive",
+  "mode": "lifecycle",
+  "user_id_field": "user_id",
+  "audience": { "source": "csv", "path": "audience.csv", "filter": [] },
+  "experiment": { "salt": "greenway-service-winback-2026q4", "holdout_pct": 20, "customer_managed_pct": 0 },
+  "features": ["segment", "vehicle_age"],
+  "goals": [
+    { "name": "service_booked", "event": "service_booked", "classification": "best", "attribution_days": 7, "weight_field": "value", "value_per_conversion": 180 },
+    { "name": "unsubscribed", "event": "unsubscribe", "classification": "worst", "attribution_days": 7 }
+  ],
+  "channels": [
+    { "name": "email", "eligibility": [ { "field": "email_opt_in", "op": "true" } ], "quiet_hours": { "start": "21:00", "end": "08:00" }, "max_per_week": 2 },
+    { "name": "sms", "eligibility": [ { "field": "sms_opt_in", "op": "true" } ], "quiet_hours": { "start": "20:00", "end": "10:00" }, "max_per_week": 1 }
+  ],
+  "scheduling": { "frequency_limit": { "max_sends": 3, "per_days": 7 }, "fallback_timezone": "America/New_York" },
+  "smart_suppression": { "enabled": true, "send_to_top_pct": 80 },
+  "offers": [ { "id": "oil_25", "name": "$25 off oil change", "cost_value": 25, "cost_multiplier": 0 } ],
+  "messages": [
+    { "id": "email_offer", "name": "Service reminder, $25 off", "channel": "email", "destination": "example_esp", "destination_ref": "tpl-1", "tags": { "tone": "urgent", "offer_type": "discount" }, "offer": "oil_25", "send_limit": { "type": "time_window", "count": 1, "days": 30 },
+      "variants": { "subject": [ { "id": "s1", "text": "$25 off your next oil change" }, { "id": "s2", "text": "Your {vehicle} is due. Save $25" } ] } },
+    { "id": "email_safety", "name": "Service reminder, safety check", "channel": "email", "destination": "example_esp", "destination_ref": "tpl-2", "tags": { "tone": "caring", "offer_type": "none" }, "send_limit": { "type": "time_window", "count": 1, "days": 30 },
+      "variants": { "subject": [ { "id": "s1", "text": "A quick check before winter" }, { "id": "s2", "text": "Is your {vehicle} ready for the cold?" } ] } },
+    { "id": "sms_offer", "name": "Service SMS, $25 off", "channel": "sms", "destination": "example_sms", "destination_ref": "svc-1", "tags": { "tone": "urgent", "offer_type": "discount" }, "offer": "oil_25", "eligibility": [ { "field": "vehicle_age", "op": "in", "value": ["mid", "high"] } ], "send_limit": { "type": "static", "count": 1 },
+      "variants": { "body": [ { "id": "b1", "text": "Greenway: $25 off your oil change this month. Book: {link}" } ] } }
+  ]
+}

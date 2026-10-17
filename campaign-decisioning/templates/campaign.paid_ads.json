@@ -1,0 +1,31 @@
+{
+  "name": "CLIENT: paid campaign purpose",
+  "client": "Client name",
+  "mode": "paid_ads",
+  "_mode_note": "Decisions are per segment, not per user. Arms are creatives. Output is a budget share per creative per segment plus customer lists per experiment group for Meta Custom Audiences or Google Customer Match.",
+
+  "user_id_field": "user_id",
+  "audience": { "source": "csv", "path": "audience.csv", "filter": [] },
+
+  "experiment": { "salt": "paid-2026q4", "holdout_pct": 10, "customer_managed_pct": 0 },
+  "_holdout_note": "Upload audience_holdout as an exclusion list on every ad set. That is the incrementality control.",
+
+  "features": ["segment"],
+
+  "goals": [
+    { "name": "purchase", "event": "purchase", "classification": "best", "attribution_days": 7, "value_per_conversion": 80 }
+  ],
+
+  "channels": [ { "name": "meta", "eligibility": [] }, { "name": "google", "eligibility": [] } ],
+  "scheduling": {},
+  "smart_suppression": { "enabled": false },
+  "offers": [ { "id": "free_ship", "name": "Free shipping", "cost_value": 8, "cost_multiplier": 0 } ],
+
+  "paid_ads": { "draws": 2000, "min_share_pct": 5 },
+
+  "messages": [
+    { "id": "ad_ugc_testimonial", "name": "UGC testimonial 9:16", "channel": "meta", "destination": "meta_ads", "destination_ref": "ad-id", "tags": { "format": "ugc", "hook": "social_proof" }, "eligibility": [] },
+    { "id": "ad_product_demo", "name": "Product demo 1:1", "channel": "meta", "destination": "meta_ads", "destination_ref": "ad-id", "tags": { "format": "demo", "hook": "feature" }, "eligibility": [] },
+    { "id": "ad_offer_static", "name": "Free shipping static", "channel": "meta", "destination": "meta_ads", "destination_ref": "ad-id", "tags": { "format": "static", "hook": "offer" }, "offer": "free_ship", "eligibility": [] }
+  ]
+}
