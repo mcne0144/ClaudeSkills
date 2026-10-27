@@ -1,0 +1,83 @@
+{
+  "channel": {
+    "name": "SET ME",
+    "handle": "",
+    "youtube_channel_id": "",
+    "language": "en",
+    "audience_country": "US",
+    "description_footer": "Scripts, research and narration for this channel are produced with AI assistance and reviewed by a human editor. Narration is a synthetic voice."
+  },
+  "niche": {
+    "primary": "AI News & Tools",
+    "backups": ["Science Explainers", "Tech Explainers", "Space & Astronomy"],
+    "operator_expertise": ["AI", "automation", "marketing", "agency", "software", "design"],
+    "avoid": ["Crypto News & Explainers", "Stock Market Recaps", "Personal Finance Tips", "Longevity & Health Science", "Weight Loss & Fitness Tips", "Side Hustle Ideas"],
+    "avoid_reason": "YouTube's July 2026 monetization clarification names AI personas giving advice on finance, health or legal topics as ineligible. See docs/POLICY.md."
+  },
+  "cadence": {
+    "videos_per_week": 3,
+    "publish_days": ["Tue", "Thu", "Sat"],
+    "publish_time_local": "15:00",
+    "timezone": "America/Chicago",
+    "evergreen_share": 0.6
+  },
+  "format": {
+    "target_minutes_min": 8,
+    "target_minutes_max": 12,
+    "words_per_minute": 150,
+    "resolution": "1920x1080",
+    "fps": 30,
+    "scene_seconds_target": 9,
+    "captions": true
+  },
+  "voice": {
+    "provider": "elevenlabs",
+    "voice_id": "nPczCjzI2devNBz1zQrb",
+    "voice_name": "Brian - Deep, Resonant and Comforting",
+    "model_id": "eleven_multilingual_v2",
+    "stability": 0.5,
+    "similarity_boost": 0.75,
+    "style": 0.2,
+    "chunk_chars": 4500
+  },
+  "visuals": {
+    "stock_provider": "pexels",
+    "orientation": "landscape",
+    "min_clip_seconds": 6,
+    "max_stock_share": 0.7,
+    "card_style": "dark",
+    "used_assets_ledger": "state/used_assets.json"
+  },
+  "music": {
+    "enabled": true,
+    "volume": 0.12,
+    "duck_to": 0.05
+  },
+  "publishing": {
+    "mode": "scheduled_private_until_approved",
+    "require_human_approval": true,
+    "default_privacy": "private",
+    "category_id": "28",
+    "made_for_kids": false,
+    "contains_synthetic_media": true,
+    "tags_max": 15
+  },
+  "quality_gates": {
+    "min_pov_sentences": 6,
+    "max_similarity_to_previous": 0.25,
+    "hook_max_words": 60,
+    "require_sources": 3,
+    "banned_phrases": ["in today's video", "without further ado", "let's dive in", "in conclusion", "game changer", "delve", "tapestry"]
+  },
+  "niche_scoring": {
+    "weights": {"rpm_tier": 0.30, "rising": 0.25, "outliers": 0.15, "cpc": 0.10, "seed_demand": 0.10, "effort": 0.10},
+    "fit_bonus": 0.15,
+    "policy_penalty": 0.5,
+    "shelf_life_penalty_for_news": 0.1
+  },
+  "targets": {
+    "monthly_ad_revenue_usd": 10000,
+    "assumed_rpm_usd": {"low": 4.8, "mid": 8.0, "high": 12.8},
+    "assumed_rpm_source": "vidIQ earnings calculator, channel, 1,000,000 monthly long-form views, Business category, US, en, read 2026-10-27"
+  }
+}

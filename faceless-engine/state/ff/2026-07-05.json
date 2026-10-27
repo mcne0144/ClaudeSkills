@@ -1,0 +1,2239 @@
+{
+  "source": "https://www.facelessfinder.com/report",
+  "fetched_at": "2026-10-27T01:42:42+00:00",
+  "niches": [
+    {
+      "rank": 1,
+      "name": "Crypto News & Explainers",
+      "rpm_tier": "HIGH",
+      "effort": "mid",
+      "rising": 1.92,
+      "outliers": 19,
+      "cpc": 3.86,
+      "freshness_pct": 45.0,
+      "seed_demand_per_month": 27000,
+      "breakouts": [
+        {
+          "multiplier": 916.8,
+          "url": "https://www.youtube.com/watch?v=eyyDNAj6K_c",
+          "video_id": "eyyDNAj6K_c",
+          "title": "Why the Bitcoin Crash is GREAT for YOU",
+          "channel": "The Infographics Show",
+          "views": 210000,
+          "age_days": 1,
+          "is_short": false
+        },
+        {
+          "multiplier": 326.3,
+          "url": "https://www.youtube.com/watch?v=SHroBbNtcbk",
+          "video_id": "SHroBbNtcbk",
+          "title": "Trump Just Replaced The Dollar With Cryptocurrency...",
+          "channel": "Minority Mindset",
+          "views": 141000,
+          "age_days": 2,
+          "is_short": false
+        },
+        {
+          "multiplier": 182.9,
+          "url": "https://www.youtube.com/watch?v=BJaFTu72AMc",
+          "video_id": "BJaFTu72AMc",
+          "title": "BREAKING NEWS: Crypto Clarity Act (FINAL CHANCE)!",
+          "channel": "Altcoin Daily",
+          "views": 42000,
+          "age_days": 1,
+          "is_short": false
+        },
+        {
+          "multiplier": 128.7,
+          "url": "https://www.youtube.com/watch?v=Dv9ED87QBdQ",
+          "video_id": "Dv9ED87QBdQ",
+          "title": "You Were Lied To About the Bitcoin Crash | Has the Reversal Already Started?",
+          "channel": "Simply Bitcoin",
+          "views": 56000,
+          "age_days": 2,
+          "is_short": false
+        },
+        {
+          "multiplier": 111.5,
+          "url": "https://www.youtube.com/watch?v=QWVR5WqiTvY",
+          "video_id": "QWVR5WqiTvY",
+          "title": "The Crypto Market Sell-Off Has Just Begun | Gary Cardone",
+          "channel": "Altcoin Daily",
+          "views": 24000,
+          "age_days": 1,
+          "is_short": false
+        }
+      ]
+    },
+    {
+      "rank": 2,
+      "name": "Stock Market Recaps",
+      "rpm_tier": "HIGH",
+      "effort": "mid",
+      "rising": 1.58,
+      "outliers": 15,
+      "cpc": 2.39,
+      "freshness_pct": 69.0,
+      "seed_demand_per_month": 5400,
+      "breakouts": [
+        {
+          "multiplier": 105.4,
+          "url": "https://www.youtube.com/watch?v=sLvhN-JVzpw",
+          "video_id": "sLvhN-JVzpw",
+          "title": "Tom Lee: Is a 10% to 15% Market Pullback Coming?",
+          "channel": "Fundstrat",
+          "views": 192000,
+          "age_days": 2,
+          "is_short": false
+        },
+        {
+          "multiplier": 64.5,
+          "url": "https://www.youtube.com/watch?v=At0RAgG_Fnc",
+          "video_id": "At0RAgG_Fnc",
+          "title": "5 Stocks To BUY HEAVY For July 2026",
+          "channel": "ZipTrader",
+          "views": 62000,
+          "age_days": 1,
+          "is_short": false
+        },
+        {
+          "multiplier": 53.4,
+          "url": "https://www.youtube.com/watch?v=8zXu5Yjv_ps",
+          "video_id": "8zXu5Yjv_ps",
+          "title": "Nvidia\u2019s latest gaming GPU just dropped",
+          "channel": "Paul's Hardware",
+          "views": 46000,
+          "age_days": 1,
+          "is_short": false
+        },
+        {
+          "multiplier": 38.2,
+          "url": "https://www.youtube.com/watch?v=WWRJJ1vBsnw",
+          "video_id": "WWRJJ1vBsnw",
+          "title": "Gold's Bloodbath, the Dollar Reset, and What Happens Next",
+          "channel": "Felix & Friends (Goat Academy)",
+          "views": 33000,
+          "age_days": 1,
+          "is_short": false
+        },
+        {
+          "multiplier": 34.9,
+          "url": "https://www.youtube.com/watch?v=5kDb4m51gt0",
+          "video_id": "5kDb4m51gt0",
+          "title": "Washington PANIC PUMPS Stocks as US Hyperscaler Just LIT The Fuse",
+          "channel": "Sean Foo",
+          "views": 64000,
+          "age_days": 2,
+          "is_short": false
+        }
+      ]
+    },
+    {
+      "rank": 3,
+      "name": "Movie Recaps",
+      "rpm_tier": "LOW",
+      "effort": "mid",
+      "rising": 1.48,
+      "outliers": 16,
+      "cpc": 0.0,
+      "freshness_pct": 69.0,
+      "seed_demand_per_month": 2600,
+      "breakouts": [
+        {
+          "multiplier": 214.7,
+          "url": "https://www.youtube.com/watch?v=4xhEJnQekzo",
+          "video_id": "4xhEJnQekzo",
+          "title": "Alpha Movie REVIEW | Deeksha Sharma",
+          "channel": "Filmi Indian",
+          "views": 762000,
+          "age_days": 2,
+          "is_short": false
+        },
+        {
+          "multiplier": 88.6,
+          "url": "https://www.youtube.com/watch?v=LTASkIOITX0",
+          "video_id": "LTASkIOITX0",
+          "title": "They Ripped Them Apart: Alpha Movie Most Brutal REVIEW",
+          "channel": "Suraj Kumar",
+          "views": 314000,
+          "age_days": 2,
+          "is_short": false
+        },
+        {
+          "multiplier": 54.9,
+          "url": "https://www.youtube.com/watch?v=vjyGEtZ8IUo",
+          "video_id": "vjyGEtZ8IUo",
+          "title": "Rao Bahadur Movie Review Telugu | Rao Bahadur Review | Telugu Movies",
+          "channel": "Movie Matters",
+          "views": 104000,
+          "age_days": 1,
+          "is_short": false
+        },
+        {
+          "multiplier": 41.4,
+          "url": "https://www.youtube.com/watch?v=_-gBhumGhUQ",
+          "video_id": "_-gBhumGhUQ",
+          "title": "ALPHA + BABY: Do Die Do | MOVIE REVIEW",
+          "channel": "ABHI KA REVIEW",
+          "views": 147000,
+          "age_days": 2,
+          "is_short": false
+        },
+        {
+          "multiplier": 39.5,
+          "url": "https://www.youtube.com/watch?v=v2XbI7ITHjc",
+          "video_id": "v2XbI7ITHjc",
+          "title": "Mollywood Times Movie REVIEW | Deeksha Sharma",
+          "channel": "Filmi Indian",
+          "views": 66000,
+          "age_days": 1,
+          "is_short": false
+        }
+      ]
+    },
+    {
+      "rank": 4,
+      "name": "AI News & Tools",
+      "rpm_tier": "HIGH",
+      "effort": "mid",
+      "rising": 1.19,
+      "outliers": 11,
+      "cpc": 8.03,
+      "freshness_pct": 79.0,
+      "seed_demand_per_month": 8100,
+      "breakouts": [
+        {
+          "multiplier": 88.0,
+          "url": "https://www.youtube.com/watch?v=towF0_V7oHw",
+          "video_id": "towF0_V7oHw",
+          "title": "Microsoft Admits it was Wrong About AI",
+          "channel": "The Infographics Show",
+          "views": 245000,
+          "age_days": 1,
+          "is_short": false
+        },
+        {
+          "multiplier": 47.4,
+          "url": "https://www.youtube.com/watch?v=5fbmWnJGCtc",
+          "video_id": "5fbmWnJGCtc",
+          "title": "Flock's A.I.-enabled street cameras see backlash across the country",
+          "channel": "NBC News",
+          "views": 132000,
+          "age_days": 1,
+          "is_short": false
+        },
+        {
+          "multiplier": 41.7,
+          "url": "https://www.youtube.com/watch?v=0A3sGymV6kY",
+          "video_id": "0A3sGymV6kY",
+          "title": "Palantir CEO Alex Karp says 'something has gone completely wrong' with how AI is sold",
+          "channel": "CNBC Television",
+          "views": 422000,
+          "age_days": 4,
+          "is_short": false
+        },
+        {
+          "multiplier": 27.5,
+          "url": "https://www.youtube.com/watch?v=qtzzN8w2TvU",
+          "video_id": "qtzzN8w2TvU",
+          "title": "Full body waifus, Claude Fable is back, LongCat 2.0, mind-reading AI, live video editing: AI NEWS",
+          "channel": "AI Search",
+          "views": 67000,
+          "age_days": 1,
+          "is_short": false
+        },
+        {
+          "multiplier": 26.5,
+          "url": "https://www.youtube.com/watch?v=EGAqQXVbqAc",
+          "video_id": "EGAqQXVbqAc",
+          "title": "Jackie DeAngelis: This is a 'MASSIVE GROIN PUNCH' in US' AI race against China",
+          "channel": "Fox Business",
+          "views": 74000,
+          "age_days": 1,
+          "is_short": false
+        }
+      ]
+    },
+    {
+      "rank": 5,
+      "name": "Celebrity & Pop Culture",
+      "rpm_tier": "LOW",
+      "effort": "low",
+      "rising": 0.84,
+      "outliers": 10,
+      "cpc": 0.18,
+      "freshness_pct": 63.0,
+      "seed_demand_per_month": 35000,
+      "breakouts": [
+        {
+          "multiplier": 79.5,
+          "url": "https://www.youtube.com/watch?v=zHLQvn2apFs",
+          "video_id": "zHLQvn2apFs",
+          "title": "What happened to The Long Drive?",
+          "channel": "Wicked Wizard",
+          "views": 353000,
+          "age_days": 4,
+          "is_short": false
+        },
+        {
+          "multiplier": 41.2,
+          "url": "https://www.youtube.com/watch?v=oyaRanqA8Ps",
+          "video_id": "oyaRanqA8Ps",
+          "title": "What Happened to Claus von Stauffenberg's Family After WW2?",
+          "channel": "History Inside",
+          "views": 139000,
+          "age_days": 3,
+          "is_short": false
+        },
+        {
+          "multiplier": 24.3,
+          "url": "https://www.youtube.com/watch?v=SmOAVA-etJw",
+          "video_id": "SmOAVA-etJw",
+          "title": "WHAT HAPPENED TO ZOELLA?!",
+          "channel": "Spill Sesh",
+          "views": 56000,
+          "age_days": 2,
+          "is_short": false
+        },
+        {
+          "multiplier": 23.8,
+          "url": "https://www.youtube.com/watch?v=2B0UdZd7xH8",
+          "video_id": "2B0UdZd7xH8",
+          "title": "Why people call Steve Harvey cold hearted and Selfish #celebritynews #steveharvey #celebheights",
+          "channel": "Casting Shadows",
+          "views": 26000,
+          "age_days": 1,
+          "is_short": true
+        },
+        {
+          "multiplier": 21.9,
+          "url": "https://www.youtube.com/watch?v=CbWXoKjPPHY",
+          "video_id": "CbWXoKjPPHY",
+          "title": "What Happened To California Gun Rights Is Coming Your Way",
+          "channel": "Colion Noir",
+          "views": 74000,
+          "age_days": 3,
+          "is_short": false
+        }
+      ]
+    },
+    {
+      "rank": 6,
+      "name": "Horror & Scary Stories",
+      "rpm_tier": "MID",
+      "effort": "low",
+      "rising": 0.82,
+      "outliers": 9,
+      "cpc": 1.03,
+      "freshness_pct": 55.0,
+      "seed_demand_per_month": 460,
+      "breakouts": [
+        {
+          "multiplier": 25.0,
+          "url": "https://www.youtube.com/watch?v=ggnba1jvR1s",
+          "video_id": "ggnba1jvR1s",
+          "title": "3 REALLY SCARY TRUE 4TH OF JULY HORROR STORIES ANIMATED",
+          "channel": "Horror Shorts Party",
+          "views": 69000,
+          "age_days": 1,
+          "is_short": false
+        },
+        {
+          "multiplier": 21.1,
+          "url": "https://www.youtube.com/watch?v=vigcyvSWSQ4",
+          "video_id": "vigcyvSWSQ4",
+          "title": "3 REALLY SCARY TRUE WALMART HORROR STORIES ANIMATED",
+          "channel": "Horror Shorts Party",
+          "views": 339000,
+          "age_days": 6,
+          "is_short": false
+        },
+        {
+          "multiplier": 12.7,
+          "url": "https://www.youtube.com/watch?v=NlcDwvtTgjQ",
+          "video_id": "NlcDwvtTgjQ",
+          "title": "3 True 4th of July Horror Stories Animated",
+          "channel": "IMR Scary Tales",
+          "views": 38000,
+          "age_days": 1,
+          "is_short": false
+        },
+        {
+          "multiplier": 11.1,
+          "url": "https://www.youtube.com/watch?v=F0qCBllDjQk",
+          "video_id": "F0qCBllDjQk",
+          "title": "11 Horror Stories Animated (Compilation of June 2026)",
+          "channel": "Wansee Entertainment",
+          "views": 33000,
+          "age_days": 1,
+          "is_short": false
+        },
+        {
+          "multiplier": 10.0,
+          "url": "https://www.youtube.com/watch?v=JChfFY6a8Z0",
+          "video_id": "JChfFY6a8Z0",
+          "title": "17 Disturbing True Scary Stories for Sleepless Nights (3+ HOURS)",
+          "channel": "Lets Read!",
+          "views": 134000,
+          "age_days": 5,
+          "is_short": false
+        }
+      ]
+    },
+    {
+      "rank": 7,
+      "name": "Reddit Story Readings",
+      "rpm_tier": "LOW",
+      "effort": "low",
+      "rising": 0.76,
+      "outliers": 10,
+      "cpc": 0.0,
+      "freshness_pct": 37.0,
+      "seed_demand_per_month": 230,
+      "breakouts": [
+        {
+          "multiplier": 832.5,
+          "url": "https://www.youtube.com/watch?v=UXzrjxriu94",
+          "video_id": "UXzrjxriu94",
+          "title": "Am I The Ally? | Reading Reddit Stories",
+          "channel": "Smosh Pit",
+          "views": 1600000,
+          "age_days": 7,
+          "is_short": false
+        },
+        {
+          "multiplier": 158.5,
+          "url": "https://www.youtube.com/watch?v=RtN_tFPCO2s",
+          "video_id": "RtN_tFPCO2s",
+          "title": "Dating Is Cooked | Reading Reddit Stories",
+          "channel": "Smosh Pit",
+          "views": 2600000,
+          "age_days": 61,
+          "is_short": false
+        },
+        {
+          "multiplier": 96.1,
+          "url": "https://www.youtube.com/watch?v=A_1LAHEFlzM",
+          "video_id": "A_1LAHEFlzM",
+          "title": "AITA For Staying NO CONTACT With My Family Even Though My Step-Mother Is Dying | Reddit Stories",
+          "channel": "Mark Narrations",
+          "views": 29000,
+          "age_days": 1,
+          "is_short": false
+        },
+        {
+          "multiplier": 94.4,
+          "url": "https://www.youtube.com/watch?v=hGTWkG5zwFQ",
+          "video_id": "hGTWkG5zwFQ",
+          "title": "reading the MESSIEST REDDIT STORIES i could possibly find",
+          "channel": "babyjamie1",
+          "views": 281000,
+          "age_days": 11,
+          "is_short": false
+        },
+        {
+          "multiplier": 61.5,
+          "url": "https://www.youtube.com/watch?v=5EUDdJ5PAL4",
+          "video_id": "5EUDdJ5PAL4",
+          "title": "My Fianc\u00e9e Stood Up At Dinner And Said: \"This Isn't Working.\" I Smiled And Agreed Instantly",
+          "channel": "Love Couple Tales",
+          "views": 19000,
+          "age_days": 1,
+          "is_short": false
+        }
+      ]
+    },
+    {
+      "rank": 8,
+      "name": "Anime Recaps & Explainers",
+      "rpm_tier": "LOW",
+      "effort": "mid",
+      "rising": 0.64,
+      "outliers": 8,
+      "cpc": 0.0,
+      "freshness_pct": 63.0,
+      "seed_demand_per_month": 5500,
+      "breakouts": [
+        {
+          "multiplier": 31.7,
+          "url": "https://www.youtube.com/watch?v=gtsTwsVcFyg",
+          "video_id": "gtsTwsVcFyg",
+          "title": "Everyone Thought He Was The Weakest But He Is The Most Powerful Villager With Level 999",
+          "channel": "Crazy Anime Verse and Crazy Animix",
+          "views": 183000,
+          "age_days": 2,
+          "is_short": false
+        },
+        {
+          "multiplier": 15.5,
+          "url": "https://www.youtube.com/watch?v=Lz38NiTR69A",
+          "video_id": "Lz38NiTR69A",
+          "title": "He Returns After 1,000 Years in Hell and Easily Becomes #1! - Manhwa Recap",
+          "channel": "Manhwa Fresh",
+          "views": 42000,
+          "age_days": 1,
+          "is_short": false
+        },
+        {
+          "multiplier": 14.1,
+          "url": "https://www.youtube.com/watch?v=LNVdHOGL3Gg",
+          "video_id": "LNVdHOGL3Gg",
+          "title": "Trapped In a Dungeon For 2 DECADES He's Back MAX-LEVEL To Break All RECORDS! - Manhwa Recap",
+          "channel": "Mamoru Manhwa",
+          "views": 809000,
+          "age_days": 21,
+          "is_short": false
+        },
+        {
+          "multiplier": 11.3,
+          "url": "https://www.youtube.com/watch?v=Wmr0oieVslM",
+          "video_id": "Wmr0oieVslM",
+          "title": "He Was Born With the Villager Class, but Awakens a Level 999 System and Becomes a Hero",
+          "channel": "AniQuickRecaps",
+          "views": 96000,
+          "age_days": 3,
+          "is_short": false
+        },
+        {
+          "multiplier": 8.8,
+          "url": "https://www.youtube.com/watch?v=0pllezkfcy8",
+          "video_id": "0pllezkfcy8",
+          "title": "King is Reborn As the Greatest Prodigy And Accidentally Tames the Strongest Dragon Beast As His Pet",
+          "channel": "Recap-kun",
+          "views": 75000,
+          "age_days": 3,
+          "is_short": false
+        }
+      ]
+    },
+    {
+      "rank": 9,
+      "name": "True Crime Stories",
+      "rpm_tier": "MID",
+      "effort": "high",
+      "rising": 0.53,
+      "outliers": 6,
+      "cpc": 0.99,
+      "freshness_pct": 64.0,
+      "seed_demand_per_month": 45000,
+      "breakouts": [
+        {
+          "multiplier": 57.4,
+          "url": "https://www.youtube.com/watch?v=oU4BnnlKhQI",
+          "video_id": "oU4BnnlKhQI",
+          "title": "16 Kids Rescued From Ohio House of Horrors: Sheriff",
+          "channel": "Law&Crime Network",
+          "views": 374000,
+          "age_days": 2,
+          "is_short": false
+        },
+        {
+          "multiplier": 24.9,
+          "url": "https://www.youtube.com/watch?v=t1ylzZqttis",
+          "video_id": "t1ylzZqttis",
+          "title": "Impossible Cold Cases Solved by Accident",
+          "channel": "Visual Venture",
+          "views": 618000,
+          "age_days": 8,
+          "is_short": false
+        },
+        {
+          "multiplier": 14.0,
+          "url": "https://www.youtube.com/watch?v=DDPvdpa7d3Q",
+          "video_id": "DDPvdpa7d3Q",
+          "title": "Couple Thinks They Can Get Away With Neighbor's Murder",
+          "channel": "Mysterious 7",
+          "views": 47000,
+          "age_days": 1,
+          "is_short": false
+        },
+        {
+          "multiplier": 10.3,
+          "url": "https://www.youtube.com/watch?v=Mc0_iWPYnjM",
+          "video_id": "Mc0_iWPYnjM",
+          "title": "Alabama 1999 Double Teen Homicide Cold Case SOLVED \u2014 Arrest Shocks Community",
+          "channel": "Cold Case Uncovered",
+          "views": 162000,
+          "age_days": 5,
+          "is_short": false
+        },
+        {
+          "multiplier": 5.8,
+          "url": "https://www.youtube.com/watch?v=b8li_FgSaWs",
+          "video_id": "b8li_FgSaWs",
+          "title": "5 True Crime Cases Darker Than Any Horror Movie",
+          "channel": "Ty Notts",
+          "views": 56000,
+          "age_days": 3,
+          "is_short": false
+        }
+      ]
+    },
+    {
+      "rank": 10,
+      "name": "Side Hustle Ideas",
+      "rpm_tier": "HIGH",
+      "effort": "low",
+      "rising": 0.44,
+      "outliers": 5,
+      "cpc": 5.04,
+      "freshness_pct": 33.0,
+      "seed_demand_per_month": 342000,
+      "breakouts": [
+        {
+          "multiplier": 19.1,
+          "url": "https://www.youtube.com/watch?v=ccs0g0Dz0XE",
+          "video_id": "ccs0g0Dz0XE",
+          "title": "The Best AI Side Hustle Ideas NO ONE Is Talking About",
+          "channel": "Wholesale Ted",
+          "views": 40000,
+          "age_days": 2,
+          "is_short": false
+        },
+        {
+          "multiplier": 17.5,
+          "url": "https://www.youtube.com/watch?v=K8Ros5RhJW4",
+          "video_id": "K8Ros5RhJW4",
+          "title": "The Only 14 Ways to Make Money with AI in 2026",
+          "channel": "Dan Martell",
+          "views": 1000000,
+          "age_days": 61,
+          "is_short": false
+        },
+        {
+          "multiplier": 13.8,
+          "url": "https://www.youtube.com/watch?v=1Djn2sHt-Fc",
+          "video_id": "1Djn2sHt-Fc",
+          "title": "how i make money online (& how you can start with NO experience)",
+          "channel": "Tatyana Savage",
+          "views": 406000,
+          "age_days": 30,
+          "is_short": false
+        },
+        {
+          "multiplier": 13.5,
+          "url": "https://www.youtube.com/watch?v=nkf8SP71wo4",
+          "video_id": "nkf8SP71wo4",
+          "title": "10 Claude AI Side Hustles That Can Pay A Full-Time Income",
+          "channel": "Shane Hummus",
+          "views": 278000,
+          "age_days": 21,
+          "is_short": false
+        },
+        {
+          "multiplier": 7.3,
+          "url": "https://www.youtube.com/watch?v=DhEMFeo_gL8",
+          "video_id": "DhEMFeo_gL8",
+          "title": "The Only 25 Ways to Make Money in 2026",
+          "channel": "Dan Martell",
+          "views": 1100000,
+          "age_days": 150,
+          "is_short": false
+        }
+      ]
+    },
+    {
+      "rank": 11,
+      "name": "Animal Facts & Wildlife",
+      "rpm_tier": "HIGH",
+      "effort": "low",
+      "rising": 0.44,
+      "outliers": 5,
+      "cpc": 3.06,
+      "freshness_pct": 33.0,
+      "seed_demand_per_month": 21000,
+      "breakouts": [
+        {
+          "multiplier": 20.2,
+          "url": "https://www.youtube.com/watch?v=ezz6D3u5Pi8",
+          "video_id": "ezz6D3u5Pi8",
+          "title": "The Most Dangerous Predators of Africa | FULL EPISODE | Wildlife Documentary",
+          "channel": "Nature's Moments",
+          "views": 567000,
+          "age_days": 8,
+          "is_short": false
+        },
+        {
+          "multiplier": 16.4,
+          "url": "https://www.youtube.com/watch?v=eGoqOoQ1LIw",
+          "video_id": "eGoqOoQ1LIw",
+          "title": "Wild Serengeti | Only the Strongest Survive | FULL EPISODE | Wildlife Documentary",
+          "channel": "Nature's Moments",
+          "views": 64000,
+          "age_days": 1,
+          "is_short": false
+        },
+        {
+          "multiplier": 7.8,
+          "url": "https://www.youtube.com/watch?v=Ss7oMtMs3hk",
+          "video_id": "Ss7oMtMs3hk",
+          "title": "Nature's Most Extraordinary Moments | FULL EPISODE | Wildlife Documentary",
+          "channel": "Nature's Moments",
+          "views": 379000,
+          "age_days": 14,
+          "is_short": false
+        },
+        {
+          "multiplier": 7.0,
+          "url": "https://www.youtube.com/watch?v=p45urzgn1os",
+          "video_id": "p45urzgn1os",
+          "title": "Wild Animal Rescue in the Snow! \u2744\ufe0f\ud83d\udc18 Learning Animal Facts for Kids #PinoyKidsChannel",
+          "channel": "Pinoy Kids Channel",
+          "views": 171000,
+          "age_days": 7,
+          "is_short": false
+        },
+        {
+          "multiplier": 6.2,
+          "url": "https://www.youtube.com/watch?v=JV7r8yV_eGg",
+          "video_id": "JV7r8yV_eGg",
+          "title": "Unbelievable Moments From Nature - Narrated by David Attenborough | BBC Earth",
+          "channel": "BBC Earth",
+          "views": 641000,
+          "age_days": 30,
+          "is_short": false
+        }
+      ]
+    },
+    {
+      "rank": 12,
+      "name": "Space & Astronomy",
+      "rpm_tier": "HIGH",
+      "effort": "mid",
+      "rising": 0.41,
+      "outliers": 5,
+      "cpc": 2.74,
+      "freshness_pct": 25.0,
+      "seed_demand_per_month": 3800,
+      "breakouts": [
+        {
+          "multiplier": 13.3,
+          "url": "https://www.youtube.com/watch?v=5PU-9tXFrJQ",
+          "video_id": "5PU-9tXFrJQ",
+          "title": "The Universe's Biggest Stars \u2600\ufe0f\u2b50\ufe0f How the Universe Works | Science Channel",
+          "channel": "Science Channel",
+          "views": 108000,
+          "age_days": 6,
+          "is_short": false
+        },
+        {
+          "multiplier": 7.0,
+          "url": "https://www.youtube.com/watch?v=7odTB3nlN6U",
+          "video_id": "7odTB3nlN6U",
+          "title": "The true Scale of the Universe \u2013 How Big is the Universe? | Space Documentary 2026",
+          "channel": "Actual Space",
+          "views": 278000,
+          "age_days": 30,
+          "is_short": false
+        },
+        {
+          "multiplier": 6.2,
+          "url": "https://www.youtube.com/watch?v=M3jkyYdrA9k",
+          "video_id": "M3jkyYdrA9k",
+          "title": "The Terrifying Journey to Alpha Centauri",
+          "channel": "Calm Space",
+          "views": 504000,
+          "age_days": 61,
+          "is_short": false
+        },
+        {
+          "multiplier": 5.8,
+          "url": "https://www.youtube.com/watch?v=FNR7a8joCGs",
+          "video_id": "FNR7a8joCGs",
+          "title": "Chaos in Space \ud83d\udca5 | How the Universe Works | Science Channel",
+          "channel": "Science Channel",
+          "views": 230000,
+          "age_days": 30,
+          "is_short": false
+        },
+        {
+          "multiplier": 5.1,
+          "url": "https://www.youtube.com/watch?v=fcF6mjpm-Ts",
+          "video_id": "fcF6mjpm-Ts",
+          "title": "James Webb Just Saw Alpha Centauri for the First Time \u2014 And It\u2019s Disturbing",
+          "channel": "Sleep On Science",
+          "views": 143000,
+          "age_days": 21,
+          "is_short": false
+        }
+      ]
+    },
+    {
+      "rank": 13,
+      "name": "Frugal Living & Minimalism",
+      "rpm_tier": "MID",
+      "effort": "low",
+      "rising": 0.2,
+      "outliers": 4,
+      "cpc": 0.85,
+      "freshness_pct": 20.0,
+      "seed_demand_per_month": 302000,
+      "breakouts": [
+        {
+          "multiplier": 50.8,
+          "url": "https://www.youtube.com/watch?v=VekkmCvdr7c",
+          "video_id": "VekkmCvdr7c",
+          "title": "10 Unsexy Frugal Habits That Save You Serious Money",
+          "channel": "Frozen Pennies",
+          "views": 139000,
+          "age_days": 9,
+          "is_short": false
+        },
+        {
+          "multiplier": 19.4,
+          "url": "https://www.youtube.com/watch?v=PLqwzO4BEPk",
+          "video_id": "PLqwzO4BEPk",
+          "title": "30 Tips to Be Extremely Frugal (this saved me THOUSANDS) | frugal living + minimalism",
+          "channel": "A to Zen Life",
+          "views": 163000,
+          "age_days": 28,
+          "is_short": false
+        },
+        {
+          "multiplier": 13.4,
+          "url": "https://www.youtube.com/watch?v=UEZhJ_GecB8",
+          "video_id": "UEZhJ_GecB8",
+          "title": "The ULTIMATE Cheapskates... Inside the Lives of Extreme Savers | Up Close",
+          "channel": "Up Close - Documentaries",
+          "views": 121000,
+          "age_days": 30,
+          "is_short": false
+        },
+        {
+          "multiplier": 6.0,
+          "url": "https://www.youtube.com/watch?v=-e5KBSyYAeQ",
+          "video_id": "-e5KBSyYAeQ",
+          "title": "The Frugal Bulgarian Habits Americans Would Never Try (I learned these from my husband)!",
+          "channel": "Taryn Maria",
+          "views": 15000,
+          "age_days": 8,
+          "is_short": false
+        },
+        {
+          "multiplier": 4.3,
+          "url": "https://www.youtube.com/watch?v=NWxIgoF6WXA",
+          "video_id": "NWxIgoF6WXA",
+          "title": "60, Broke and struggling. We answer your questions about our income. #frugal #broke #question",
+          "channel": "Frugal Queen in France",
+          "views": 1300,
+          "age_days": 1,
+          "is_short": false
+        }
+      ]
+    },
+    {
+      "rank": 14,
+      "name": "Tech Explainers",
+      "rpm_tier": "HIGH",
+      "effort": "mid",
+      "rising": 0.15,
+      "outliers": 3,
+      "cpc": 2.49,
+      "freshness_pct": 6.0,
+      "seed_demand_per_month": 1100,
+      "breakouts": [
+        {
+          "multiplier": 39.3,
+          "url": "https://www.youtube.com/watch?v=KnUFH5GX_fI",
+          "video_id": "KnUFH5GX_fI",
+          "title": "Nobody understands the point of hybrid cars",
+          "channel": "Technology Connections",
+          "views": 2400000,
+          "age_days": 30,
+          "is_short": false
+        },
+        {
+          "multiplier": 31.4,
+          "url": "https://www.youtube.com/watch?v=kC4hErBshbc",
+          "video_id": "kC4hErBshbc",
+          "title": "Ancient Technologies We Still Can't Explain",
+          "channel": "Professor Historian and EverythingProfessor",
+          "views": 3900000,
+          "age_days": 61,
+          "is_short": false
+        },
+        {
+          "multiplier": 14.6,
+          "url": "https://www.youtube.com/watch?v=o8AVd9v7dkY",
+          "video_id": "o8AVd9v7dkY",
+          "title": "\ufffc Worlds most advanced Ai & \ufffc robotic technology explained",
+          "channel": "Prapancha Yatrikudu",
+          "views": 122000,
+          "age_days": 4,
+          "is_short": false
+        },
+        {
+          "multiplier": 14.3,
+          "url": "https://www.youtube.com/watch?v=KtQ9nt2ZeGM",
+          "video_id": "KtQ9nt2ZeGM",
+          "title": "You are being misled about renewable energy technology.",
+          "channel": "Technology Connections",
+          "views": 4300000,
+          "age_days": 150,
+          "is_short": false
+        },
+        {
+          "multiplier": 4.8,
+          "url": "https://www.youtube.com/watch?v=EKOU3JWDNLI",
+          "video_id": "EKOU3JWDNLI",
+          "title": "The unhinged world of tech in 2026...",
+          "channel": "Fireship",
+          "views": 1500000,
+          "age_days": 150,
+          "is_short": false
+        }
+      ]
+    },
+    {
+      "rank": 15,
+      "name": "Life Hacks & How-To",
+      "rpm_tier": "HIGH",
+      "effort": "low",
+      "rising": 0.09,
+      "outliers": 2,
+      "cpc": 5.86,
+      "freshness_pct": 20.0,
+      "seed_demand_per_month": 76000,
+      "breakouts": [
+        {
+          "multiplier": 44.5,
+          "url": "https://www.youtube.com/watch?v=01HhLdDmz7g",
+          "video_id": "01HhLdDmz7g",
+          "title": "I Tested AI Life Hacks",
+          "channel": "Sambucha",
+          "views": 3100000,
+          "age_days": 14,
+          "is_short": false
+        },
+        {
+          "multiplier": 6.2,
+          "url": "https://www.youtube.com/watch?v=tB9O9N6uqIE",
+          "video_id": "tB9O9N6uqIE",
+          "title": "Genius Life Hacks That Work Extremely Well \ud83e\udde0\ud83d\udee0\ufe0f\ud83d\ude0e #shorts #viral #diy #tricks",
+          "channel": "AMAZEO",
+          "views": 1900000,
+          "age_days": 61,
+          "is_short": false
+        },
+        {
+          "multiplier": 2.1,
+          "url": "https://www.youtube.com/watch?v=ZtOxCJqEHjY",
+          "video_id": "ZtOxCJqEHjY",
+          "title": "Psychology of People Who Know How To Fix Everything",
+          "channel": "Psychology Simplified",
+          "views": 649000,
+          "age_days": 61,
+          "is_short": false
+        },
+        {
+          "multiplier": 1.5,
+          "url": "https://www.youtube.com/watch?v=p666tX8tcW4",
+          "video_id": "p666tX8tcW4",
+          "title": "\ud83d\ude0e Lazy Hacks & Gadgets That Make Life Easier!",
+          "channel": "5-Minute Crafts PLAY",
+          "views": 8600,
+          "age_days": 1,
+          "is_short": false
+        },
+        {
+          "multiplier": 1.3,
+          "url": "https://www.youtube.com/watch?v=yd6XlNoFgGk",
+          "video_id": "yd6XlNoFgGk",
+          "title": "How to Fix 0 Views Problem On Youtube in 2026! 0 Views Problem on Youtube",
+          "channel": "Hyrexverse",
+          "views": 7500,
+          "age_days": 1,
+          "is_short": false
+        }
+      ]
+    },
+    {
+      "rank": 16,
+      "name": "Science Explainers",
+      "rpm_tier": "HIGH",
+      "effort": "mid",
+      "rising": 0.08,
+      "outliers": 2,
+      "cpc": 13.32,
+      "freshness_pct": 16.0,
+      "seed_demand_per_month": 1500,
+      "breakouts": [
+        {
+          "multiplier": 55.4,
+          "url": "https://www.youtube.com/watch?v=7Wiw42ZlBKs",
+          "video_id": "7Wiw42ZlBKs",
+          "title": "The Quantum Experiment That Breaks Time",
+          "channel": "PBS Space Time",
+          "views": 314000,
+          "age_days": 2,
+          "is_short": false
+        },
+        {
+          "multiplier": 6.3,
+          "url": "https://www.youtube.com/watch?v=c8U9B2-nKr0",
+          "video_id": "c8U9B2-nKr0",
+          "title": "10 Scariest Paradoxes in Physics That Prove Reality Is Not What We Think",
+          "channel": "Space Buddy and Space Mate",
+          "views": 504000,
+          "age_days": 30,
+          "is_short": false
+        },
+        {
+          "multiplier": 4.2,
+          "url": "https://www.youtube.com/watch?v=dLtRtdg67PU",
+          "video_id": "dLtRtdg67PU",
+          "title": "Two Paradoxes of Space Navigation",
+          "channel": "minutephysics",
+          "views": 338000,
+          "age_days": 30,
+          "is_short": false
+        },
+        {
+          "multiplier": 1.8,
+          "url": "https://www.youtube.com/watch?v=PgJV4V9OuaE",
+          "video_id": "PgJV4V9OuaE",
+          "title": "Paradoxes That Push the Limits of Reality",
+          "channel": "Astrum Extra",
+          "views": 141000,
+          "age_days": 30,
+          "is_short": false
+        },
+        {
+          "multiplier": 0.1,
+          "url": "https://www.youtube.com/watch?v=QH6fPr4WpGE",
+          "video_id": "QH6fPr4WpGE",
+          "title": "10 Mind-Bending Physics Paradoxes That Scientists Still Can't Explain. Feynman Explains",
+          "channel": "The Feynman Axiom",
+          "views": 7800,
+          "age_days": 28,
+          "is_short": false
+        }
+      ]
+    },
+    {
+      "rank": 17,
+      "name": "Longevity & Health Science",
+      "rpm_tier": "HIGH",
+      "effort": "mid",
+      "rising": 0.06,
+      "outliers": 2,
+      "cpc": 2.96,
+      "freshness_pct": 9.0,
+      "seed_demand_per_month": 14000,
+      "breakouts": [
+        {
+          "multiplier": 580.8,
+          "url": "https://www.youtube.com/watch?v=DnvWAP99r3Y",
+          "video_id": "DnvWAP99r3Y",
+          "title": "Dr David Sinclair: Can Aging Be Reversed? After 8 Weeks, Cells Appeared 75% Younger In Tests!",
+          "channel": "The Diary Of A CEO and David Sinclair",
+          "views": 5100000,
+          "age_days": 91,
+          "is_short": false
+        },
+        {
+          "multiplier": 55.4,
+          "url": "https://www.youtube.com/watch?v=YRGejckRNpQ",
+          "video_id": "YRGejckRNpQ",
+          "title": "The Longevity Revolution Is Here | Lifespan with Dr. David Sinclair - Season 2, Episode 1",
+          "channel": "David Sinclair",
+          "views": 112000,
+          "age_days": 21,
+          "is_short": false
+        },
+        {
+          "multiplier": 53.2,
+          "url": "https://www.youtube.com/watch?v=iY8wg98DkeI",
+          "video_id": "iY8wg98DkeI",
+          "title": "Loma Linda's Oldest Doctor: Eat THIS Every Day and Live to 100+",
+          "channel": "The Blue Zone Way",
+          "views": 463000,
+          "age_days": 91,
+          "is_short": false
+        },
+        {
+          "multiplier": 43.3,
+          "url": "https://www.youtube.com/watch?v=tMYoiHSYgWw",
+          "video_id": "tMYoiHSYgWw",
+          "title": "AI Just Compressed 160 Years of Aging Research \u2014 Here's What They Found | Dr. David Sinclair",
+          "channel": "Tom Bilyeu and David Sinclair",
+          "views": 253000,
+          "age_days": 61,
+          "is_short": false
+        },
+        {
+          "multiplier": 10.4,
+          "url": "https://www.youtube.com/watch?v=akQCdM3rIEA",
+          "video_id": "akQCdM3rIEA",
+          "title": "Longevity Science Just Changed - and Scientists are Backtracking",
+          "channel": "Thomas DeLauer",
+          "views": 91000,
+          "age_days": 91,
+          "is_short": false
+        }
+      ]
+    },
+    {
+      "rank": 18,
+      "name": "Food Facts & Rankings",
+      "rpm_tier": "HIGH",
+      "effort": "low",
+      "rising": 0.05,
+      "outliers": 2,
+      "cpc": 2.19,
+      "freshness_pct": 5.0,
+      "seed_demand_per_month": 3000,
+      "breakouts": [
+        {
+          "multiplier": 1473.0,
+          "url": "https://www.youtube.com/watch?v=4mGVkTCx2ls",
+          "video_id": "4mGVkTCx2ls",
+          "title": "$1 vs $100,000 Rare Food",
+          "channel": "Nick DiGiovanni",
+          "views": 28800000,
+          "age_days": 21,
+          "is_short": false
+        },
+        {
+          "multiplier": 26.8,
+          "url": "https://www.youtube.com/watch?v=jUZsLZj29Ug",
+          "video_id": "jUZsLZj29Ug",
+          "title": "99% of People Don't Know These Food Facts \ud83d\ude31\ud83c\udf49",
+          "channel": "Facts Zone XL",
+          "views": 25000,
+          "age_days": 1,
+          "is_short": true
+        }
+      ]
+    },
+    {
+      "rank": 19,
+      "name": "Quiz & Trivia Videos",
+      "rpm_tier": "HIGH",
+      "effort": "low",
+      "rising": 0.0,
+      "outliers": 1,
+      "cpc": 2.12,
+      "freshness_pct": 23.0,
+      "seed_demand_per_month": 42000,
+      "breakouts": [
+        {
+          "multiplier": 74.7,
+          "url": "https://www.youtube.com/watch?v=TsJiqD9QAt8",
+          "video_id": "TsJiqD9QAt8",
+          "title": "GUESS THE LANGUAGE: WORLD EDITION",
+          "channel": "NDL",
+          "views": 1700000,
+          "age_days": 3,
+          "is_short": false
+        },
+        {
+          "multiplier": 3.8,
+          "url": "https://www.youtube.com/watch?v=BIY8sZJz_fM",
+          "video_id": "BIY8sZJz_fM",
+          "title": "20 People vs General Knowledge Quiz",
+          "channel": "Extra Medium Stuff",
+          "views": 595000,
+          "age_days": 21,
+          "is_short": false
+        },
+        {
+          "multiplier": 3.0,
+          "url": "https://www.youtube.com/watch?v=zUAyp1Iacz8",
+          "video_id": "zUAyp1Iacz8",
+          "title": "Who's Smarter? General Knowledge Quiz",
+          "channel": "Jubilee",
+          "views": 312000,
+          "age_days": 14,
+          "is_short": false
+        },
+        {
+          "multiplier": 2.3,
+          "url": "https://www.youtube.com/watch?v=oS3QlfCMmbk",
+          "video_id": "oS3QlfCMmbk",
+          "title": "Guess the Country by Letter | Fun Geography Game for Kids",
+          "channel": "Digital School for Kids",
+          "views": 1600000,
+          "age_days": 91,
+          "is_short": false
+        },
+        {
+          "multiplier": 2.2,
+          "url": "https://www.youtube.com/watch?v=gzFTwbRGtxg",
+          "video_id": "gzFTwbRGtxg",
+          "title": "20 People vs General Knowledge Quiz",
+          "channel": "Extra Medium Stuff",
+          "views": 1000000,
+          "age_days": 61,
+          "is_short": false
+        }
+      ]
+    },
+    {
+      "rank": 20,
+      "name": "Ancient History & Civilizations",
+      "rpm_tier": "HIGH",
+      "effort": "high",
+      "rising": -0.01,
+      "outliers": 1,
+      "cpc": 1.89,
+      "freshness_pct": 22.0,
+      "seed_demand_per_month": 1900,
+      "breakouts": [
+        {
+          "multiplier": 36.2,
+          "url": "https://www.youtube.com/watch?v=EHLI2WZUtXs",
+          "video_id": "EHLI2WZUtXs",
+          "title": "The ENTIRE History of ROME",
+          "channel": "Historically",
+          "views": 5100000,
+          "age_days": 61,
+          "is_short": false
+        },
+        {
+          "multiplier": 4.3,
+          "url": "https://www.youtube.com/watch?v=F8GIZm8atG8",
+          "video_id": "F8GIZm8atG8",
+          "title": "The Ancient Sites That Shouldn't Exist | Ancient Aliens | Compilation",
+          "channel": "HISTORY",
+          "views": 141000,
+          "age_days": 14,
+          "is_short": false
+        },
+        {
+          "multiplier": 3.4,
+          "url": "https://www.youtube.com/watch?v=yP7TXB7wIdY",
+          "video_id": "yP7TXB7wIdY",
+          "title": "The Lost Civilization Beneath the Oceans: What Was Erased 50,000 Years Ago",
+          "channel": "Secret Origins",
+          "views": 238000,
+          "age_days": 30,
+          "is_short": false
+        },
+        {
+          "multiplier": 2.7,
+          "url": "https://www.youtube.com/watch?v=_nDO6ckbWGc",
+          "video_id": "_nDO6ckbWGc",
+          "title": "What have Archaeologists Discovered? | Lost Treasures of Rome MEGA Episode | National Geographic",
+          "channel": "National Geographic",
+          "views": 946000,
+          "age_days": 150,
+          "is_short": false
+        },
+        {
+          "multiplier": 2.4,
+          "url": "https://www.youtube.com/watch?v=DKkpWFDydNY",
+          "video_id": "DKkpWFDydNY",
+          "title": "The Most Insane Gladiator Experiments FULL DOCUMENTARY",
+          "channel": "Invicta",
+          "views": 18000,
+          "age_days": 3,
+          "is_short": false
+        }
+      ]
+    },
+    {
+      "rank": 21,
+      "name": "Coding & Tech Careers",
+      "rpm_tier": "HIGH",
+      "effort": "mid",
+      "rising": -0.04,
+      "outliers": 1,
+      "cpc": 24.69,
+      "freshness_pct": 10.0,
+      "seed_demand_per_month": 110,
+      "breakouts": [
+        {
+          "multiplier": 21.2,
+          "url": "https://www.youtube.com/watch?v=NQtBfbQt_bM",
+          "video_id": "NQtBfbQt_bM",
+          "title": "The Best Career Advice for Right Now: The New Rules of Work, Confidence, and Success",
+          "channel": "Mel Robbins",
+          "views": 380000,
+          "age_days": 21,
+          "is_short": false
+        },
+        {
+          "multiplier": 9.4,
+          "url": "https://www.youtube.com/watch?v=oshQg1uSRvg",
+          "video_id": "oshQg1uSRvg",
+          "title": "How To Learn To Code In 2026",
+          "channel": "Tina Huang",
+          "views": 729000,
+          "age_days": 91,
+          "is_short": false
+        },
+        {
+          "multiplier": 6.6,
+          "url": "https://www.youtube.com/watch?v=gmuTjeQUbTM",
+          "video_id": "gmuTjeQUbTM",
+          "title": "Harvard CS50 (2026) \u2013 Full Computer Science University Course",
+          "channel": "freeCodeCamp.org and CS50",
+          "views": 843000,
+          "age_days": 150,
+          "is_short": false
+        },
+        {
+          "multiplier": 4.4,
+          "url": "https://www.youtube.com/watch?v=42V0xazKHZA",
+          "video_id": "42V0xazKHZA",
+          "title": "Is Learning to Code Still Worth It in 2026?",
+          "channel": "Alberta Tech",
+          "views": 562000,
+          "age_days": 150,
+          "is_short": false
+        },
+        {
+          "multiplier": 2.8,
+          "url": "https://www.youtube.com/watch?v=Pv3r_BxuttA",
+          "video_id": "Pv3r_BxuttA",
+          "title": "How I\u2019d Learn Coding in 2026 (Without Wasting Years)",
+          "channel": "Web Developete",
+          "views": 71000,
+          "age_days": 30,
+          "is_short": false
+        }
+      ]
+    },
+    {
+      "rank": 22,
+      "name": "History Facts Shorts",
+      "rpm_tier": "HIGH",
+      "effort": "low",
+      "rising": -0.06,
+      "outliers": 1,
+      "cpc": 1.77,
+      "freshness_pct": 3.0,
+      "seed_demand_per_month": 6700,
+      "breakouts": [
+        {
+          "multiplier": 11.4,
+          "url": "https://www.youtube.com/watch?v=BUdMsNT2B-Q",
+          "video_id": "BUdMsNT2B-Q",
+          "title": "Scooby-Doo, Where Are You! (1969): 15 Weird Facts You Didn\u2019t Know",
+          "channel": "Remember When",
+          "views": 169000,
+          "age_days": 10,
+          "is_short": false
+        },
+        {
+          "multiplier": 4.3,
+          "url": "https://www.youtube.com/watch?v=ROCqv099I-A",
+          "video_id": "ROCqv099I-A",
+          "title": "Two Hours of History Facts to Cure Your Insomnia",
+          "channel": "Chat History Compilations",
+          "views": 950000,
+          "age_days": 150,
+          "is_short": false
+        },
+        {
+          "multiplier": 1.8,
+          "url": "https://www.youtube.com/watch?v=KgyPImineFo",
+          "video_id": "KgyPImineFo",
+          "title": "History Facts Too Funny for History Books",
+          "channel": "The Paint Explainer",
+          "views": 244000,
+          "age_days": 91,
+          "is_short": false
+        },
+        {
+          "multiplier": 0.2,
+          "url": "https://www.youtube.com/watch?v=qSj-jgG-5t4",
+          "video_id": "qSj-jgG-5t4",
+          "title": "10 Dark History Facts School Doesn't Teach You About",
+          "channel": "WatchMojo.com",
+          "views": 32000,
+          "age_days": 91,
+          "is_short": false
+        }
+      ]
+    },
+    {
+      "rank": 23,
+      "name": "Luxury & Billionaire Lifestyle",
+      "rpm_tier": "MID",
+      "effort": "low",
+      "rising": -0.12,
+      "outliers": 1,
+      "cpc": 0.71,
+      "freshness_pct": 17.0,
+      "seed_demand_per_month": 3000,
+      "breakouts": [
+        {
+          "multiplier": 6.2,
+          "url": "https://www.youtube.com/watch?v=qVQHKigyzZg",
+          "video_id": "qVQHKigyzZg",
+          "title": "BILLIONAIRE LIFESTYLE: Luxury Visualization Manifestation Billionaire Ep. 1 #motivation \ud83d\udcb2",
+          "channel": "OnePercent\u2122",
+          "views": 200000,
+          "age_days": 30,
+          "is_short": false
+        },
+        {
+          "multiplier": 4.3,
+          "url": "https://www.youtube.com/watch?v=vIsU2DjfcA4",
+          "video_id": "vIsU2DjfcA4",
+          "title": "Most Expensive Things MLB Players Own",
+          "channel": "HitFlix",
+          "views": 139000,
+          "age_days": 30,
+          "is_short": false
+        },
+        {
+          "multiplier": 3.4,
+          "url": "https://www.youtube.com/watch?v=wsROcvCQPKo",
+          "video_id": "wsROcvCQPKo",
+          "title": "MOST Expensive Things Humans Just Left Behind",
+          "channel": "Top Fives",
+          "views": 220000,
+          "age_days": 61,
+          "is_short": false
+        },
+        {
+          "multiplier": 2.7,
+          "url": "https://www.youtube.com/watch?v=Mi4SClM_ukM",
+          "video_id": "Mi4SClM_ukM",
+          "title": "BILLIONAIRE LIFESTYLE: Luxury Visualization Manifestation Billionaire Ep. 65 #motivation \ud83d\udcb2",
+          "channel": "Millionaire Vibe",
+          "views": 86000,
+          "age_days": 30,
+          "is_short": false
+        },
+        {
+          "multiplier": 1.0,
+          "url": "https://www.youtube.com/watch?v=wQxRlB1QBKo",
+          "video_id": "wQxRlB1QBKo",
+          "title": "BILLIONAIRE LIFESTYLE: Luxury Visualization Manifestation Billionaire Ep. 6 #motivation \ud83d\udcb2",
+          "channel": "OnePercent\u2122",
+          "views": 32000,
+          "age_days": 30,
+          "is_short": false
+        }
+      ]
+    },
+    {
+      "rank": 24,
+      "name": "Stoicism & Philosophy",
+      "rpm_tier": "HIGH",
+      "effort": "low",
+      "rising": -0.12,
+      "outliers": 0,
+      "cpc": 2.56,
+      "freshness_pct": 17.0,
+      "seed_demand_per_month": 290,
+      "breakouts": [
+        {
+          "multiplier": 5.0,
+          "url": "https://www.youtube.com/watch?v=4b8rMITRiVo",
+          "video_id": "4b8rMITRiVo",
+          "title": "MORNING STOICISM (LISTEN EVERY DAY) - Wake Up Early, Start Your Day Right | STOICISM",
+          "channel": "Stoic Directions",
+          "views": 520000,
+          "age_days": 150,
+          "is_short": false
+        },
+        {
+          "multiplier": 4.1,
+          "url": "https://www.youtube.com/watch?v=ZIZUT1gogcA",
+          "video_id": "ZIZUT1gogcA",
+          "title": "How The Stoics Sparked The American Revolution",
+          "channel": "Daily Stoic",
+          "views": 3200,
+          "age_days": 1,
+          "is_short": false
+        },
+        {
+          "multiplier": 3.2,
+          "url": "https://www.youtube.com/watch?v=0o8nr62zjCk",
+          "video_id": "0o8nr62zjCk",
+          "title": "31 of the absolute BEST lessons from Marcus Aurelius",
+          "channel": "Daily Stoic",
+          "views": 135000,
+          "age_days": 61,
+          "is_short": false
+        },
+        {
+          "multiplier": 2.9,
+          "url": "https://www.youtube.com/watch?v=nbhCoKX3A8c",
+          "video_id": "nbhCoKX3A8c",
+          "title": "How Stoics Control Their Emotions With Dr. Becky Kennedy",
+          "channel": "Daily Stoic",
+          "views": 6300,
+          "age_days": 3,
+          "is_short": false
+        },
+        {
+          "multiplier": 2.8,
+          "url": "https://www.youtube.com/watch?v=sHBpx3zGGOY",
+          "video_id": "sHBpx3zGGOY",
+          "title": "13 Stoic Lessons by Marcus Aurelius That Will Change Your Life | Stay Calm & Mentally Strong",
+          "channel": "Stoic Lens",
+          "views": 294000,
+          "age_days": 150,
+          "is_short": false
+        }
+      ]
+    },
+    {
+      "rank": 25,
+      "name": "Ocean & Deep Sea",
+      "rpm_tier": "LOW",
+      "effort": "mid",
+      "rising": -0.14,
+      "outliers": 2,
+      "cpc": 0.48,
+      "freshness_pct": 10.0,
+      "seed_demand_per_month": 136000,
+      "breakouts": [
+        {
+          "multiplier": 22.2,
+          "url": "https://www.youtube.com/watch?v=-QIk2TMGmho",
+          "video_id": "-QIk2TMGmho",
+          "title": "Secrets of the Deep Sea | Ancient Aliens",
+          "channel": "HISTORY",
+          "views": 727000,
+          "age_days": 21,
+          "is_short": false
+        },
+        {
+          "multiplier": 15.0,
+          "url": "https://www.youtube.com/watch?v=5PK4zUk3iKs",
+          "video_id": "5PK4zUk3iKs",
+          "title": "5 Terrifying Sea Creatures You've Never Heard Of",
+          "channel": "hollnes animated and hollnes",
+          "views": 2800000,
+          "age_days": 122,
+          "is_short": false
+        },
+        {
+          "multiplier": 11.7,
+          "url": "https://www.youtube.com/watch?v=ugJB5haR0SE",
+          "video_id": "ugJB5haR0SE",
+          "title": "Ocean with David Attenborough (Full Documentary) | World Ocean Day Special | National Geographic",
+          "channel": "National Geographic and Nat Geo Animals",
+          "views": 509000,
+          "age_days": 28,
+          "is_short": false
+        },
+        {
+          "multiplier": 3.4,
+          "url": "https://www.youtube.com/watch?v=j7c2a6duchI",
+          "video_id": "j7c2a6duchI",
+          "title": "The Ocean Oddities Iceberg Explained",
+          "channel": "Zoanfly",
+          "views": 318000,
+          "age_days": 61,
+          "is_short": false
+        },
+        {
+          "multiplier": 2.7,
+          "url": "https://www.youtube.com/watch?v=A2lI0PDQxq0",
+          "video_id": "A2lI0PDQxq0",
+          "title": "MYSTERIES OF THE OCEAN | The Giants That Dominate the Sea | Nature Animal Documentary",
+          "channel": "Discover Wildlife",
+          "views": 375000,
+          "age_days": 91,
+          "is_short": false
+        }
+      ]
+    },
+    {
+      "rank": 26,
+      "name": "Game Guides & Lore",
+      "rpm_tier": "MID",
+      "effort": "mid",
+      "rising": -0.15,
+      "outliers": 1,
+      "cpc": 1.47,
+      "freshness_pct": 9.0,
+      "seed_demand_per_month": 3700,
+      "breakouts": [
+        {
+          "multiplier": 6.0,
+          "url": "https://www.youtube.com/watch?v=WZhooBTy5e4",
+          "video_id": "WZhooBTy5e4",
+          "title": "The Full Story of Cult of The Lamb Explained",
+          "channel": "NeddyTheNoodle",
+          "views": 341000,
+          "age_days": 30,
+          "is_short": false
+        },
+        {
+          "multiplier": 5.0,
+          "url": "https://www.youtube.com/watch?v=sN-ImocTJRw",
+          "video_id": "sN-ImocTJRw",
+          "title": "Directive 8020 - Story Explained",
+          "channel": "Gaming Harry",
+          "views": 282000,
+          "age_days": 30,
+          "is_short": false
+        },
+        {
+          "multiplier": 3.8,
+          "url": "https://www.youtube.com/watch?v=I4oF_gE_R6U",
+          "video_id": "I4oF_gE_R6U",
+          "title": "Don't Play Gakuran Until You Watch This... (Beginner Guide) | ROBLOX",
+          "channel": "prestonburger",
+          "views": 7200,
+          "age_days": 1,
+          "is_short": false
+        },
+        {
+          "multiplier": 2.0,
+          "url": "https://www.youtube.com/watch?v=RdgT2UFBefI",
+          "video_id": "RdgT2UFBefI",
+          "title": "Resident Evil Requiem - Story Explained",
+          "channel": "Gaming Harry",
+          "views": 461000,
+          "age_days": 122,
+          "is_short": false
+        },
+        {
+          "multiplier": 0.3,
+          "url": "https://www.youtube.com/watch?v=1lmheSRh4hE",
+          "video_id": "1lmheSRh4hE",
+          "title": "The Game That Stole A Developer's Work",
+          "channel": "Adkiht",
+          "views": 52000,
+          "age_days": 91,
+          "is_short": false
+        }
+      ]
+    },
+    {
+      "rank": 27,
+      "name": "War History",
+      "rpm_tier": "HIGH",
+      "effort": "high",
+      "rising": -0.16,
+      "outliers": 0,
+      "cpc": 2.59,
+      "freshness_pct": 6.0,
+      "seed_demand_per_month": 5400,
+      "breakouts": [
+        {
+          "multiplier": 5.9,
+          "url": "https://www.youtube.com/watch?v=P2wXrniiSa4",
+          "video_id": "P2wXrniiSa4",
+          "title": "Every War Crime Explained",
+          "channel": "Trust Me Bro",
+          "views": 2200000,
+          "age_days": 91,
+          "is_short": false
+        },
+        {
+          "multiplier": 4.4,
+          "url": "https://www.youtube.com/watch?v=PjW5V9PmNdU",
+          "video_id": "PjW5V9PmNdU",
+          "title": "Japan's Downfall: Pacific War from Tarawa to Okinawa (Full WW2 Documentary)",
+          "channel": "Real Time History",
+          "views": 39000,
+          "age_days": 2,
+          "is_short": false
+        },
+        {
+          "multiplier": 1.6,
+          "url": "https://www.youtube.com/watch?v=I2dqguOMkko",
+          "video_id": "I2dqguOMkko",
+          "title": "The War | Full Episode 1 | \"A Necessary War\" (December 1941 - December 1942) | PBS",
+          "channel": "Ken Burns",
+          "views": 186000,
+          "age_days": 28,
+          "is_short": false
+        }
+      ]
+    },
+    {
+      "rank": 28,
+      "name": "Sports Recaps & Stories",
+      "rpm_tier": "LOW",
+      "effort": "mid",
+      "rising": -0.16,
+      "outliers": 2,
+      "cpc": 0.33,
+      "freshness_pct": 4.0,
+      "seed_demand_per_month": 210,
+      "breakouts": [
+        {
+          "multiplier": 39.0,
+          "url": "https://www.youtube.com/watch?v=X8uQ9YTUg9o",
+          "video_id": "X8uQ9YTUg9o",
+          "title": "Cape Verde - The Greatest Story In World Cup History",
+          "channel": "Vizeh",
+          "views": 79000,
+          "age_days": 1,
+          "is_short": false
+        },
+        {
+          "multiplier": 19.9,
+          "url": "https://www.youtube.com/watch?v=jlwmr6Rxql4",
+          "video_id": "jlwmr6Rxql4",
+          "title": "Greatest Comeback Wins in Eagles History",
+          "channel": "Philadelphia Eagles",
+          "views": 76000,
+          "age_days": 2,
+          "is_short": false
+        },
+        {
+          "multiplier": 1.0,
+          "url": "https://www.youtube.com/watch?v=Z1o6IuyXfrQ",
+          "video_id": "Z1o6IuyXfrQ",
+          "title": "MLB Greatest Comebacks of 2025",
+          "channel": "Baseball Isn't Boring",
+          "views": 265000,
+          "age_days": 150,
+          "is_short": false
+        },
+        {
+          "multiplier": 0.7,
+          "url": "https://www.youtube.com/watch?v=XGEX-8OGLDY",
+          "video_id": "XGEX-8OGLDY",
+          "title": "GREATEST Champions League Comebacks of All Time!",
+          "channel": "UEFA",
+          "views": 115000,
+          "age_days": 91,
+          "is_short": false
+        }
+      ]
+    },
+    {
+      "rank": 29,
+      "name": "Ambient Worlds & Fireplace",
+      "rpm_tier": "HIGH",
+      "effort": "mid",
+      "rising": -0.16,
+      "outliers": 0,
+      "cpc": 1.55,
+      "freshness_pct": 6.0,
+      "seed_demand_per_month": 770,
+      "breakouts": [
+        {
+          "multiplier": 2.5,
+          "url": "https://www.youtube.com/watch?v=Jdt6ejUsuLI",
+          "video_id": "Jdt6ejUsuLI",
+          "title": "Stormy Ocean Fireplace Ambience \ud83c\udf0a\ud83d\udd25 | Cozy Modern Beach House & Crashing Waves",
+          "channel": "Cozy Fireplace Ambience",
+          "views": 151000,
+          "age_days": 30,
+          "is_short": false
+        },
+        {
+          "multiplier": 2.0,
+          "url": "https://www.youtube.com/watch?v=9uHLqOb2Xvo",
+          "video_id": "9uHLqOb2Xvo",
+          "title": "Cozy Lakeside Cafe With Gentle Jazz Music | Soft Jazz In Cozy Lakeside Ambience For Relax And Wor...",
+          "channel": "Tranquility Jazz Ambience",
+          "views": 484000,
+          "age_days": 122,
+          "is_short": false
+        },
+        {
+          "multiplier": 1.9,
+          "url": "https://www.youtube.com/watch?v=NyPP80qyBMc",
+          "video_id": "NyPP80qyBMc",
+          "title": "Smooth Piano Jazz & Heavy Rain in a Cozy Cabin Ambience \ud83c\udf32 Fireplace Sounds for Study & Work",
+          "channel": "Cozy Cabin Ambience",
+          "views": 346000,
+          "age_days": 91,
+          "is_short": false
+        },
+        {
+          "multiplier": 1.8,
+          "url": "https://www.youtube.com/watch?v=cuPPcx9KRVw",
+          "video_id": "cuPPcx9KRVw",
+          "title": "\ud83d\udd25 Fireplace NO ADS (Mid-roll). No AI Cozy Fireplace 4K Ultra HD",
+          "channel": "Night Fireplace",
+          "views": 548000,
+          "age_days": 150,
+          "is_short": false
+        },
+        {
+          "multiplier": 1.7,
+          "url": "https://www.youtube.com/watch?v=ddMr1L0kjSE",
+          "video_id": "ddMr1L0kjSE",
+          "title": "Cozy Cafe In A Relaxing Forest Ambience | Gentle Jazz Music With Natural Therapy For Study, Work",
+          "channel": "Tranquility Jazz Ambience",
+          "views": 416000,
+          "age_days": 122,
+          "is_short": false
+        }
+      ]
+    },
+    {
+      "rank": 30,
+      "name": "Pet Care Tips",
+      "rpm_tier": "HIGH",
+      "effort": "low",
+      "rising": -0.16,
+      "outliers": 0,
+      "cpc": 1.77,
+      "freshness_pct": 5.0,
+      "seed_demand_per_month": 11000,
+      "breakouts": [
+        {
+          "multiplier": 1.0,
+          "url": "https://www.youtube.com/watch?v=6YzvbsfdchI",
+          "video_id": "6YzvbsfdchI",
+          "title": "Cat BEHAVIOR EXPLAINED \ud83d\ude3c\ud83d\ude40 5 Cat Behaviors You Should NEVER IGNORE \u2757",
+          "channel": "AnimalWised",
+          "views": 869,
+          "age_days": 150,
+          "is_short": false
+        },
+        {
+          "multiplier": 0.7,
+          "url": "https://www.youtube.com/watch?v=rAFQZbruOTM",
+          "video_id": "rAFQZbruOTM",
+          "title": "The Unspoken Rules Cats Expect You to Follow| cat behavior explained",
+          "channel": "Fur Zeno - Cat Behavior Explained",
+          "views": 261,
+          "age_days": 61,
+          "is_short": false
+        },
+        {
+          "multiplier": 0.5,
+          "url": "https://www.youtube.com/watch?v=q5wcXfG2_9w",
+          "video_id": "q5wcXfG2_9w",
+          "title": "Cat Behavior Explained: Why Does Your Cat Sleep With You Every Night? | Insights from Cat Behavior",
+          "channel": "Fur Zeno - Cat Behavior Explained",
+          "views": 180,
+          "age_days": 61,
+          "is_short": false
+        },
+        {
+          "multiplier": 0.3,
+          "url": "https://www.youtube.com/watch?v=FEXxdNGmh_8",
+          "video_id": "FEXxdNGmh_8",
+          "title": "Cat Psychology and Behavior | Why Your Cat Sleeps Next to You Every Night",
+          "channel": "Fur Zeno - Cat Behavior Explained",
+          "views": 166,
+          "age_days": 91,
+          "is_short": false
+        },
+        {
+          "multiplier": 0.2,
+          "url": "https://www.youtube.com/watch?v=c364bzF7Hzc",
+          "video_id": "c364bzF7Hzc",
+          "title": "5 Signs Your Cat Loves You | cat behavior explained by What Cats Do Only for You",
+          "channel": "Fur Zeno - Cat Behavior Explained",
+          "views": 86,
+          "age_days": 61,
+          "is_short": false
+        }
+      ]
+    },
+    {
+      "rank": 31,
+      "name": "Personal Finance Tips",
+      "rpm_tier": "HIGH",
+      "effort": "low",
+      "rising": -0.17,
+      "outliers": 0,
+      "cpc": 10.21,
+      "freshness_pct": 2.0,
+      "seed_demand_per_month": 8300,
+      "breakouts": [
+        {
+          "multiplier": 6.3,
+          "url": "https://www.youtube.com/watch?v=X-fYyGqcaUc",
+          "video_id": "X-fYyGqcaUc",
+          "title": "Minimalist Money Rules You MUST Follow to Always be Financially Stable",
+          "channel": "Alicia Invests",
+          "views": 1800000,
+          "age_days": 122,
+          "is_short": false
+        },
+        {
+          "multiplier": 3.8,
+          "url": "https://www.youtube.com/watch?v=xbgxajnBrak",
+          "video_id": "xbgxajnBrak",
+          "title": "Your Rich BFF Vivian Tu Answers Personal Finance Questions | Tech Support | WIRED",
+          "channel": "WIRED",
+          "views": 1100000,
+          "age_days": 122,
+          "is_short": false
+        },
+        {
+          "multiplier": 1.1,
+          "url": "https://www.youtube.com/watch?v=BF-_d9StsPE",
+          "video_id": "BF-_d9StsPE",
+          "title": "How To Save Money So Fast It's Almost Unfair",
+          "channel": "Vincent Chan",
+          "views": 77000,
+          "age_days": 30,
+          "is_short": false
+        },
+        {
+          "multiplier": 0.4,
+          "url": "https://www.youtube.com/watch?v=55_A21IVCYw",
+          "video_id": "55_A21IVCYw",
+          "title": "20 WAYS TO SAVE MONEY AS FAST AS YOU CAN",
+          "channel": "Prepper Princess",
+          "views": 140000,
+          "age_days": 150,
+          "is_short": false
+        },
+        {
+          "multiplier": 0.2,
+          "url": "https://www.youtube.com/watch?v=ng-FVq5v7CE",
+          "video_id": "ng-FVq5v7CE",
+          "title": "100 Money Tips That Will Change Your Life",
+          "channel": "Alicia Invests",
+          "views": 47000,
+          "age_days": 91,
+          "is_short": false
+        }
+      ]
+    },
+    {
+      "rank": 32,
+      "name": "Weight Loss & Fitness Tips",
+      "rpm_tier": "HIGH",
+      "effort": "low",
+      "rising": -0.18,
+      "outliers": 0,
+      "cpc": 2.52,
+      "freshness_pct": 0.0,
+      "seed_demand_per_month": 118000,
+      "breakouts": [
+        {
+          "multiplier": 1.8,
+          "url": "https://www.youtube.com/watch?v=Aib6kX1_s1I",
+          "video_id": "Aib6kX1_s1I",
+          "title": "10 Minute Walking Exercise for Weight Loss| Tai Chi Inspired  Walk Fat Burning -  Lucy Wyndham-Read",
+          "channel": "Lucy Wyndham-Read",
+          "views": 2500000,
+          "age_days": 122,
+          "is_short": false
+        }
+      ]
+    },
+    {
+      "rank": 33,
+      "name": "Motivational Speeches",
+      "rpm_tier": "MID",
+      "effort": "low",
+      "rising": -0.23,
+      "outliers": 0,
+      "cpc": 0.89,
+      "freshness_pct": 16.0,
+      "seed_demand_per_month": 3200,
+      "breakouts": [
+        {
+          "multiplier": 2.6,
+          "url": "https://www.youtube.com/watch?v=_SJlH7aLTT0",
+          "video_id": "_SJlH7aLTT0",
+          "title": "LISTEN TO THIS EVERY MORNING - POSITIVE MORNING MOTIVATION - Wake Up Early, Start Your Day Right!",
+          "channel": "Morning Motiversity",
+          "views": 268000,
+          "age_days": 30,
+          "is_short": false
+        },
+        {
+          "multiplier": 2.5,
+          "url": "https://www.youtube.com/watch?v=6ZnqjcbwVS0",
+          "video_id": "6ZnqjcbwVS0",
+          "title": "YOU MUST BECOME DISCIPLINED - Motivational Speech",
+          "channel": "Ben Lionel Scott",
+          "views": 9700,
+          "age_days": 1,
+          "is_short": false
+        },
+        {
+          "multiplier": 2.1,
+          "url": "https://www.youtube.com/watch?v=IqKdhiGxhC8",
+          "video_id": "IqKdhiGxhC8",
+          "title": "THE RUTHLESS MENTALITY - Motivational Speech",
+          "channel": "ardus",
+          "views": 16000,
+          "age_days": 2,
+          "is_short": false
+        },
+        {
+          "multiplier": 1.7,
+          "url": "https://www.youtube.com/watch?v=J1s5chcgL8Q",
+          "video_id": "J1s5chcgL8Q",
+          "title": "RELENTLESS CONSISTENCY & DISCIPLINE - The Most Powerful Motivational Speech Compilation",
+          "channel": "Motiversity",
+          "views": 178000,
+          "age_days": 30,
+          "is_short": false
+        },
+        {
+          "multiplier": 1.3,
+          "url": "https://www.youtube.com/watch?v=K0_9Qhmya4Q",
+          "video_id": "K0_9Qhmya4Q",
+          "title": "CHANGE YOUR LIFE IN 2026 - POSITIVE MORNING MOTIVATION - Start Your Day Right, Listen Every Day!",
+          "channel": "Morning Motiversity",
+          "views": 140000,
+          "age_days": 30,
+          "is_short": false
+        }
+      ]
+    },
+    {
+      "rank": 34,
+      "name": "What-If & Hypotheticals",
+      "rpm_tier": "LOW",
+      "effort": "low",
+      "rising": -0.23,
+      "outliers": 1,
+      "cpc": 0.14,
+      "freshness_pct": 13.0,
+      "seed_demand_per_month": 15000,
+      "breakouts": [
+        {
+          "multiplier": 9.0,
+          "url": "https://www.youtube.com/watch?v=TFhrRrRdUbA",
+          "video_id": "TFhrRrRdUbA",
+          "title": "What if everything was antimatter EXCEPT Earth?",
+          "channel": "xkcd's What If?",
+          "views": 931000,
+          "age_days": 14,
+          "is_short": false
+        },
+        {
+          "multiplier": 3.3,
+          "url": "https://www.youtube.com/watch?v=YAz7v806rpU",
+          "video_id": "YAz7v806rpU",
+          "title": "What If You Never Stopped Running!?",
+          "channel": "Luke Davidson",
+          "views": 317000,
+          "age_days": 13,
+          "is_short": false
+        },
+        {
+          "multiplier": 1.9,
+          "url": "https://www.youtube.com/watch?v=dV-fABPl_gM",
+          "video_id": "dV-fABPl_gM",
+          "title": "What Would Happen If a Comet Hit Earth? \ud83c\udf0e \u2604\ufe0f How the Universe Works | Science Channel",
+          "channel": "Science Channel",
+          "views": 30000,
+          "age_days": 2,
+          "is_short": false
+        },
+        {
+          "multiplier": 1.8,
+          "url": "https://www.youtube.com/watch?v=nVxlmM-4sAI",
+          "video_id": "nVxlmM-4sAI",
+          "title": "What would happen if the Mississippi river suddenly disappeared?",
+          "channel": "Wascemal",
+          "views": 27000,
+          "age_days": 2,
+          "is_short": true
+        },
+        {
+          "multiplier": 1.5,
+          "url": "https://www.youtube.com/watch?v=uD8MsBs9cpU",
+          "video_id": "uD8MsBs9cpU",
+          "title": "What Would Happen If Yellowstone Erupted?",
+          "channel": "Mr. DeMaio",
+          "views": 320000,
+          "age_days": 30,
+          "is_short": false
+        }
+      ]
+    },
+    {
+      "rank": 35,
+      "name": "Data Visualization Rankings",
+      "rpm_tier": "LOW",
+      "effort": "low",
+      "rising": -0.25,
+      "outliers": 1,
+      "cpc": 0.0,
+      "freshness_pct": 9.0,
+      "seed_demand_per_month": 180,
+      "breakouts": [
+        {
+          "multiplier": 14.1,
+          "url": "https://www.youtube.com/watch?v=6ptZdgp3UAI",
+          "video_id": "6ptZdgp3UAI",
+          "title": "Best Phones Under 40000 July 2026 | Top 5 Phones Under 40000",
+          "channel": "Unlearn and Evolve",
+          "views": 8300,
+          "age_days": 2,
+          "is_short": false
+        },
+        {
+          "multiplier": 2.1,
+          "url": "https://www.youtube.com/watch?v=ee-PyupqgP8",
+          "video_id": "ee-PyupqgP8",
+          "title": "Who Makes the Most Money in Sports? Data from 1975 to 2026",
+          "channel": "Data Is Beautiful",
+          "views": 12000,
+          "age_days": 21,
+          "is_short": false
+        },
+        {
+          "multiplier": 0.5,
+          "url": "https://www.youtube.com/watch?v=i0W_dmYNrak",
+          "video_id": "i0W_dmYNrak",
+          "title": "I Ranked Every Data Analyst Skill So You Don't Waste 6 Months",
+          "channel": "Kedeisha Bryan - Your Data Career Coach",
+          "views": 15000,
+          "age_days": 122,
+          "is_short": false
+        },
+        {
+          "multiplier": 0.2,
+          "url": "https://www.youtube.com/watch?v=rIb96ZjqXcw",
+          "video_id": "rIb96ZjqXcw",
+          "title": "Ranking \"The Best Games of All Time\" (as decided by our chat)",
+          "channel": "Save Data",
+          "views": 1300,
+          "age_days": 30,
+          "is_short": false
+        }
+      ]
+    },
+    {
+      "rank": 36,
+      "name": "Recipe & Cooking Shorts",
+      "rpm_tier": "MID",
+      "effort": "mid",
+      "rising": -0.27,
+      "outliers": 0,
+      "cpc": 0.72,
+      "freshness_pct": 3.0,
+      "seed_demand_per_month": 4700,
+      "breakouts": [
+        {
+          "multiplier": 1.0,
+          "url": "https://www.youtube.com/watch?v=bxjEKVdKYu8",
+          "video_id": "bxjEKVdKYu8",
+          "title": "6 EASY 5-Minute Prep Recipes | QUICK Meals with SIMPLE Ingredients | Julia Pacheco",
+          "channel": "Julia Pacheco",
+          "views": 4800,
+          "age_days": 1,
+          "is_short": false
+        }
+      ]
+    },
+    {
+      "rank": 37,
+      "name": "Internet & Unsolved Mysteries",
+      "rpm_tier": "MID",
+      "effort": "high",
+      "rising": -0.28,
+      "outliers": 0,
+      "cpc": 0.72,
+      "freshness_pct": 0.0,
+      "seed_demand_per_month": 50000,
+      "breakouts": [
+        {
+          "multiplier": 3.9,
+          "url": "https://www.youtube.com/watch?v=X3Rsjxp3ZUI",
+          "video_id": "X3Rsjxp3ZUI",
+          "title": "the Most Disturbing Internet Mysteries [Vol. 4] Iceberg",
+          "channel": "Abyssal Detective 2",
+          "views": 437000,
+          "age_days": 122,
+          "is_short": false
+        }
+      ]
+    },
+    {
+      "rank": 38,
+      "name": "Geography & Country Comparisons",
+      "rpm_tier": "LOW",
+      "effort": "low",
+      "rising": -0.35,
+      "outliers": 0,
+      "cpc": 0.08,
+      "freshness_pct": 8.0,
+      "seed_demand_per_month": 3200,
+      "breakouts": [
+        {
+          "multiplier": 2.3,
+          "url": "https://www.youtube.com/watch?v=sRgLJrLpvEw",
+          "video_id": "sRgLJrLpvEw",
+          "title": "Comparison: School World Records By Country",
+          "channel": "WatchData",
+          "views": 343000,
+          "age_days": 91,
+          "is_short": false
+        },
+        {
+          "multiplier": 1.5,
+          "url": "https://www.youtube.com/watch?v=t0bODchvmws",
+          "video_id": "t0bODchvmws",
+          "title": "Pakistan vs India - Country Comparison",
+          "channel": "Data Rivalry",
+          "views": 151000,
+          "age_days": 61,
+          "is_short": false
+        },
+        {
+          "multiplier": 1.0,
+          "url": "https://www.youtube.com/watch?v=nao4bzb2RiY",
+          "video_id": "nao4bzb2RiY",
+          "title": "50 Geography Facts That Are Fake (But You Believed Them)",
+          "channel": "Map Pack",
+          "views": 252000,
+          "age_days": 150,
+          "is_short": false
+        },
+        {
+          "multiplier": 0.4,
+          "url": "https://www.youtube.com/watch?v=qn6H7oGZYnc",
+          "video_id": "qn6H7oGZYnc",
+          "title": "15 Incredible Geography Facts About Scotland",
+          "channel": "Geography 360",
+          "views": 64000,
+          "age_days": 91,
+          "is_short": false
+        },
+        {
+          "multiplier": 0.4,
+          "url": "https://www.youtube.com/watch?v=kU6FT6b4-Mc",
+          "video_id": "kU6FT6b4-Mc",
+          "title": "China vs Japan - Country Comparison",
+          "channel": "Data Rivalry",
+          "views": 37000,
+          "age_days": 61,
+          "is_short": false
+        }
+      ]
+    },
+    {
+      "rank": 39,
+      "name": "Lofi & Study Music",
+      "rpm_tier": "LOW",
+      "effort": "low",
+      "rising": -0.37,
+      "outliers": 0,
+      "cpc": 0.02,
+      "freshness_pct": 3.0,
+      "seed_demand_per_month": 1100,
+      "breakouts": [
+        {
+          "multiplier": 4.6,
+          "url": "https://www.youtube.com/watch?v=JCKBaJDRMw4",
+          "video_id": "JCKBaJDRMw4",
+          "title": "chill music for work \ud83d\udcbc lofi beats to stay productive",
+          "channel": "Lofi Girl",
+          "views": 566000,
+          "age_days": 30,
+          "is_short": false
+        }
+      ]
+    },
+    {
+      "rank": 40,
+      "name": "Sleep & Relaxation Sounds",
+      "rpm_tier": "LOW",
+      "effort": "low",
+      "rising": -0.38,
+      "outliers": 0,
+      "cpc": 0.17,
+      "freshness_pct": 0.0,
+      "seed_demand_per_month": 95000,
+      "breakouts": []
+    }
+  ],
+  "week_of": "2026-07-05",
+  "videos_scanned": 1800,
+  "niches_tracked": 40,
+  "status": "CURRENT"
+}

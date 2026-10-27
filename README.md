@@ -27,6 +27,15 @@ Skills, agents and apps for Bright Matter.
 | `campaign-decisioning/templates/` | campaign.json templates for lifecycle and paid ads, plus the CSV shapes for audiences and outcomes |
 | `campaign-decisioning/examples/dealership-winback/` | A worked example with a sample report from a simulated run |
 
+## Faceless Engine
+
+| Path | What it is |
+|---|---|
+| `faceless-engine/PLAN.md` | The plan for an automated faceless YouTube channel: sourced revenue math, niche decision from the facelessfinder briefing, the stage-by-stage automation map, schedule, improvement loop |
+| `faceless-engine/faceless.py` | The engine CLI: scan, board, ledger, script gates, voice, visuals, render, upload, measure, report |
+| `faceless-engine/routines/` | The four scheduled routines (weekly slate, production, weekly review, monthly review) |
+| `faceless-engine/SKILL.md` | The Claude Code skill (also symlinked at `.claude/skills/faceless-engine`) |
+
 ## Using Atelier
 
 Use it three ways:
