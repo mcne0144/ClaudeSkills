@@ -1,0 +1,29 @@
+{
+  "id": "2026-10-27-why-most-ai-agents-break-the-moment-they-leave-t",
+  "status": "idea",
+  "created_at": "2026-10-27T02:01:01+00:00",
+  "updated_at": "2026-10-27T02:01:01+00:00",
+  "niche": "AI News & Tools",
+  "kind": "evergreen",
+  "working_title": "Why Most AI Agents Break the Moment They Leave the Demo",
+  "title_candidates": [
+    "Why Most AI Agents Break the Moment They Leave the Demo"
+  ],
+  "title": null,
+  "angle": "Agencies ship agent demos that fall apart on day two; the failures are boring and predictable (no guards, no state, no cost ceiling). docs/examples/sample-script.md is a draft that already passes every gate.",
+  "sources": [
+    "https://www.anthropic.com/research/building-effective-agents",
+    "https://platform.openai.com/docs/guides/agents",
+    "https://docs.anthropic.com/en/docs/build-with-claude/tool-use"
+  ],
+  "artifacts": {},
+  "youtube": {},
+  "metrics": [],
+  "history": [
+    {
+      "at": "2026-10-27T02:01:01+00:00",
+      "status": "idea",
+      "note": "created"
+    }
+  ]
+}

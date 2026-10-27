@@ -3,6 +3,7 @@
 
   scan                         fetch + parse the facelessfinder briefing, archive, flag staleness
   board                        rank niches for this operator (state/niche_board.json)
+  signals                      live breakout rows via the YouTube Data API, else the archived facelessfinder breakouts
   status                       pipeline board from the ledger
   new "TITLE" NICHE [--kind evergreen|timely] [--angle "..."] [--source URL ...]
   approve ID [note]            human gate; nothing downstream runs without it
@@ -26,7 +27,7 @@ import sys
 from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).resolve().parent))
-from engine import analytics, assemble, ff_report, ledger, niche_score, script_tools, tts, visuals, youtube  # noqa: E402
+from engine import analytics, assemble, ff_report, ledger, niche_score, script_tools, signals, tts, visuals, youtube  # noqa: E402
 from engine.common import ROOT, STATE, WORK, config, load_json, save_json  # noqa: E402
 
 
@@ -100,6 +101,8 @@ def main(argv):
     if cmd == "status":
         print(ledger.board())
         return
+    if cmd == "signals":
+        return signals.main(args)
     if cmd == "new":
         kind = _flag(args, "--kind", "evergreen")
         angle = _flag(args, "--angle", "")

@@ -1,0 +1,27 @@
+{
+  "id": "2026-10-27-i-ran-the-same-task-through-five-ai-agents-four",
+  "status": "idea",
+  "created_at": "2026-10-27T02:01:01+00:00",
+  "updated_at": "2026-10-27T02:01:01+00:00",
+  "niche": "AI News & Tools",
+  "kind": "evergreen",
+  "working_title": "I ran the same task through five AI agents. Four failed the same way",
+  "title_candidates": [
+    "I ran the same task through five AI agents. Four failed the same way"
+  ],
+  "title": null,
+  "angle": "A hands-on test with a fixed task and a rubric; the shared failure is state handling, and the one that passed did the least.",
+  "sources": [
+    "https://www.anthropic.com/research/building-effective-agents"
+  ],
+  "artifacts": {},
+  "youtube": {},
+  "metrics": [],
+  "history": [
+    {
+      "at": "2026-10-27T02:01:01+00:00",
+      "status": "idea",
+      "note": "created"
+    }
+  ]
+}

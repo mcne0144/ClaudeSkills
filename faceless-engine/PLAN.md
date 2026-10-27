@@ -71,7 +71,7 @@ Note on the data source: the facelessfinder briefing has not refreshed since 202
 |---|---|---|---|
 | Scan | Fetch and parse the facelessfinder briefing, archive it, flag staleness | `faceless.py scan` | Yes |
 | Niche board | Score the 40 niches for this operator and the policy climate | `faceless.py board` | Yes |
-| Topic signals | vidIQ outliers under 300k subscribers, rising keywords, trending titles in the niche | Weekly routine via the vidIQ connector | Yes |
+| Topic signals | vidIQ outliers under 300k subscribers, rising keywords, trending titles in the niche; without vidIQ, `faceless.py signals` reads the YouTube Data API or the archived breakouts | Weekly routine via the vidIQ connector, else the engine | Yes |
 | Slate | 6 to 8 idea records with angle, kind (evergreen or timely), sources, scored title candidates | Weekly routine, `faceless.py new` | Yes |
 | Approval of the slate | Read the slate, approve or reject each idea | Human, one touch a week; `faceless.py approve` | No, by design |
 | Research | Primary sources for the chosen idea (docs, papers, filings, the operator's own notes) | Production routine via Exa and Firecrawl | Yes |
@@ -94,7 +94,7 @@ Human work that remains, and why it stays human: creating the channel and the Go
 
 ## 5. Schedule
 
-All times America/Chicago. Each routine is a Claude scheduled task that starts a fresh session, clones this repo, runs its prompt from `routines/`, commits state back, and sends a push notification with a short report.
+All times America/Chicago. Each routine is a Claude scheduled task that starts a fresh session, clones this repo, runs its prompt from `routines/`, commits state back, and sends a push notification with a short report. The four tasks exist and are enabled (ids in SETUP.md step 7); they need their connectors attached from the claude.ai scheduled tasks UI, which the scheduler would not accept from this session.
 
 | When | Routine | Prompt file | Output |
 |---|---|---|---|

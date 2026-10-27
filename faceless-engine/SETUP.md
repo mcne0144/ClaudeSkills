@@ -52,9 +52,18 @@ Create a free API key at https://www.pexels.com/api/ and store it as `PEXELS_API
 
 Download three to five royalty-free background tracks (YouTube Audio Library or Pixabay Music, both allow monetized use) and commit them under `assets/music/`. With none present the renderer leaves narration unaccompanied.
 
-## 7. Scheduled tasks (done on 2026-10-27)
+## 7. Scheduled tasks (created 2026-10-27, one fix needed)
 
-The four routines in RUNBOOK.md were created as Claude scheduled tasks firing fresh cloud sessions. They are enabled; each run reports by push notification. Pause any of them from the Claude scheduled tasks list.
+The four routines in RUNBOOK.md exist as Claude scheduled tasks that start fresh cloud sessions, enabled, each reporting by push notification:
+
+| Task | Schedule (America/Chicago) | Id |
+|---|---|---|
+| Faceless engine: weekly slate | Monday 06:40 | trig_015gbLDNRw7JJZBiTLBVCZEu |
+| Faceless engine: production run | Tuesday, Thursday, Saturday 05:40 | trig_01JRnj2qCSwThpYHuqAKNdyH |
+| Faceless engine: weekly review | Friday 07:40 | trig_01BLHXRA6znTTMKMAGGZC4aD |
+| Faceless engine: monthly strategy review | 1st of the month 08:40 | trig_017rTvXWesLMiG1QA218ov3G |
+
+They were created from a coding session, and the scheduler recorded them with no connectors attached, so the sessions they start have no vidIQ, ElevenLabs, Exa, Higgsfield or GitHub tools. The engine still runs on API keys (steps 3 to 5) and the routines carry fallbacks (`routines/_common.md`), but the live vidIQ signals, title scoring and image generation need the connectors. The fix named by the scheduler: open each task in the claude.ai scheduled tasks list and attach the connectors there (vidIQ, ElevenLabs, Exa, GitHub, Higgsfield), or recreate the four tasks from the claude.ai routines UI with the same prompts, which are stored on each task. The existing "Weekly receipt and subscription sweep" task shows the connector set those UI-created tasks carry.
 
 ## 8. Partner Program (when the thresholds are met)
 

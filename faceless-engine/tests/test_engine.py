@@ -152,3 +152,17 @@ def tearDownModule():
 
 if __name__ == "__main__":
     unittest.main()
+
+
+class Signals(unittest.TestCase):
+    def test_facelessfinder_fallback(self):
+        from engine import signals
+
+        signals.STATE = common.STATE
+        r = ff_report.parse_html(FIXTURE)
+        (common.STATE / "ff").mkdir(parents=True, exist_ok=True)
+        common.save_json(common.STATE / "ff" / "latest.json", r)
+        rows = signals.from_facelessfinder(["AI News & Tools"])
+        self.assertTrue(rows)
+        self.assertTrue(all(not row.get("is_short") for row in rows))
+        self.assertEqual(rows[0]["multiplier"], max(x["multiplier"] for x in rows))

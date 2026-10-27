@@ -1,0 +1,27 @@
+{
+  "id": "2026-10-27-karpathy-s-ai-understanding-gap-is-real-and-it-i",
+  "status": "idea",
+  "created_at": "2026-10-27T02:01:01+00:00",
+  "updated_at": "2026-10-27T02:01:01+00:00",
+  "niche": "AI News & Tools",
+  "kind": "timely",
+  "working_title": "Karpathy's AI understanding gap is real, and it is your problem, not the model's",
+  "title_candidates": [
+    "Karpathy's AI understanding gap is real, and it is your problem, not the model's"
+  ],
+  "title": null,
+  "angle": "The gap between what models can do and what their users understand is widening; I see it in every client onboarding, and closing it is a workflow problem, not a model problem.",
+  "sources": [
+    "https://youtu.be/BjO_JC6ujXs"
+  ],
+  "artifacts": {},
+  "youtube": {},
+  "metrics": [],
+  "history": [
+    {
+      "at": "2026-10-27T02:01:01+00:00",
+      "status": "idea",
+      "note": "created"
+    }
+  ]
+}

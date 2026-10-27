@@ -1,0 +1,128 @@
+{
+  "computed_at": "2026-10-27T02:01:01+00:00",
+  "source": "vidiq-outliers",
+  "query": "AI news, new AI tools and what they mean explained for a general audience; long-form; this month; under 300k subscribers; min 20k views; sorted by breakout",
+  "rows": [
+    {
+      "title": "How AI works, Explained with Mushrooms ! (Easiest Explanation )",
+      "video_id": "vIM9qCyfVmg",
+      "channel": "Xplained with MUSHROOMS",
+      "subscribers": 1900,
+      "views": 497700,
+      "days": 23,
+      "views_per_day": 21639,
+      "views_per_sub": 261.95,
+      "url": "https://youtu.be/vIM9qCyfVmg"
+    },
+    {
+      "title": "The Singularity Is Here (And It's Terrifying)",
+      "video_id": "BAmkxkcR4vQ",
+      "channel": "Jack Nyange",
+      "subscribers": 335,
+      "views": 57700,
+      "days": 2,
+      "views_per_day": 28850,
+      "views_per_sub": 172.24,
+      "url": "https://youtu.be/BAmkxkcR4vQ"
+    },
+    {
+      "title": "The Man Who Beat Lawyers With AI: We Have 3 years Until White-Collar carnage",
+      "video_id": "mrBWJYkDNkI",
+      "channel": "At The Top with Ben Andrews",
+      "subscribers": 1700,
+      "views": 164800,
+      "days": 24,
+      "views_per_day": 6867,
+      "views_per_sub": 96.94,
+      "url": "https://youtu.be/mrBWJYkDNkI"
+    },
+    {
+      "title": "Karpathy: The AI Understanding Gap Is Getting Worse, Fast",
+      "video_id": "BjO_JC6ujXs",
+      "channel": "DevLogic",
+      "subscribers": 2500,
+      "views": 107800,
+      "days": 15,
+      "views_per_day": 7187,
+      "views_per_sub": 43.12,
+      "url": "https://youtu.be/BjO_JC6ujXs"
+    },
+    {
+      "title": "10 Things AI Can Do That Most People Still Don't Know About",
+      "video_id": "nA9MVCDHCQo",
+      "channel": "This Guy Knows Stuff",
+      "subscribers": 11900,
+      "views": 182800,
+      "days": 17,
+      "views_per_day": 10753,
+      "views_per_sub": 15.36,
+      "url": "https://youtu.be/nA9MVCDHCQo"
+    },
+    {
+      "title": "Why AI Will Transform the World by 2030",
+      "video_id": "3YAa3klwDPE",
+      "channel": "Versors",
+      "subscribers": 5500,
+      "views": 704800,
+      "days": 12,
+      "views_per_day": 58733,
+      "views_per_sub": 128.15,
+      "url": "https://youtu.be/3YAa3klwDPE"
+    },
+    {
+      "title": "How OpenAI Just Showed AI Will Transform Math",
+      "video_id": "XO_5D30KeVk",
+      "channel": "Versors",
+      "subscribers": 5500,
+      "views": 390300,
+      "days": 20,
+      "views_per_day": 19515,
+      "views_per_sub": 70.96,
+      "url": "https://youtu.be/XO_5D30KeVk"
+    },
+    {
+      "title": "How ChatGPT Knows All The Answers To Your Question - Explained Like You're Five",
+      "video_id": "qYVNXPTwiys",
+      "channel": "Explaining Tech Like You're Five",
+      "subscribers": 84400,
+      "views": 98000,
+      "days": 27,
+      "views_per_day": 3630,
+      "views_per_sub": 1.16,
+      "url": "https://youtu.be/qYVNXPTwiys"
+    },
+    {
+      "title": "Is the Internet Actually Dying? (It's Worse Than You Think)",
+      "video_id": "WIPgISQ5Bhg",
+      "channel": "DW Shift",
+      "subscribers": 79000,
+      "views": 299300,
+      "days": 29,
+      "views_per_day": 10321,
+      "views_per_sub": 3.79,
+      "url": "https://youtu.be/WIPgISQ5Bhg"
+    },
+    {
+      "title": "This Documentary Was Made Entirely by AI. Including Her.",
+      "video_id": "cyeTIEy2qus",
+      "channel": "AI For Humans",
+      "subscribers": 47900,
+      "views": 443700,
+      "days": 29,
+      "views_per_day": 15300,
+      "views_per_sub": 9.26,
+      "url": "https://youtu.be/cyeTIEy2qus"
+    },
+    {
+      "title": "Researchers Made 'First Contact' With Rogue AI Agents...",
+      "video_id": "rb4CTZjHCNg",
+      "channel": "AI Copium",
+      "subscribers": 34900,
+      "views": 792300,
+      "days": 11,
+      "views_per_day": 72027,
+      "views_per_sub": 22.7,
+      "url": "https://youtu.be/rb4CTZjHCNg"
+    }
+  ]
+}
